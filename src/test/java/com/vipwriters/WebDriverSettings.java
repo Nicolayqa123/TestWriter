@@ -138,7 +138,7 @@ public class WebDriverSettings  {
             String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName();
+            String path = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
         }
