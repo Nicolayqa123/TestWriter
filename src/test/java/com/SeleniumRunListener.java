@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.Augmenter;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-@RunWith(SeleniumRunner.class)
+//@RunWith(SeleniumRunner.class)
 public class SeleniumRunListener extends RunListener {
     @Override
     public void testRunStarted(Description description) throws Exception {
@@ -69,6 +69,12 @@ public class SeleniumRunListener extends RunListener {
         System.out.println("Test failed with: "
                 + failure.getException());
 
+        String newAutoTest = "TestAllure";
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Programms\\PNG\\" + "Allure" + screenshot.getName();
+        FileUtils.copyFile(screenshot, new File(path));
+
 makeScreenshotOnFailure();
 
 
@@ -110,6 +116,8 @@ makeScreenshotOnFailure();
     public byte[] makeScreenshotOnFailure() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
+
+
 
 
 

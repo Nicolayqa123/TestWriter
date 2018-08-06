@@ -2,124 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SendMessageInOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/DetailedOrderView1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/FilterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SendMessageInOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/ChangesPasswordTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/FilterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/SaveFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/SendMessageInOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/AssignAndNoAssignWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/MorePayments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/Verification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDetailedOrderViewTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/OnlineForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTutorialsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageWhatYouGetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitchingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsSearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Profile/ProfileEnterAlternativeEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Profile/ProfileResetChanges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDownloadFilesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableFilterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailablePageSwitchingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSendMessageInOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ContactUSTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/FilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/PayToOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SendMessageInOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ForgotPasswordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/DetailedOrderView1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/FilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/PayToOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SaveFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SendMessageInOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/ChangesPasswordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ReferralProgram/RefProgTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/FilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/PayToOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SaveFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SendMessageInOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/AssignAndNoAssignWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/MorePayments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/Verification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Affiliate/AffiliateStatisticsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDetailedOrderViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDownloadFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedFilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedSendMessageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedUploadFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ContactFormTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ForgotPasswordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/OnlineForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTutorialsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageWhatYouGetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitchingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReasonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileEnterAlternativeEmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileResetChanges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDetailedOrderViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableFilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,12 +58,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="4" />
+          <entry key="png" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="105" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="105" />
         </counts>
       </usages-collector>
     </session>
@@ -188,8 +88,64 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="260">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-444">
+              <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+              <folding>
+                <element signature="e#3724#3725#0" expanded="true" />
+                <element signature="e#3807#3808#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot16333346149651881557.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot1978786274864699221.png.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot12630872695385984407.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot6866211424136857311.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/surefire-reports/screenshot8439335546364115206.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
             </state>
           </provider>
         </entry>
@@ -227,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/PageWriter/Lending.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/PageClient/Lending.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/ForgotPassword.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/ForgotPasswordTest.java" />
@@ -278,6 +232,8 @@
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGet.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGetTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
       </list>
     </option>
   </component>
@@ -297,7 +253,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -353,6 +309,11 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -361,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533542953634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533548967738" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TestVipWriter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -397,26 +358,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest">
+  <component name="RunManager" selected="JUnit.LoginTest.Loginuser">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactUSTest.ContacteusEmailUs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vip_Writerss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pro_Papers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Pro_Papers" />
-      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.ContactUSTest" />
-      <option name="METHOD_NAME" value="ContacteusEmailUs" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,6 +375,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.vipwriters" />
       <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.Loginuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="METHOD_NAME" value="Loginuser" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -528,19 +489,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ContactUSTest.ContacteusEmailUs" />
       <item itemvalue="JUnit.PageTutorialsTest.Tutorial" />
       <item itemvalue="JUnit.PageWhatYouGetTest.whatYouget" />
       <item itemvalue="JUnit.PageTERMSOFUSE.Terms" />
       <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="JUnit.LoginTest.Loginuser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest.Loginuser" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.PageTERMSOFUSE.Terms" />
         <item itemvalue="JUnit.PageWhatYouGetTest.whatYouget" />
         <item itemvalue="JUnit.PageTutorialsTest.Tutorial" />
-        <item itemvalue="JUnit.ContactUSTest.ContacteusEmailUs" />
       </list>
     </recent_temporary>
   </component>
@@ -558,15 +519,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PageTERMSOFUSE_Terms - 2018.07.30 at 17h 37m 50s.xml">
-      <configuration name="PageTERMSOFUSE.Terms" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PageTERMSOFUSE_Terms - 2018.07.30 at 17h 41m 07s.xml">
-      <configuration name="PageTERMSOFUSE.Terms" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PageTERMSOFUSE_Terms - 2018.07.30 at 17h 42m 30s.xml">
-      <configuration name="PageTERMSOFUSE.Terms" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PageTERMSOFUSE_Terms - 2018.07.30 at 17h 43m 45s.xml">
       <configuration name="PageTERMSOFUSE.Terms" configurationId="JUnit" />
     </history-entry>
@@ -588,6 +540,15 @@
     <history-entry file="LoginTest - 2018.08.06 at 11h 04m 17s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginTest - 2018.08.06 at 12h 23m 24s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.08.06 at 12h 36m 24s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 12h 45m 33s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +561,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.33557048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -639,14 +599,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MyOrders/MyOrderFilter.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/Affiliate/AffiliateReferralLinks.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/PageWriter/Lending.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableFilterTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailablePageSwitchingTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableSearchTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableSendMessageInOrderTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/PageWriter/DetailedOrder.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/PageWriter/AvailableOrders.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableDownloadFilesTest.java" />
@@ -689,10 +641,50 @@
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/PreviousOrders/SendMessageInOrderTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+          <folding>
+            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot6866211424136857311.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot12630872695385984407.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot1978786274864699221.png.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot16333346149651881557.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/screenshot8439335546364115206.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="260">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>
