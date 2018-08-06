@@ -2,6 +2,7 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
+import com.Screenshot;
 import com.SeleniumRunner;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
@@ -10,13 +11,11 @@ import org.junit.Test;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 
 import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
@@ -35,33 +34,7 @@ public class LoginTest extends WebDriverSettings {
          }
      };
  */
-    @Rule
-    public TestWatcher watcher = new TestWatcher() {
 
-
-        @Override
-        public void finished(Description description) {
-            System.out.println("finished");
-            driver.quit();
-        }
-
-        @Override
-        public void failed(Throwable e, Description description) {
-            try {
-                File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-                String filePathRoot = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports" + "Test1";
-                String fullFilePath = filePathRoot + description.getClassName() + "\\" + description.getMethodName() + ".jpg";
-
-                FileUtils.copyFile(screenshot, new File(fullFilePath));
-            } catch (Exception ex) {
-                System.out.println(ex.toString());
-                System.out.println(ex.getMessage());
-            }
-            System.out.println("failed");
-            driver.quit();
-        }
-    };
         @Test
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
@@ -74,7 +47,11 @@ public class LoginTest extends WebDriverSettings {
             assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
 
 
+
+
         }
+
+
 
         public void UnLoginNoValid() throws InterruptedException {
 

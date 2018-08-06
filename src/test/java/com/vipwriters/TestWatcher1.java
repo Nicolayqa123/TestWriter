@@ -27,19 +27,18 @@ public class TestWatcher1 extends WebDriverSettings{
         @Override
         public void failed(Throwable e, Description description) {
             try {
-                File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+                File screenshots = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
-                String filePathRoot = "C:\\Programms\\GitHub\\TestWriter\\target\\surefire-reports" + "Test1";
-                String fullFilePath = filePathRoot + description.getClassName() + "\\" + description.getMethodName() + ".jpg";
-
-                FileUtils.copyFile(screenshot, new File(fullFilePath));
-            } catch(Exception ex) {
-                System.out.println(ex.toString());
-                System.out.println(ex.getMessage());
-            }
+                String newAutoTest = "newAutoTest" + x;
+                File screenshot = ((TakesScreenshot) driver).
+                        getScreenshotAs(OutputType.FILE);
+                String path = "C:\\Programms\\GitHub\\TestWriter\\target\\surefire-reports\" + \"Test1" + screenshot.getName();
+                FileUtils.copyFile(screenshot, new File(path));
 
             driver.quit();
-        }
+        } catch (IOException e1) {
+                e1.printStackTrace();
+            }
 
 
 
@@ -87,5 +86,6 @@ public class TestWatcher1 extends WebDriverSettings{
             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         }
 */
+    }
     };
 }
