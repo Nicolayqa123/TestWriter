@@ -18,7 +18,36 @@ public class TestWatcher1 extends WebDriverSettings{
     @Rule
     public TestWatcher watcher = new TestWatcher() {
 
+
         @Override
+        public void finished(Description description) {
+            driver.quit();
+        }
+
+        @Override
+        public void failed(Throwable e, Description description) {
+            try {
+                File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+                String filePathRoot = "C:\\Programms\\GitHub\\TestWriter\\target\\surefire-reports" + "Test1";
+                String fullFilePath = filePathRoot + description.getClassName() + "\\" + description.getMethodName() + ".jpg";
+
+                FileUtils.copyFile(screenshot, new File(fullFilePath));
+            } catch(Exception ex) {
+                System.out.println(ex.toString());
+                System.out.println(ex.getMessage());
+            }
+
+            driver.quit();
+        }
+
+
+
+
+
+
+
+        /*@Override
         protected void starting(Description description) {
             System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
             driver = new FirefoxDriver();
@@ -57,6 +86,6 @@ public class TestWatcher1 extends WebDriverSettings{
         public byte[] makeScreenshotOnFailure() {
             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         }
-
+*/
     };
 }

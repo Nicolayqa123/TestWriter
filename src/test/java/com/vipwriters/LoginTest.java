@@ -20,23 +20,48 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
-@RunWith(SeleniumRunner.class)
 public class LoginTest extends WebDriverSettings {
 
-   /* @Rule
-    public TestWatcher screenshotOnFailure = new TestWatcher() {
+    /* @Rule
+     public TestWatcher screenshotOnFailure = new TestWatcher() {
+         @Override
+         protected void failed(Throwable e, Description description) {
+             makeScreenshotOnFailure();
+         }
+
+         @Attachment("Screenshot on failure")
+         public byte[] makeScreenshotOnFailure() {
+             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+         }
+     };
+ */
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
+
+
         @Override
-        protected void failed(Throwable e, Description description) {
-            makeScreenshotOnFailure();
+        public void finished(Description description) {
+            System.out.println("finished");
+            driver.quit();
         }
 
-        @Attachment("Screenshot on failure")
-        public byte[] makeScreenshotOnFailure() {
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        @Override
+        public void failed(Throwable e, Description description) {
+            try {
+                File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+                String filePathRoot = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports" + "Test1";
+                String fullFilePath = filePathRoot + description.getClassName() + "\\" + description.getMethodName() + ".jpg";
+
+                FileUtils.copyFile(screenshot, new File(fullFilePath));
+            } catch (Exception ex) {
+                System.out.println(ex.toString());
+                System.out.println(ex.getMessage());
+            }
+            System.out.println("failed");
+            driver.quit();
         }
     };
-*/
-
         @Test
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
@@ -88,4 +113,6 @@ public class LoginTest extends WebDriverSettings {
         }
 
 
+
 }
+
