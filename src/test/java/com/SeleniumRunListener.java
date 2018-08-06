@@ -69,11 +69,7 @@ public class SeleniumRunListener extends RunListener {
         System.out.println("Test failed with: "
                 + failure.getException());
 
-        String newAutoTest = "TestAllure";
-        File screenshot = ((TakesScreenshot) driver).
-                getScreenshotAs(OutputType.FILE);
-        String path = "C:\\Programms\\PNG\\" + "Allure" + screenshot.getName();
-        FileUtils.copyFile(screenshot, new File(path));
+
 
 makeScreenshotOnFailure();
 
@@ -90,7 +86,11 @@ makeScreenshotOnFailure();
     public void testAssumptionFailure(Failure failure) {
         System.out.println("Test assumes: " + failure.getException());
 
-        makeScreenshotOnFailure();
+        try {
+            makeScreenshotOnFailure();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -113,8 +113,13 @@ makeScreenshotOnFailure();
 
 
     @Attachment("Screenshot on failure")
-    public byte[] makeScreenshotOnFailure() {
-        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    public void makeScreenshotOnFailure () throws Exception {
+        String newAutoTest = "newAutoTest1";
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName() + ".json";
+        FileUtils.copyFile(screenshot, new File(path));
+        driver.quit();
     }
 
 
