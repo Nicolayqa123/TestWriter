@@ -117,7 +117,7 @@ makeScreenshotOnFailure();
         String newAutoTest = "newAutoTest1";
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName() + ".json";
+        String path = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\allure-report\\data\\attachments\\" + newAutoTest + screenshot.getName() + ".json";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
     }

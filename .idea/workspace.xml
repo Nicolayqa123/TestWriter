@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,12 +67,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="235" />
+          <entry key="java" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="235" />
+          <entry key="JAVA" value="239" />
         </counts>
       </usages-collector>
     </session>
@@ -83,7 +82,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -104,17 +103,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="151" column="5" lean-forward="true" selection-start-line="143" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="147" column="49" lean-forward="true" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="324">
+              <caret line="119" column="125" selection-start-line="119" selection-start-column="125" selection-end-line="119" selection-end-column="125" />
             </state>
           </provider>
         </entry>
@@ -226,8 +225,8 @@
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
       </list>
     </option>
   </component>
@@ -322,7 +321,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533560215478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533562395864" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TestVipWriter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -519,9 +518,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 14h 42m 21s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest_Loginuser - 2018.08.06 at 14h 47m 48s.xml">
       <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
@@ -547,6 +543,9 @@
       <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest_Loginuser - 2018.08.06 at 15h 37m 36s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 15h 57m 14s.xml">
       <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -696,15 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="151" column="5" lean-forward="true" selection-start-line="143" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="147" column="49" lean-forward="true" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -712,6 +704,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="119" column="125" selection-start-line="119" selection-start-column="125" selection-end-line="119" selection-end-column="125" />
         </state>
       </provider>
     </entry>
