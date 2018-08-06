@@ -135,17 +135,21 @@ public class WebDriverSettings  {
 
         @After
         public void close() throws Exception {
-            String newAutoTest = "newAutoTest" + x;
-            File screenshot = ((TakesScreenshot) driver).
-                    getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName() + ".json";
-            FileUtils.copyFile(screenshot, new File(path));
+            asd();
             driver.quit();
         }
 
 
 
-
+    @Attachment("Screenshot on failure")
+    public void asd () throws Exception {
+        String newAutoTest = "newAutoTest" + x;
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Program Files (x86)\\Jenkins\\workspace\\MavenTest\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName() + ".json";
+        FileUtils.copyFile(screenshot, new File(path));
+        driver.quit();
+    }
 
 
 
