@@ -16,6 +16,8 @@ import org.openqa.selenium.remote.Augmenter;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 //@RunWith(SeleniumRunner.class)
 public class SeleniumRunListener extends RunListener {
@@ -70,7 +72,16 @@ public class SeleniumRunListener extends RunListener {
                 + failure.getException());
 
 
-
+        try {
+            getBytes("picture.jpg");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            getBytes("text.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 makeScreenshotOnFailure();
         driver.quit();
 
@@ -85,6 +96,16 @@ makeScreenshotOnFailure();
      */
     @Override
     public void testAssumptionFailure(Failure failure) {
+        try {
+            getBytes("picture.jpg");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            getBytes("text.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         System.out.println("Test assumes: " + failure.getException());
 
         try {
@@ -110,7 +131,10 @@ makeScreenshotOnFailure();
     public FirefoxDriver driver;
 
 
-
+    @Attachment
+    public static byte[] getBytes(String resourceName) throws IOException {
+        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+    }
 
 
     @Attachment("Screenshot on failure")

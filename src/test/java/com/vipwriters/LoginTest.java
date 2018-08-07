@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
-//@RunWith(SeleniumRunner.class)
+@RunWith(SeleniumRunner.class)
 public class LoginTest extends WebDriverSettings {
 
     /* @Rule

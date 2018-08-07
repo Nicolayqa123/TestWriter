@@ -2,34 +2,21 @@ package com.vipwriters;
 
 import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
-import com.Screenshot;
 
-import com.SeleniumRunner;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
-import io.qameta.allure.Step;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Rule;
-import org.junit.rules.TestRule;
-import org.junit.rules.TestWatcher;
-import org.junit.runner.Description;
-import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
-import java.beans.Statement;
 import java.io.File;
 import java.io.IOException;
 
@@ -41,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 
-public class WebDriverSettings  {
+public class WebDriverSettings {
 
 
     public FirefoxDriver driver;
@@ -109,35 +96,27 @@ public class WebDriverSettings  {
 */
 
 
+    @Before
+    public void setup() {
 
+        System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
+        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
+        //  driver = new ChromeDriver();
+        System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
+        // driver = new InternetExplorerDriver();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().window().setSize(new Dimension(1500, 810));
+    }
 
+    @After
+    public void close() throws Exception {
+        asd();
+        driver.quit();
+    }
 
-
-
-
-
-
-
-        @Before
-        public void setup() {
-
-            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-            driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-            //  driver = new ChromeDriver();
-            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-            // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1500, 810));
-        }
-
-        @After
-        public void close() throws Exception {
-            asd();
-            driver.quit();
-        }
 
 
 
