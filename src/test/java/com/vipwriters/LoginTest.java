@@ -5,7 +5,6 @@ import com.PageWriter.Lending;
 import com.Screenshot;
 import com.SeleniumRunner;
 import io.qameta.allure.Attachment;
-import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.junit.Rule;
 import org.junit.Test;

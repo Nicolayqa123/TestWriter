@@ -1,7 +1,6 @@
 package com;
 
 import io.qameta.allure.Attachment;
-import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.Description;
@@ -73,8 +72,17 @@ public class SeleniumRunListener extends RunListener {
                 + failure.getException());
 
 
-        makeScreenShot();
-        //makeScreenshotOnFailure();
+        try {
+            getBytes("picture.jpg");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            getBytes("text.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+makeScreenshotOnFailure();
         driver.quit();
 
 
@@ -88,14 +96,23 @@ public class SeleniumRunListener extends RunListener {
      */
     @Override
     public void testAssumptionFailure(Failure failure) {
-
+        try {
+            getBytes("picture.jpg");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            getBytes("text.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         System.out.println("Test assumes: " + failure.getException());
-        makeScreenShot();
-        /*try {
+
+        try {
             makeScreenshotOnFailure();
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
         driver.quit();
     }
 
@@ -119,11 +136,6 @@ public class SeleniumRunListener extends RunListener {
         return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
     }
 
-    @Attachment
-    @Step("Make screen shot of results page")
-    public byte[] makeScreenShot() {
-        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-    }
 
     @Attachment("Screenshot on failure")
     public void makeScreenshotOnFailure () throws Exception {
