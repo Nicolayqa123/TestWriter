@@ -213,6 +213,10 @@
                                         <include>environment.xml</include>
                                     </includes>
                                 </resource>
+                                <property>
+                                    <name>allure.results.directory</name>
+                                    <value>C:\Program Files (x86)\Jenkins\workspace\MavenTest\TestWriter\allure-results</value>
+                                </property>
                             </resources>
                         </configuration>
                     </execution>
