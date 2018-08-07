@@ -16,40 +16,6 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
-        <settings>
-            <pluginGroups>
-                <pluginGroup>org.jenkins-ci.tools</pluginGroup>
-            </pluginGroups>
-
-            <profiles>
-                <!-- Give access to Jenkins plugins -->
-                <profile>
-                    <id>jenkins</id>
-                    <activation>
-                        <activeByDefault>true</activeByDefault> <!-- change this to false, if you don't like to have it on per default -->
-                    </activation>
-                    <repositories>
-                        <repository>
-                            <id>repo.jenkins-ci.org</id>
-                            <url>https://repo.jenkins-ci.org/public/</url>
-                        </repository>
-                    </repositories>
-                    <pluginRepositories>
-                        <pluginRepository>
-                            <id>repo.jenkins-ci.org</id>
-                            <url>https://repo.jenkins-ci.org/public/</url>
-                        </pluginRepository>
-                    </pluginRepositories>
-                </profile>
-            </profiles>
-            <mirrors>
-                <mirror>
-                    <id>repo.jenkins-ci.org</id>
-                    <url>https://repo.jenkins-ci.org/public/</url>
-                    <mirrorOf>m.g.o-public</mirrorOf>
-                </mirror>
-            </mirrors>
-        </settings>
     </properties>
 
 
@@ -94,12 +60,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/junit-attachments -->
-        <dependency>
-            <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>junit-attachments</artifactId>
-            <version>1.4.2</version>
-        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
         <dependency>
@@ -261,6 +222,7 @@
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 
 

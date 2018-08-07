@@ -72,7 +72,7 @@ public class SeleniumRunListener extends RunListener {
 
 
 makeScreenshotOnFailure();
-
+        driver.quit();
 
     }
 
@@ -91,7 +91,7 @@ makeScreenshotOnFailure();
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        driver.quit();
     }
 
     /**
