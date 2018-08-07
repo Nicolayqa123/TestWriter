@@ -114,6 +114,7 @@ public class WebDriverSettings {
     @After
     public void close() throws Exception {
         asd();
+
         driver.quit();
     }
 
