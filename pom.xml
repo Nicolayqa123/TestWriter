@@ -140,12 +140,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.codeborne</groupId>
-            <artifactId>phantomjsdriver</artifactId>
-            <version>1.4.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>ru.yandex.qatools.allure</groupId>
             <artifactId>allure-model</artifactId>
             <version>1.5.4</version>
