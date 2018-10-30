@@ -6,20 +6,17 @@ import org.apache.commons.io.FileUtils;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.Description;
 import org.junit.runner.Result;
-import org.junit.runner.RunWith;
 import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.Augmenter;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.concurrent.TimeUnit;
+
 //@RunWith(SeleniumRunner.class)
 public class SeleniumRunListener extends RunListener {
     @Override
@@ -73,7 +70,7 @@ public class SeleniumRunListener extends RunListener {
                 + failure.getException());
 
 
-        makeScreenShot();
+        makeScreenShot("Failure screenshot");
         //makeScreenshotOnFailure();
         driver.quit();
 
@@ -90,7 +87,7 @@ public class SeleniumRunListener extends RunListener {
     public void testAssumptionFailure(Failure failure) {
 
         System.out.println("Test assumes: " + failure.getException());
-        makeScreenShot();
+        makeScreenShot("Failure screenshot");
         /*try {
             makeScreenshotOnFailure();
         } catch (Exception e) {
@@ -119,9 +116,8 @@ public class SeleniumRunListener extends RunListener {
         return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
     }
 
-    @Attachment
-    @Step("Make screen shot of results page")
-    public byte[] makeScreenShot() {
+    @Attachment(value = "{0}", type = "image/png")
+    public byte[] makeScreenShot(String failure_screenshot) {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
