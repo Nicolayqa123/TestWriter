@@ -14,8 +14,6 @@ import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
@@ -144,16 +142,6 @@ public class WebDriverSettings {
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
     }*/
-
-    public static void main(String[] args) throws Exception {
-
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setJavascriptEnabled(true);
-        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "C://Programms/phantomjs-2.1.1-windows/bin/phantomjs.exe");
-        WebDriver driver = new PhantomJSDriver(caps);
-        driver.get("http://www.google.com");
-
-    }
 
 
    /* @AfterMethod
