@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_detro_ghostdriver_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AppliedOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AvailableOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/ConfirmationNeeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/ContacteUs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Lending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MailUs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MyOrders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/SignUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Transactions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageFactore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettingsChrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettingsIE.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,19 +105,25 @@
     <session id="267552548">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="gitattributes" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
           <entry key="png" value="6" />
           <entry key="xml" value="1" />
         </counts>
@@ -67,21 +132,21 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="277" />
-          <entry key="xml" value="24" />
+          <entry key="java" value="472" />
+          <entry key="xml" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="277" />
-          <entry key="XML" value="24" />
+          <entry key="JAVA" value="472" />
+          <entry key="XML" value="94" />
         </counts>
       </usages-collector>
     </session>
@@ -91,11 +156,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="527">
+              <caret line="49" selection-start-line="41" selection-start-column="12" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,11 +186,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="325">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3638">
-              <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+            <state relative-caret-position="4199">
+              <caret line="247" column="32" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -153,7 +233,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/rules/TestWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2669">
+            <state relative-caret-position="2618">
               <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
             </state>
           </provider>
@@ -256,10 +336,10 @@
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGetTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
       </list>
     </option>
   </component>
@@ -279,9 +359,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -291,9 +371,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,16 +422,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533803480792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534169764872" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.xslt" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -384,7 +464,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.Loginuser">
+  <component name="RunManager" selected="Application.WebDriverSettings">
+    <configuration name="WebDriverSettings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.WebDriverSettings" />
+      <module name="Vip_Writerss" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -457,23 +551,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageWhatYouGetTest.whatYouget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vip_Writerss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.PageWhatYouGetTest" />
-      <option name="METHOD_NAME" value="whatYouget" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -515,19 +592,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PageWhatYouGetTest.whatYouget" />
       <item itemvalue="JUnit.PageTERMSOFUSE.Terms" />
       <item itemvalue="JUnit.LoginTest" />
       <item itemvalue="JUnit.LoginTest.Loginuser" />
       <item itemvalue="JUnit.LoginTest.makeScreenShot" />
+      <item itemvalue="Application.WebDriverSettings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebDriverSettings" />
         <item itemvalue="JUnit.LoginTest.Loginuser" />
-        <item itemvalue="JUnit.LoginTest.makeScreenShot" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.makeScreenShot" />
         <item itemvalue="JUnit.PageTERMSOFUSE.Terms" />
-        <item itemvalue="JUnit.PageWhatYouGetTest.whatYouget" />
       </list>
     </recent_temporary>
   </component>
@@ -545,34 +622,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 15h 23m 18s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 15h 25m 30s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 15h 37m 36s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.08.06 at 15h 57m 14s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.08.07 at 15h 41m 15s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.08.07 at 15h 44m 08s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.08.07 at 16h 35m 30s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTest_makeScreenShot - 2018.08.07 at 17h 48m 44s.xml">
-      <configuration name="LoginTest.makeScreenShot" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest_Loginuser - 2018.08.07 at 17h 50m 17s.xml">
       <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest_Loginuser - 2018.08.07 at 17h 52m 44s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 15h 52m 43s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.08.13 at 15h 53m 40s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 15h 54m 34s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 16h 00m 19s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 16h 50m 20s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 16h 50m 56s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 17h 11m 47s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.08.13 at 17h 13m 06s.xml">
       <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -586,9 +663,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.34919572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.24899329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -597,13 +675,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32768363" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32768363" />
@@ -625,7 +703,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MailUSFormTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/TestWatcher1.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/LoginTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/Profile/ProfileResetChanges.java" />
@@ -687,8 +764,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="527">
+          <caret line="49" selection-start-line="41" selection-start-column="12" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -696,13 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="1" selection-start-line="14" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
@@ -715,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3638">
-          <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+        <state relative-caret-position="4199">
+          <caret line="247" column="32" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -732,7 +812,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/rules/TestWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
+        <state relative-caret-position="2618">
           <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
         </state>
       </provider>
@@ -744,6 +824,16 @@
           <folding>
             <element signature="e#610#611#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

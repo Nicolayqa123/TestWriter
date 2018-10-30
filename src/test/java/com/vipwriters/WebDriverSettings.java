@@ -5,12 +5,18 @@ import com.PageWriter.SignUp;
 
 import io.qameta.allure.Attachment;
 
+import junit.framework.TestFailure;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.internal.runners.statements.Fail;
+import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
 
@@ -105,6 +111,7 @@ public class WebDriverSettings {
         //  driver = new ChromeDriver();
         System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
+
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -113,14 +120,21 @@ public class WebDriverSettings {
 
     @After
     public void close() throws Exception {
-        asd();
+        /*if () TestFailure {
+            String newAutoTest = "newAutoTest" + x;
+            File screenshot = ((TakesScreenshot) driver).
+                    getScreenshotAs(OutputType.FILE);
+            String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
+            FileUtils.copyFile(screenshot, new File(path));
+            driver.quit();
+        }*/
+            driver.quit();
 
-        driver.quit();
     }
 
 
 
-
+/*
     @Attachment("Screenshot on failure")
     public void asd () throws Exception {
         String newAutoTest = "newAutoTest" + x;
@@ -129,9 +143,17 @@ public class WebDriverSettings {
         String path = "C:\\Programms\\GitHub\\TestWriter\\target\\surefire-reports\\" + newAutoTest + screenshot.getName() + ".json";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
+    }*/
+
+    public static void main(String[] args) throws Exception {
+
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true);
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "C://Programms/phantomjs-2.1.1-windows/bin/phantomjs.exe");
+        WebDriver driver = new PhantomJSDriver(caps);
+        driver.get("http://www.google.com");
+
     }
-
-
 
 
    /* @AfterMethod
