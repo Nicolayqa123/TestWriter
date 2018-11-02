@@ -121,18 +121,12 @@ public class WebDriverSettings {
 
     @After
     public void close() throws Exception {
-        /*if () TestFailure {
-            String newAutoTest = "newAutoTest" + x;
-            File screenshot = ((TakesScreenshot) driver).
-                    getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
-            FileUtils.copyFile(screenshot, new File(path));
-            driver.quit();
-        }*/
-
-            driver.quit();
-
-
+        String newAutoTest = "newAutoTest" + x;
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
+        FileUtils.copyFile(screenshot, new File(path));
+        driver.quit();
     }
 
 
