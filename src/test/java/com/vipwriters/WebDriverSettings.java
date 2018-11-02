@@ -7,7 +7,9 @@ import io.qameta.allure.Attachment;
 
 import junit.framework.TestFailure;
 import org.apache.commons.io.FileUtils;
+import org.apache.maven.plugin.surefire.report.DefaultReporterFactory;
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.internal.runners.statements.Fail;
 import org.junit.runner.notification.Failure;
@@ -116,6 +118,7 @@ public class WebDriverSettings {
         driver.manage().window().setSize(new Dimension(1500, 810));
     }
 
+
     @After
     public void close() throws Exception {
         /*if () TestFailure {
@@ -126,7 +129,9 @@ public class WebDriverSettings {
             FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
         }*/
+
             driver.quit();
+
 
     }
 
@@ -203,7 +208,7 @@ public class WebDriverSettings {
 
     }
     public void TestFileDrop() throws Exception {
-        setClipboardData("C:\\Test.docx");
+        setClipboardData("\\Test.docx");
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);

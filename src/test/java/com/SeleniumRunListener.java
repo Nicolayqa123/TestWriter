@@ -28,7 +28,7 @@ public class SeleniumRunListener extends RunListener {
      * Вызывается когда все тесты завершены
      * @param result результат выполнения тестов
      */
-    @Override
+   /* @Override
     public void testRunFinished(Result result) throws Exception {
         System.out.println("Result of the test run:");
         System.out.println("Run time: " + result.getRunTime() + " ms");
@@ -36,7 +36,7 @@ public class SeleniumRunListener extends RunListener {
         System.out.println("Failure count: " + result.getFailureCount());
         System.out.println("Ignored count: " + result.getIgnoreCount());
 
-    }
+    }*/
 
     /**
      * Вызывается перед запуском каждого теста.
@@ -68,9 +68,11 @@ public class SeleniumRunListener extends RunListener {
     public void testFailure(Failure failure) throws Exception {
         System.out.println("Test failed with: "
                 + failure.getException());
-
-
-        makeScreenShot("Failure screenshot");
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "C:\\Programms\\PNG\\testFailed"  + getClass() +  ".png";
+        FileUtils.copyFile(screenshot, new File(path));
+        //makeScreenShot("Failure screenshot");
         //makeScreenshotOnFailure();
         driver.quit();
 
