@@ -15,11 +15,14 @@ public class SaveFilesTest extends WebDriverSettings {
 
     @Test
     public void sf() throws Exception {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+
+
         LoginPap();
         TimeUnit.SECONDS.sleep(10);
+        jse.executeScript("scroll(0, 950);");
         driver.findElement(previousOrders).click();
         TimeUnit.SECONDS.sleep(10);
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, -350);");
         driver.findElement(order10272).click();
         TimeUnit.SECONDS.sleep(2);
