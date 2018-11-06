@@ -540,10 +540,10 @@ public class WebDriverSettings {
     public By aNMSupport = By.xpath("//*[@id=\"collapseTwo\"]/div/div[1]/div[2]/div/label[2]");
     public By aNMText = By.xpath("//*[@id=\"collapseTwo\"]/div/div[1]/div[2]/textarea");
     public By aNMSendMessage = By.xpath("//*[@id=\"collapseTwo\"]/div/div[1]/div[2]/button");
-    public By addNewFile = By.xpath("//*[@id=\"collapseFour\"]/div/div[1]/div/button");
+    public By addNewFile = By.xpath("/html/body/div[1]/div[1]/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[3]/div[2]/div/div[2]/div/div[1]/div/button");
     public By aNFWriter = By.xpath("//*[@id=\"collapseFour\"]/div/div[1]/div/div/label[1]");
     public By aNFSupport = By.xpath("//*[@id=\"collapseFour\"]/div/div[1]/div/div/label[2]");
-    public By aNFUpload = By.xpath("//*[@id=\"collapseFour\"]/div/div[1]/div[2]/button");
+    public By aNFUpload = By.xpath("/html/body/div[1]/div[1]/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[3]/div[2]/div/div[2]/div/div[1]/div[2]/button");
     public By sortById = By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/table/thead/tr/th[1]");
     public By sortByTopic = By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/table/thead/tr/th[2]");
     public By previousOrders = By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[3]/a/span");
