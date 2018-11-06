@@ -522,10 +522,10 @@ public class WebDriverSettings {
     public By sendMailUs = By.xpath("//*[@id=\"contactUsForm\"]/div[5]/div/button");
 
 
-    public By loginClient = By.cssSelector("button.green:nth-child(2)");
+    public By loginClient = By.cssSelector("#navbar > div > div.desktop-nav > ul > li.nav-item.nav-right-buttons > button");
     public By loginClientUserName = By.id("login-email");
     public By loginClientPassword = By.id("login-password");
-    public By loginClientSubmit = By.id("button-login");
+    public By loginClientSubmit = By.cssSelector(".login-submit");
     public By resetPasswordClient = By.cssSelector("forgotbutton");
     public By resetPasswordCMail = By.id("reset-email");
     public By resetPasswordCSend = By.id("reset-password");
