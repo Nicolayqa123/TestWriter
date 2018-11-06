@@ -31,7 +31,12 @@ public class SaveFilesTest extends WebDriverSettings {
         driver.findElement(addNewFile).click();
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
-        driver.findElement(aNFUpload).click();
+        try {
+            driver.findElement(aNFUpload).click();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+      //  driver.findElement(aNFUpload).click();
 
         /*TimeUnit.SECONDS.sleep(10);
         jse.executeScript("scroll(0, 550);");
