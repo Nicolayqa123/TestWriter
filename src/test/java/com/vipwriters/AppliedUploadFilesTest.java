@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 public class AppliedUploadFilesTest extends WebDriverSettings {
-    @Test
+   // @Test
     public void download() throws Exception {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
