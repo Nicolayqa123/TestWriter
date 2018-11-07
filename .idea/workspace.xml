@@ -94,13 +94,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1169" />
+          <entry key="java" value="1185" />
           <entry key="xml" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1169" />
+          <entry key="JAVA" value="1185" />
           <entry key="XML" value="149" />
         </counts>
       </usages-collector>
@@ -126,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="340">
+              <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="425">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -310,8 +310,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/VideoRecorder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/VideoRecordr.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" />
       </list>
     </option>
   </component>
@@ -420,7 +420,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541604439072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541605311277" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MonteScreenRecorder.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -619,9 +619,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_Loginuser - 2018.11.07 at 15h 35m 34s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest_Loginuser - 2018.11.07 at 15h 54m 54s.xml">
       <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
@@ -647,6 +644,9 @@
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest - 2018.11.07 at 17h 23m 22s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.11.07 at 17h 27m 16s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -882,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="425">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -892,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="340">
+          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

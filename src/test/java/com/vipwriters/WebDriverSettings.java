@@ -130,7 +130,7 @@ public class WebDriverSettings {
         String path1 = "C:\\Programms\\PNG\\";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
-        VideoRecord.stopRecording("C:\\Programms\\PNG\\test.avi");
+        VideoRecord.stopRecording("test1");
     }
 
 
