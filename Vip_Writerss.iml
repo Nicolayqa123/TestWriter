@@ -82,6 +82,8 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Maven: org.monte:monte-screen-recorder:0.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.monte:screen-recorder:0.7.7" level="project" />
+    <orderEntry type="library" name="Maven: com.github.stephenc.monte:monte-screen-recorder:0.7.7.0" level="project" />
     <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-report-builder:2.3" level="project" />
     <orderEntry type="library" name="Maven: ru.yandex.qatools.clay:clay-aether:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.aether:aether-api:1.0.0.v20140518" level="project" />
