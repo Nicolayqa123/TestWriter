@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +49,7 @@
     <session id="267552548">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -61,8 +64,8 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -72,14 +75,14 @@
           <entry key="java" value="19" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="png" value="6" />
+          <entry key="png" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Image" value="6" />
+          <entry key="Image" value="7" />
           <entry key="JAVA" value="19" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
@@ -87,13 +90,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="863" />
+          <entry key="java" value="968" />
           <entry key="xml" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="863" />
+          <entry key="JAVA" value="968" />
           <entry key="XML" value="111" />
         </counts>
       </usages-collector>
@@ -116,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+            <state relative-caret-position="339">
+              <caret line="212" column="44" lean-forward="true" selection-start-line="204" selection-start-column="8" selection-end-line="212" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,12 +132,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/target/surefire-reportsclass com.vipwriters.SaveFilesTest.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -155,11 +154,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="90">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <marker date="1541581006104" expanded="true" signature="1962:2006" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -296,8 +298,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFilesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" />
       </list>
     </option>
   </component>
@@ -317,7 +319,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -330,7 +332,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,16 +380,34 @@
               <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541519507465" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VipWriter" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541581067147" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -425,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SaveFilesTest">
+  <component name="RunManager" selected="JUnit.SaveFilesTest.sf">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -561,8 +581,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SaveFilesTest" />
         <item itemvalue="JUnit.SaveFilesTest.sf" />
+        <item itemvalue="JUnit.SaveFilesTest" />
         <item itemvalue="JUnit.AppliedUploadFilesTest.download" />
         <item itemvalue="JUnit.AppliedUploadFilesTest" />
         <item itemvalue="JUnit.LoginTest" />
@@ -583,35 +603,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2018.11.02 at 17h 10m 09s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppliedUploadFilesTest_download - 2018.11.02 at 17h 28m 04s.xml">
-      <configuration name="AppliedUploadFilesTest.download" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppliedUploadFilesTest - 2018.11.02 at 17h 30m 00s.xml">
-      <configuration name="AppliedUploadFilesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppliedUploadFilesTest_download - 2018.11.02 at 17h 34m 16s.xml">
-      <configuration name="AppliedUploadFilesTest.download" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaveFilesTest_sf - 2018.11.06 at 09h 54m 26s.xml">
-      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaveFilesTest_sf - 2018.11.06 at 14h 20m 22s.xml">
-      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaveFilesTest_sf - 2018.11.06 at 14h 22m 28s.xml">
-      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaveFilesTest_sf - 2018.11.06 at 16h 33m 38s.xml">
-      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SaveFilesTest - 2018.11.06 at 16h 45m 18s.xml">
-      <configuration name="SaveFilesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SaveFilesTest - 2018.11.06 at 17h 08m 30s.xml">
       <configuration name="SaveFilesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 19m 01s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 24m 33s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 28m 25s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 34m 00s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 36m 47s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 38m 44s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 41m 11s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 44m 08s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaveFilesTest_sf - 2018.11.07 at 10h 51m 22s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -624,10 +644,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -636,12 +656,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32909605" />
@@ -664,7 +684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/support/AssignAndNoAssignWriter.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" />
@@ -754,10 +773,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -791,36 +827,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reportsclass com.vipwriters.SaveFilesTest.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="339">
+          <caret line="212" column="44" lean-forward="true" selection-start-line="204" selection-start-column="8" selection-end-line="212" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFilesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1541581006104" expanded="true" signature="1962:2006" ph="{...}" />
           </folding>
         </state>
       </provider>

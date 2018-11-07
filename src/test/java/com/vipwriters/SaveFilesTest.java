@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
 
 public class SaveFilesTest extends WebDriverSettings {
@@ -31,11 +32,23 @@ public class SaveFilesTest extends WebDriverSettings {
         driver.findElement(addNewFile).click();
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
-        try {
+
+        if (driver.findElement(aNFUpload).isEnabled()) {
+            driver.findElement(aNFUpload).click();
+        } else  {
+            driver.findElement(addNewFile).click();
+            TimeUnit.SECONDS.sleep(2);
+            TestFileDrop();
+            driver.findElement(aNFUpload).click();
+        }
+
+
+
+       /* try {
             driver.findElement(aNFUpload).click();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
       //  driver.findElement(aNFUpload).click();
 
         /*TimeUnit.SECONDS.sleep(10);
