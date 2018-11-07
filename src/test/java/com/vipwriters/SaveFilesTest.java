@@ -31,16 +31,25 @@ public class SaveFilesTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(7);
         driver.findElement(addNewFile).click();
         TimeUnit.SECONDS.sleep(2);
-        TestFileDrop();
-
+       // TestFileDrop();
         if (driver.findElement(aNFUpload).isEnabled()) {
+            driver.findElement(aNFUpload).click();
+        }
+        if (!driver.findElement(aNFUpload).isEnabled()) {
+            driver.findElement(addNewFile).click();
+            TestFileDrop();
+            driver.findElement(aNFUpload).click();
+        }
+
+
+
+        /*if (driver.findElement(aNFUpload).isEnabled()) {
             driver.findElement(aNFUpload).click();
         } else  {
             driver.findElement(addNewFile).click();
             TimeUnit.SECONDS.sleep(2);
-            TestFileDrop();
-        }
-        driver.findElement(aNFUpload).click();
+        }*/
+       // driver.findElement(aNFUpload).click();
 
 
        /* try {
