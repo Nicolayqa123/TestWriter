@@ -3,6 +3,7 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
+import com.VideoRecord;
 import io.qameta.allure.Attachment;
 
 import junit.framework.TestFailure;
@@ -103,7 +104,7 @@ public class WebDriverSettings {
 
 
     @Before
-    public void setup() {
+    public void setup() throws Exception {
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
         driver = new FirefoxDriver();
@@ -116,6 +117,7 @@ public class WebDriverSettings {
         driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
+        VideoRecord.startRecording();
     }
 
 
@@ -127,6 +129,7 @@ public class WebDriverSettings {
         String path = "\\target\\surefire-reports\\"  + getClass() +  ".png";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
+        VideoRecord.stopRecording();
     }
 
 

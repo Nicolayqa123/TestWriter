@@ -21,6 +21,15 @@
 
 
     <dependencies>
+
+
+        <dependency>
+            <groupId>org.monte</groupId>
+            <artifactId>monte-screen-recorder</artifactId>
+            <version>0.7.7</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-report-builder -->
         <dependency>
             <groupId>ru.yandex.qatools.allure</groupId>
