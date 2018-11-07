@@ -127,9 +127,10 @@ public class WebDriverSettings {
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
         String path = "\\target\\surefire-reports\\"  + getClass() +  ".png";
+        String path1 = "C:\\Programms\\PNG\\";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
-        VideoRecord.stopRecording();
+        VideoRecord.stopRecording("C:\\Programms\\PNG\\test.avi");
     }
 
 
