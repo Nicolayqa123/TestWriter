@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Screenshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.SaveFilesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.SaveFilesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.SaveFilesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.SaveFilesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/VideoRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/VideoRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,13 +93,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1376" />
+          <entry key="java" value="1396" />
           <entry key="xml" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1376" />
+          <entry key="JAVA" value="1396" />
           <entry key="XML" value="171" />
         </counts>
       </usages-collector>
@@ -116,11 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="136" column="33" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
+            <state relative-caret-position="288">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="237">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -159,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="-51">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/RegisteredTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/ContactFormTest.java" />
@@ -303,8 +296,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/VideoRecordr.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Screenshot.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
       </list>
     </option>
   </component>
@@ -419,7 +413,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541684150325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541687865249" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/monte-repack-1.0.1.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -660,6 +654,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -838,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/TakesScreenshot.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -852,20 +840,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="136" column="33" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
+        <state relative-caret-position="237">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="288">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

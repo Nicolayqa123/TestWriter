@@ -16,10 +16,10 @@ import static org.monte.media.FormatKeys.*;
 import static org.monte.media.VideoFormatKeys.*;
 
 public class VideoRecord {
-  //  private static ScreenRecorder screenRecorder;
-  //  private static Object recordName;
+      private static ScreenRecorder screenRecorder;
+    //  private static Object recordName;
 
-/*
+
 
     public static void startRecording() throws Exception {
         GraphicsConfiguration gc = GraphicsEnvironment
@@ -33,76 +33,8 @@ public class VideoRecord {
     public static void stopRecording() throws Exception {
         screenRecorder.stop();
     }
-*/
-
-    private final String RECORD_DIRECTORY = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\";
-
-    private ScreenRecorder screenRecorder;
-
-
-   // public static void stopRecording() throws Exception {
-        //screenRecorder.stop();
 
 
 
-        public void startRecording(WebDriver driver) {
-
-            try {
-                GraphicsConfiguration gc = GraphicsEnvironment
-                        .getLocalGraphicsEnvironment().getDefaultScreenDevice()
-                        .getDefaultConfiguration();
-
-                File dir = new File(RECORD_DIRECTORY);
-
-                // записываем только область окна драйвера
-                // для уменьшения размера видео файла
-                org.openqa.selenium.Point point = driver.manage().window().getPosition();
-                org.openqa.selenium.Dimension dimension = driver.manage().window().getSize();
-
-                Rectangle rectangle = new Rectangle(point.x, point.y,
-                        dimension.width, dimension.height);
-
-                this.screenRecorder = new ScreenRecorder(gc, rectangle,
-                        new Format(MediaTypeKey, FormatKeys.MediaType.FILE, MimeTypeKey,
-                                MIME_AVI),
-                        new Format(MediaTypeKey, FormatKeys.MediaType.VIDEO, EncodingKey,
-                                ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE,
-                                CompressorNameKey,
-                                ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE, DepthKey,
-                                24, FrameRateKey, Rational.valueOf(15), QualityKey,
-                                1.0f, KeyFrameIntervalKey, 15 * 60), new Format(
-                        MediaTypeKey, MediaType.VIDEO, EncodingKey,
-                        "black", FrameRateKey, Rational.valueOf(30)), null,
-                        dir);
-
-                this.screenRecorder.start();
-
-            } catch (Exception e) {
-                System.out.println(e);
-            }
-        }
-
-        public void stopRecording(FirefoxDriver recordName) {
-
-            try {
-                this.screenRecorder.stop();
-
-                // переименовываем созданный .avi файл,
-                if (recordName != null) {
-                    SimpleDateFormat dateFormat = new SimpleDateFormat(
-                            "yyyy-MM-dd HH.mm.ss");
-                    File newFileName = new File(String.format("%s%s %s.avi",
-                            RECORD_DIRECTORY, recordName,
-                            dateFormat.format(new Date())));
-
-                    this.screenRecorder.getCreatedMovieFiles().get(0)
-                            .renameTo(newFileName);
-                }
-            } catch (Exception e) {
-                System.out.println(e);
-            }
-        }
-
-        }
-
+}
 

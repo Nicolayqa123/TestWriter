@@ -33,6 +33,7 @@ import java.nio.file.Paths;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import static com.google.common.io.Files.toByteArray;
 import static org.junit.Assert.assertEquals;
 
 
@@ -118,9 +119,7 @@ public class WebDriverSettings {
         driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
-        VideoRecord record = new VideoRecord();
-        record.startRecording(driver);
-       // VideoRecord.startRecording();
+        VideoRecord.startRecording();
     }
 
 
@@ -133,12 +132,33 @@ public class WebDriverSettings {
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
-        VideoRecord record = new VideoRecord();
-        record.stopRecording(driver);
-       // VideoRecord.stopRecording("Test");
+        VideoRecord.stopRecording();
+        AllureUtils.attachVideo();
     }
 
+    static class AllureUtils {
 
+        /*@Attachment(value = "Screenshot", type = "image/png")
+        static byte[] attachScreenshot() {
+            try {
+                return toByteArray(takeScreenShotAsFile());
+            } catch (IOException e) {
+                return new byte[0];
+            }
+        }*/
+
+        @Attachment(value = "video record", type = "video/mp4")
+        static byte[] attachVideo() {
+            try {
+                return toByteArray(VideoRecorder.getLastRecording());
+            } catch (IOException e) {
+                e.printStackTrace();
+                return new byte[0];
+            }
+        }
+
+
+    }
 
 
 
