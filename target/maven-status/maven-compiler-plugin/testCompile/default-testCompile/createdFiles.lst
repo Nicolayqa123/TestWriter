@@ -10,6 +10,7 @@ com\vipwriters\TestWatcher1.class
 com\PageWriter\ConfirmationNeeded.class
 com\PageWriter\DetailedOrder.class
 com\PageWriter\ContacteUs.class
+com\vipwriters\WebDriverSettings$1AllureUtils.class
 com\PageWriter\Lending.class
 com\PageWriter\AppliedOrders.class
 com\vipwriters\MailUSForm.class
@@ -18,7 +19,6 @@ com\vipwriters\Trainee.class
 com\PageWriter\MyOrders.class
 com\vipwriters\SaveFilesTest.class
 com\vipwriters\LoginTest.class
-com\vipwriters\WebDriverSettings$AllureUtils.class
 com\PageSupport\OrderStatus.class
 com\PageWriter\SignUp.class
 com\SeleniumRunner.class

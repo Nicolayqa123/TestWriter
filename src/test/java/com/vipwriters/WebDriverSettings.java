@@ -129,23 +129,23 @@ public class WebDriverSettings {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "\\target\\surefire-reports\\"  + getClass() +  ".png";
+        String path = "\target\\surefire-reports\\"  + getClass() +  ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
         VideoRecord.stopRecording();
-
+        AllureUtils.generateTestResultName();
 
         class AllureUtils {
 
-        /*@Attachment(value = "Screenshot", type = "image/png")
-        static byte[] attachScreenshot() {
+        @Attachment(value = "Screenshot", type = "image/png")
+        byte[] attachScreenshot() {
             try {
-                return toByteArray(takeScreenShotAsFile());
+                return toByteArray(screenshot);
             } catch (IOException e) {
                 return new byte[0];
             }
-        }*/
+        }
 
             @Attachment(value = "video record", type = "video/mp4")
              byte[] attachVideo() {
