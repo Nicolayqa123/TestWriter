@@ -9,7 +9,25 @@ import java.util.Date;
 public class VideoRecord {
     private static ScreenRecorder screenRecorder;
 
+
     public static void startRecording() throws Exception {
+        GraphicsConfiguration gc = GraphicsEnvironment
+                .getLocalGraphicsEnvironment().getDefaultScreenDevice()
+                .getDefaultConfiguration();
+
+        screenRecorder = new ScreenRecorder(gc);
+        screenRecorder.start();
+    }
+
+    public static void stopRecording() throws Exception {
+        screenRecorder.stop();
+    }
+
+
+
+
+
+    /*public static void startRecording() throws Exception {
         GraphicsConfiguration gc = GraphicsEnvironment
                 .getLocalGraphicsEnvironment().getDefaultScreenDevice()
                 .getDefaultConfiguration();
@@ -41,5 +59,5 @@ public class VideoRecord {
         }
 
 
-    }
+    }*/
 }
