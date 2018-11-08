@@ -18,6 +18,7 @@ com\vipwriters\Trainee.class
 com\PageWriter\MyOrders.class
 com\vipwriters\SaveFilesTest.class
 com\vipwriters\LoginTest.class
+com\vipwriters\WebDriverSettings$AllureUtils.class
 com\PageSupport\OrderStatus.class
 com\PageWriter\SignUp.class
 com\SeleniumRunner.class

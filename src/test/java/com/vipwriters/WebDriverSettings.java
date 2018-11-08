@@ -5,6 +5,7 @@ import com.PageWriter.SignUp;
 
 import com.VideoRecord;
 import com.automation.remarks.video.recorder.VideoRecorder;
+import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
 import junit.framework.TestFailure;
@@ -133,10 +134,9 @@ public class WebDriverSettings {
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
         VideoRecord.stopRecording();
-        AllureUtils.attachVideo();
-    }
 
-    static class AllureUtils {
+
+        class AllureUtils {
 
         /*@Attachment(value = "Screenshot", type = "image/png")
         static byte[] attachScreenshot() {
@@ -147,18 +147,21 @@ public class WebDriverSettings {
             }
         }*/
 
-        @Attachment(value = "video record", type = "video/mp4")
-        static byte[] attachVideo() {
-            try {
-                return toByteArray(VideoRecorder.getLastRecording());
-            } catch (IOException e) {
-                e.printStackTrace();
-                return new byte[0];
+            @Attachment(value = "video record", type = "video/mp4")
+             byte[] attachVideo() {
+                try {
+                    return toByteArray(VideoRecorder.getLastRecording());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    return new byte[0];
+                }
             }
+
+
         }
-
-
     }
+
+
 
 
 
