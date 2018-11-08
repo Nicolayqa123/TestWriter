@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.848 sec <<< FAILURE!
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 41.521 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.742 sec <<< FAILURE!
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 38.482 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)

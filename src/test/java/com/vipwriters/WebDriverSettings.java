@@ -4,6 +4,7 @@ import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
 import com.VideoRecord;
+import com.automation.remarks.video.recorder.VideoRecorder;
 import io.qameta.allure.Attachment;
 
 import junit.framework.TestFailure;
@@ -117,7 +118,9 @@ public class WebDriverSettings {
         driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
-        VideoRecord.startRecording();
+        VideoRecord record = new VideoRecord();
+        record.startRecording(driver);
+       // VideoRecord.startRecording();
     }
 
 
@@ -127,10 +130,12 @@ public class WebDriverSettings {
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
         String path = "\\target\\surefire-reports\\"  + getClass() +  ".png";
-        String path1 = "C:\\Programms\\PNG\\";
+        String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
         driver.quit();
-        VideoRecord.stopRecording();
+        VideoRecord record = new VideoRecord();
+        record.stopRecording(driver);
+       // VideoRecord.stopRecording("Test");
     }
 
 

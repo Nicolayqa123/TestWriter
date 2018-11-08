@@ -1,14 +1,25 @@
 package com;
 
+import org.monte.media.Format;
+import org.monte.media.FormatKeys;
+import org.monte.media.math.Rational;
 import org.monte.screenrecorder.ScreenRecorder;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.awt.*;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class VideoRecord {
-    private static ScreenRecorder screenRecorder;
+import static org.monte.media.FormatKeys.*;
+import static org.monte.media.VideoFormatKeys.*;
 
+public class VideoRecord {
+  //  private static ScreenRecorder screenRecorder;
+  //  private static Object recordName;
+
+/*
 
     public static void startRecording() throws Exception {
         GraphicsConfiguration gc = GraphicsEnvironment
@@ -22,42 +33,76 @@ public class VideoRecord {
     public static void stopRecording() throws Exception {
         screenRecorder.stop();
     }
+*/
+
+    private final String RECORD_DIRECTORY = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\";
+
+    private ScreenRecorder screenRecorder;
 
 
-
-
-
-    /*public static void startRecording() throws Exception {
-        GraphicsConfiguration gc = GraphicsEnvironment
-                .getLocalGraphicsEnvironment().getDefaultScreenDevice()
-                .getDefaultConfiguration();
-
-        screenRecorder = new ScreenRecorder(gc);
-        screenRecorder.start();
-    }
-
-    public static void stopRecording(String recordName) throws Exception {
+   // public static void stopRecording() throws Exception {
         //screenRecorder.stop();
 
-        try {
-            screenRecorder.stop();
 
-            // переименовываем созданный .avi файл,
-            if (recordName != null) {
-                SimpleDateFormat dateFormat = new SimpleDateFormat(
-                        "yyyy-MM-dd HH.mm.ss");
-                String RECORD_DIRECTORY = "C:\\Programms\\PNG\\";
-                File newFileName = new File(String.format("%s%s %s.avi",
-                        RECORD_DIRECTORY, recordName,
-                        dateFormat.format(new Date())));
 
-                screenRecorder.getCreatedMovieFiles().get(0)
-                        .renameTo(newFileName);
+        public void startRecording(WebDriver driver) {
+
+            try {
+                GraphicsConfiguration gc = GraphicsEnvironment
+                        .getLocalGraphicsEnvironment().getDefaultScreenDevice()
+                        .getDefaultConfiguration();
+
+                File dir = new File(RECORD_DIRECTORY);
+
+                // записываем только область окна драйвера
+                // для уменьшения размера видео файла
+                org.openqa.selenium.Point point = driver.manage().window().getPosition();
+                org.openqa.selenium.Dimension dimension = driver.manage().window().getSize();
+
+                Rectangle rectangle = new Rectangle(point.x, point.y,
+                        dimension.width, dimension.height);
+
+                this.screenRecorder = new ScreenRecorder(gc, rectangle,
+                        new Format(MediaTypeKey, FormatKeys.MediaType.FILE, MimeTypeKey,
+                                MIME_AVI),
+                        new Format(MediaTypeKey, FormatKeys.MediaType.VIDEO, EncodingKey,
+                                ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE,
+                                CompressorNameKey,
+                                ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE, DepthKey,
+                                24, FrameRateKey, Rational.valueOf(15), QualityKey,
+                                1.0f, KeyFrameIntervalKey, 15 * 60), new Format(
+                        MediaTypeKey, MediaType.VIDEO, EncodingKey,
+                        "black", FrameRateKey, Rational.valueOf(30)), null,
+                        dir);
+
+                this.screenRecorder.start();
+
+            } catch (Exception e) {
+                System.out.println(e);
             }
-        } catch (Exception e) {
-            System.out.println(e);
+        }
+
+        public void stopRecording(FirefoxDriver recordName) {
+
+            try {
+                this.screenRecorder.stop();
+
+                // переименовываем созданный .avi файл,
+                if (recordName != null) {
+                    SimpleDateFormat dateFormat = new SimpleDateFormat(
+                            "yyyy-MM-dd HH.mm.ss");
+                    File newFileName = new File(String.format("%s%s %s.avi",
+                            RECORD_DIRECTORY, recordName,
+                            dateFormat.format(new Date())));
+
+                    this.screenRecorder.getCreatedMovieFiles().get(0)
+                            .renameTo(newFileName);
+                }
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+
         }
 
 
-    }*/
-}
