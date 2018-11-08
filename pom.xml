@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -29,15 +31,21 @@
             <version>0.7.7</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.monte/screen-recorder -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.monte</groupId>
             <artifactId>screen-recorder</artifactId>
             <version>0.7.7</version>
-        </dependency>
+        </dependency>-->
         <dependency>
         <groupId>com.github.stephenc.monte</groupId>
         <artifactId>monte-screen-recorder</artifactId>
         <version>0.7.7.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.pojosontheweb/monte-repack -->
+        <dependency>
+            <groupId>com.pojosontheweb</groupId>
+            <artifactId>monte-repack</artifactId>
+            <version>1.0.1</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-report-builder -->

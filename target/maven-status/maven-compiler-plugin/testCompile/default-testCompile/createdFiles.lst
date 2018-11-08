@@ -26,10 +26,10 @@ Regression\Available.class
 com\vipwriters\PageFactore.class
 com\vipwriters\TestWatcher1$1.class
 com\Screenshot.class
-com\VideoRecorder.class
 com\PageClient\Registered.class
 com\PageWriter\AvailableOrders.class
 com\PageWriter\Transactions.class
 Regression\CheckTitle.class
 com\vipwriters\WebDriverSettingsIE.class
 com\vipwriters\WebDriverSettings.class
+com\VideoRecord.class
