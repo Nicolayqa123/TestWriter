@@ -129,13 +129,13 @@ public class WebDriverSettings {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "\target\\surefire-reports\\"  + getClass() +  ".png";
+        String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
-        driver.quit();
+
         VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
-
+        driver.quit();
         class AllureUtils {
 
         @Attachment(value = "Screenshot", type = "image/png")
