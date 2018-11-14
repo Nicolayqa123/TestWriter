@@ -50,21 +50,26 @@ public class LoginTest extends WebDriverSettings {
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
             checkScreen();
-
+            getBytes("test");
 
 
         }
 
     @Attachment
     public static byte[] getBytes(String resourceName) throws IOException {
-        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+        //return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+        byte[] screenshot = ((resourceName)).
+                getBytes(resourceName);
+        String path = "C:\\Programms\\PNG\\.png";
+        FileUtils.copyFile(new File(resourceName), new File(path));
+        return screenshot;
     }
 
 
     @Step("test screen")
     public static void checkScreen() throws IOException {
         getBytes("picture.jpg");
-        getBytes("text.txt");
+       // getBytes("text.txt");
     }
 
 
