@@ -8,12 +8,11 @@ import com.automation.remarks.video.recorder.VideoRecorder;
 import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
+import io.qameta.allure.Step;
 import junit.framework.TestFailure;
 import org.apache.commons.io.FileUtils;
 import org.apache.maven.plugin.surefire.report.DefaultReporterFactory;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
+import org.junit.*;
 import org.junit.internal.runners.statements.Fail;
 import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
@@ -136,16 +135,25 @@ public class WebDriverSettings {
         VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
         driver.quit();
-        class AllureUtils {
 
-        @Attachment(value = "Screenshot", type = "image/png")
+
+
+
+
+
+
+
+
+        /*class AllureUtils {
+
+        *//*@Attachment(value = "Screenshot", type = "image/png")
         byte[] attachScreenshot() {
             try {
                 return toByteArray(screenshot);
             } catch (IOException e) {
                 return new byte[0];
             }
-        }
+        }*//*
 
             @Attachment(value = "video record", type = "video/mp4")
              byte[] attachVideo() {
@@ -158,7 +166,7 @@ public class WebDriverSettings {
             }
 
 
-        }
+        }*/
     }
 
 
@@ -223,6 +231,24 @@ public class WebDriverSettings {
     public static byte[] getBytes(String resourceName) throws IOException {
         return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
     }
+
+
+    @Step("test screen")
+    public static void checkScreen() throws IOException {
+        getBytes("picture.jpg");
+        getBytes("text.txt");
+    }
+
+
+    @Test
+    public void simpleTest4() throws IOException {
+        String darkSouls = "Dark souls 3";
+        checkScreen();
+    }
+
+
+
+
 
 
 

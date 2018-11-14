@@ -17,6 +17,8 @@ import org.openqa.selenium.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
@@ -47,11 +49,35 @@ public class LoginTest extends WebDriverSettings {
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-
+            checkScreen();
 
 
 
         }
+
+    @Attachment
+    public static byte[] getBytes(String resourceName) throws IOException {
+        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+    }
+
+
+    @Step("test screen")
+    public static void checkScreen() throws IOException {
+        getBytes("picture.jpg");
+        getBytes("text.txt");
+    }
+
+
+    @Test
+    public void simpleTest4() throws IOException {
+        checkScreen();
+    }
+
+
+
+
+
+
     @Attachment("My cool attachment")
     private byte[] createAttachment() {
         String content = "attachmentContent";
