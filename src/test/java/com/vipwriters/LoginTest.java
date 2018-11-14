@@ -55,14 +55,15 @@ public class LoginTest extends WebDriverSettings {
 
         }
 
+
+    String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
+
     @Attachment
     public static byte[] getBytes(String resourceName) throws IOException {
-        //return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
-        byte[] screenshot = ((resourceName)).
-                getBytes(resourceName);
-        String path = "C:\\Programms\\PNG\\.png";
-        FileUtils.copyFile(new File(resourceName), new File(path));
-        return screenshot;
+        return Files.readAllBytes(Paths.get("C:\\Programms\\PNG\\", resourceName));
+
+
+        
     }
 
 
