@@ -1,15 +1,20 @@
 package com.vipwriters;
 
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import org.junit.Test;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
+import java.util.function.Predicate;
 
-public class Trainee extends WebDriverSettings {
+public class TraineeTest extends WebDriverSettings {
 
 
 
 
+/*
 
     private WebElement signUp = driver.findElementByXPath("/html/body/div/div/div/div[1]/header/div/div[2]/nav/ul/li[11]/a");
     private WebElement firstName = driver.findElementByName("firstName");
@@ -17,9 +22,10 @@ public class Trainee extends WebDriverSettings {
     private WebElement language = driver.findElementByName("languageSpoken");
     private WebElement gender = driver.findElementByCssSelector("div.row-fluid:nth-child(3) > div:nth-child(1) > span:nth-child(2) > label:nth-child(1) > input:nth-child(1)");
     private WebElement next = driver.findElementByClassName("btn btn-red");
+*/
 
 
-    @Test
+   /* @Test
     public void Te4st () throws Exception{
 
         driver.get("https://writer.urgentpapers.org");
@@ -31,25 +37,36 @@ public class Trainee extends WebDriverSettings {
         gender.click();
         next.click();
     }
+*/
 
+    private WebDriver driver;
 
-    @Test
-    public void asddsa455() throws Exception {
-
-
-
-
-
-             driver.get("https://pro-papers.com");
-
-
-
-
-
-
-
+    public TraineeTest(WebDriver driver) {
+        this.driver = driver;
     }
 
+    @Step
+    public void openMainPage() {
+        driver.get("http://ya.ru");
+    }
+
+    @Step
+    public void search(String text) {
+        driver.findElement(By.id("text")).sendKeys(text);
+        driver.findElement(By.className("suggest2-form__button")).submit();
+        new WebDriverWait(driver, 10)
+                .withMessage("Could not load results page");
+    }
+
+    @Attachment
+    @Step("Make screen shot of results page")
+    public byte[] makeScreenShot() {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+
+    public void quit() {
+        driver.quit();
+    }
 
 
 
