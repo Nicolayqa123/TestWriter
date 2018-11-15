@@ -110,9 +110,9 @@ public class WebDriverSettings {
         System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
 
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
         VideoRecord.startRecording();
     }
@@ -123,7 +123,7 @@ public class WebDriverSettings {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
+        String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
 
@@ -132,26 +132,19 @@ public class WebDriverSettings {
         driver.quit();
 
 
-
-
-
-
-
-
-
         class AllureUtils {
 
-        @Attachment(value = "Screenshot", type = "image/png")
-        byte[] attachScreenshot() {
-            try {
-                return toByteArray(screenshot);
-            } catch (IOException e) {
-                return new byte[0];
+            @Attachment(value = "Screenshot", type = "image/png")
+            byte[] attachScreenshot() {
+                try {
+                    return toByteArray(screenshot);
+                } catch (IOException e) {
+                    return new byte[0];
+                }
             }
-        }
 
             @Attachment(value = "video record", type = "video/mp4")
-             byte[] attachVideo() {
+            byte[] attachVideo() {
                 try {
                     return toByteArray(VideoRecorder.getLastRecording());
                 } catch (IOException e) {
@@ -203,18 +196,13 @@ public class WebDriverSettings {
     }*/
 
 
-
-
-
-
-
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
 
     public void Screen() throws Exception {
-        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("target\\surefire"+ scrFile.getName() +".png"));
+        FileUtils.copyFile(scrFile, new File("target\\surefire" + scrFile.getName() + ".png"));
     }
 
     @Attachment(value = "Page screenshot", type = "image/png")
@@ -224,23 +212,20 @@ public class WebDriverSettings {
 
     @Attachment
     public static byte[] getBytes(String resourceName) throws IOException {
-        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+        return Files.readAllBytes(Paths.get("\\target\\surefire-reports", resourceName));
     }
 
 
     @Step("test screen")
-    public static WebElement checkScreen() throws IOException {
+    public static void checkScreen() throws IOException {
         getBytes("picture.jpg");
         getBytes("text.txt");
+        return;
     }
 
 
-    @Test
-    public WebElement simpleTest4() throws IOException {
-        String darkSouls = "Dark souls 3";
-        checkScreen();
-        return null;
-    }
+
+
 
 
 

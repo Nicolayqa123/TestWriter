@@ -11,6 +11,7 @@ com\PageWriter\ConfirmationNeeded.class
 com\PageWriter\DetailedOrder.class
 com\vipwriters\AppliedUploadFiles.class
 com\PageWriter\ContacteUs.class
+com\vipwriters\WebDriverSettings$1AllureUtils.class
 com\PageWriter\Lending.class
 com\PageWriter\AppliedOrders.class
 com\vipwriters\MailUSForm.class

@@ -60,19 +60,14 @@ public class LoginTest extends WebDriverSettings {
 
 
     @Step("test screen")
-    public static WebElement checkScreen() throws IOException {
+    public static void checkScreen() throws IOException {
         getBytes("picture.jpg");
         getBytes("text.txt");
-        return element;
+        return;
     }
 
 
-    @Test
-    public WebElement simpleTest4() throws IOException {
-        checkScreen();
-        return element;
 
-    }
 
 
 
