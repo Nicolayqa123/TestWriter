@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.TestWatcher1
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.202 sec <<< FAILURE!
-simpleTest4(com.vipwriters.TestWatcher1)  Time elapsed: 10.191 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.37 sec <<< FAILURE!
+simpleTest4(com.vipwriters.TestWatcher1)  Time elapsed: 13.286 sec  <<< ERROR!
 java.nio.file.NoSuchFileException: src\main\resources\picture.jpg
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)

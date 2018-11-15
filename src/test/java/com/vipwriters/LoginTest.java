@@ -2,20 +2,12 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
-import com.Screenshot;
-import com.SeleniumRunner;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
-import org.apache.commons.io.FileUtils;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.TestWatcher;
-import org.junit.runner.Description;
-import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -24,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 //@RunWith(SeleniumRunner.class)
 public class LoginTest extends WebDriverSettings {
+    public static WebElement element = null;
 
     /* @Rule
      public TestWatcher screenshotOnFailure = new TestWatcher() {
@@ -57,30 +50,31 @@ public class LoginTest extends WebDriverSettings {
 
 
     String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
-/*
+
 
     @Attachment
     public static byte[] getBytes(String resourceName) throws IOException {
         return Files.readAllBytes(Paths.get("C:\\Programms\\PNG\\", resourceName));
 
-
-        
     }
 
 
     @Step("test screen")
-    public static void checkScreen() throws IOException {
+    public static WebElement checkScreen() throws IOException {
         getBytes("picture.jpg");
-       // getBytes("text.txt");
+        getBytes("text.txt");
+        return element;
     }
 
 
     @Test
-    public void simpleTest4() throws IOException {
+    public WebElement simpleTest4() throws IOException {
         checkScreen();
+        return element;
+
     }
 
-*/
+
 
 
 

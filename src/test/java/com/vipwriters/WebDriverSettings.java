@@ -9,16 +9,11 @@ import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
 import io.qameta.allure.Step;
-import junit.framework.TestFailure;
 import org.apache.commons.io.FileUtils;
-import org.apache.maven.plugin.surefire.report.DefaultReporterFactory;
 import org.junit.*;
-import org.junit.internal.runners.statements.Fail;
-import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
 
@@ -144,16 +139,16 @@ public class WebDriverSettings {
 
 
 
-        /*class AllureUtils {
+        class AllureUtils {
 
-        *//*@Attachment(value = "Screenshot", type = "image/png")
+        @Attachment(value = "Screenshot", type = "image/png")
         byte[] attachScreenshot() {
             try {
                 return toByteArray(screenshot);
             } catch (IOException e) {
                 return new byte[0];
             }
-        }*//*
+        }
 
             @Attachment(value = "video record", type = "video/mp4")
              byte[] attachVideo() {
@@ -166,7 +161,7 @@ public class WebDriverSettings {
             }
 
 
-        }*/
+        }
     }
 
 
@@ -234,16 +229,17 @@ public class WebDriverSettings {
 
 
     @Step("test screen")
-    public static void checkScreen() throws IOException {
+    public static WebElement checkScreen() throws IOException {
         getBytes("picture.jpg");
         getBytes("text.txt");
     }
 
 
     @Test
-    public void simpleTest4() throws IOException {
+    public WebElement simpleTest4() throws IOException {
         String darkSouls = "Dark souls 3";
         checkScreen();
+        return null;
     }
 
 

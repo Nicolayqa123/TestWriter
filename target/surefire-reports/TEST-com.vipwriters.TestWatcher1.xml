@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.vipwriters.TestWatcher1" time="10.191" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="com.vipwriters.TestWatcher1" time="13.286" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files (x86)\Maven\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test site"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.vipwriters.TestWatcher1" name="simpleTest4" time="10.191">
+  <testcase classname="com.vipwriters.TestWatcher1" name="simpleTest4" time="13.286">
     <error message="src\main\resources\picture.jpg" type="java.nio.file.NoSuchFileException">java.nio.file.NoSuchFileException: src\main\resources\picture.jpg
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
@@ -108,14 +108,16 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>1542268495858	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.R6eolstirp3p&quot;
-1542268500111	Marionette	INFO	Listening on port 55751
-1542268500450	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 15, 2018 9:55:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>1542270273832	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.OsvhZR77VYvQ&quot;
+1542270282221	Marionette	INFO	Listening on port 59267
+1542270282320	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 15, 2018 10:24:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1542268502222	Marionette	INFO	Stopped listening on port 55751
-[Child 19680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542270284749	Marionette	INFO	Stopped listening on port 59267
 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chro
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 </system-err>
