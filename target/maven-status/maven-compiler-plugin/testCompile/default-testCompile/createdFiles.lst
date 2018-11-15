@@ -1,7 +1,7 @@
 com\PageSupport\Orders.class
 com\SeleniumRunListener.class
+com\vipwriters\SaveFiles.class
 Regression\asdsadasd.class
-com\vipwriters\AppliedUploadFilesTest.class
 com\PageClient\Lending.class
 Regression\LogIn.class
 Regression\MailUS.class
@@ -9,15 +9,14 @@ com\PageClient\DetailedOrder.class
 com\vipwriters\TestWatcher1.class
 com\PageWriter\ConfirmationNeeded.class
 com\PageWriter\DetailedOrder.class
+com\vipwriters\AppliedUploadFiles.class
 com\PageWriter\ContacteUs.class
-com\vipwriters\WebDriverSettings$1AllureUtils.class
 com\PageWriter\Lending.class
 com\PageWriter\AppliedOrders.class
 com\vipwriters\MailUSForm.class
 com\PageWriter\MailUs.class
 com\vipwriters\Trainee.class
 com\PageWriter\MyOrders.class
-com\vipwriters\SaveFilesTest.class
 com\vipwriters\LoginTest.class
 com\PageSupport\OrderStatus.class
 com\PageWriter\SignUp.class

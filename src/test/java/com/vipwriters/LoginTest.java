@@ -38,8 +38,8 @@ public class LoginTest extends WebDriverSettings {
          }
      };
  */
-
         @Test
+        @Step
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
             Lending.loginForm(driver).click();
@@ -57,6 +57,7 @@ public class LoginTest extends WebDriverSettings {
 
 
     String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
+/*
 
     @Attachment
     public static byte[] getBytes(String resourceName) throws IOException {
@@ -79,6 +80,7 @@ public class LoginTest extends WebDriverSettings {
         checkScreen();
     }
 
+*/
 
 
 

@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestWatcher1 extends WebDriverSettings{
 
-    @Rule
+
     public TestWatcher watcher = new TestWatcher() {
 
 
