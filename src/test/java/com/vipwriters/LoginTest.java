@@ -2,6 +2,7 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.junit.Test;
@@ -31,7 +32,52 @@ public class LoginTest extends WebDriverSettings {
          }
      };
  */
-        @Test
+        @Step
+        public void stringUrlWriter () {
+            driver.get("https://writer.urgentpapers.org/");
+        }
+    @Step
+    public void stringWlog () {
+        driver.findElementById("sign-in-button").click();
+    }
+    @Step
+    public void stringUsename () {
+        driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input")).sendKeys(mail);
+    }
+    @Step
+    public void stringpass () {
+        driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input")).sendKeys(pass);
+    }
+    @Step
+    public void stringloginbutton () {
+        driver.findElement(By.xpath("/html/body/div[1]/div/form/div/div[4]/input")).click();
+    }
+
+    @Test
+    public void Loginuserasd123() throws Exception {
+
+    stringUrlWriter();
+    stringWlog();
+    stringUsename();
+    stringpass();
+    stringloginbutton();
+
+        TimeUnit.SECONDS.sleep(7);
+        assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
+        checkScreen();
+        getBytes("test");
+        Allure.addAttachment("Результат", "application/json");
+    }
+
+
+
+
+
+
+
+
+
+      //  @Test
         @Step
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
@@ -44,11 +90,11 @@ public class LoginTest extends WebDriverSettings {
             assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
             checkScreen();
             getBytes("test");
-
+            Allure.addAttachment("Результат", "application/json");
 
         }
 
-
+    String text = "Вложение";
     String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
 
 

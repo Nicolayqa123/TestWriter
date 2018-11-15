@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.vipwriters.LoginTest" time="50.509" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.vipwriters.LoginTest" time="60.509" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -64,11 +64,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.vipwriters.LoginTest" name="Loginuser" time="50.509">
+  <testcase classname="com.vipwriters.LoginTest" name="Loginuserasd123" time="60.509">
     <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:44)
+	at com.vipwriters.LoginTest.Loginuserasd123(LoginTest.java:66)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,10 +101,10 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-err>1542286890355	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.NZXJYM6pQZb5&quot;
-1542286896775	Marionette	INFO	Listening on port 50888
-1542286896875	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 15, 2018 3:01:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>1542288862968	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.avWoVQYFAahx&quot;
+1542288867968	Marionette	INFO	Listening on port 51587
+1542288868206	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 15, 2018 3:34:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
@@ -112,18 +112,25 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, li
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-1542286934513	Marionette	INFO	Stopped listening on port 50888
+1542288918010	Marionette	INFO	Stopped listening on port 51587
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 12708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-
+[GPU 2684, Chrome_ChildThread] WARNING: pipe error: 109:
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 </system-err>
