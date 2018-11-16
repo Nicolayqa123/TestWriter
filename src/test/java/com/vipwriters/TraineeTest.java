@@ -1,13 +1,13 @@
 package com.vipwriters;
 
+import com.PageWriter.Lending;
+import com.SeleniumRunner;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
+import org.jetbrains.annotations.NotNull;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.concurrent.TimeUnit;
-import java.util.function.Predicate;
 
 public class TraineeTest extends WebDriverSettings {
 
@@ -41,21 +41,22 @@ public class TraineeTest extends WebDriverSettings {
 
     private WebDriver driver;
 
-    public TraineeTest(WebDriver driver) {
+   /* public TraineeTest(WebDriver driver) {
         this.driver = driver;
-    }
+    }*/
 
-    @Step
-    public void openMainPage() {
-        driver.get("http://ya.ru");
-    }
 
-    @Step
-    public void search(String text) {
-        driver.findElement(By.id("text")).sendKeys(text);
-        driver.findElement(By.className("suggest2-form__button")).submit();
-        new WebDriverWait(driver, 10)
-                .withMessage("Could not load results page");
+
+    @Test
+    @Step("Test1")
+    public void search()  {
+        driver.get(urlwriter);
+        Lending.loginForm(driver).click();
+        Lending.userName(driver).click();
+        Lending.userName(driver).sendKeys(mail);
+        Lending.password(driver).sendKeys(pass);
+        Lending.loginButton(driver).click();
+        makeScreenShot();
     }
 
     @Attachment
@@ -64,9 +65,7 @@ public class TraineeTest extends WebDriverSettings {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
-    public void quit() {
-        driver.quit();
-    }
+
 
 
 
