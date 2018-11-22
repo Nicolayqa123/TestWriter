@@ -24,7 +24,7 @@ public class MyRule extends TestWatcher {
     @Override
     protected void starting(Description description) {
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-      //  driver = new FirefoxDriver();
+        driver = new FirefoxDriver();
         System.out.println("---before()---");
     }
 
@@ -52,9 +52,9 @@ public class MyRule extends TestWatcher {
 
 
         @Attachment("Screenshot on failure")
-        public byte[] makeScreenshotOnFailure() {
+        private void makeScreenshotOnFailure() {
 
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         }
 
         @Attachment(value = "video record", type = "video/mp4")
