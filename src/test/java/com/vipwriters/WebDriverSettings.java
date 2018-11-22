@@ -11,6 +11,7 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.junit.*;
+import org.junit.rules.TestWatcher;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -98,7 +99,6 @@ public class WebDriverSettings {
     };
 */
 
-
     @Before
     public void setup() throws Exception {
 
@@ -114,8 +114,9 @@ public class WebDriverSettings {
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
         VideoRecord.startRecording();
-    }
 
+
+    }
 
     @After
     public void close() throws Exception {

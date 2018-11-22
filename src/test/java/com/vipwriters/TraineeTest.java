@@ -67,6 +67,19 @@ public class TraineeTest extends WebDriverSettings {
 
 
 
+       /* public static void main(String[] args) {
+
+            int runKm = 2;
+
+
+        int fuelPrice = 30;
+        double km = 100;
+        int litr = 8;
+        double HowMuchCostForLitr = litr / km * fuelPrice;
+        double allRoad = HowMuchCostForLitr * runKm;
+            System.out.println(allRoad);
+        }
+*/
 
 
 
