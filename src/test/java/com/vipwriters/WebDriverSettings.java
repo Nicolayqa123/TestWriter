@@ -1,5 +1,6 @@
 package com.vipwriters;
 
+import com.MyRule;
 import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
@@ -11,6 +12,7 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.junit.*;
+import org.junit.rules.TestName;
 import org.junit.rules.TestWatcher;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
@@ -117,6 +119,12 @@ public class WebDriverSettings {
 
 
     }
+
+    @Rule
+    public TestName name = new TestName();
+
+    @Rule
+    public MyRule myRule = new MyRule();
 
     @After
     public void close() throws Exception {
