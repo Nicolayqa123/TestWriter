@@ -1,6 +1,5 @@
 package com.vipwriters;
 
-import com.MyRule;
 import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
@@ -120,11 +119,7 @@ public class WebDriverSettings {
 
     }
 
-    @Rule
-    public TestName name = new TestName();
 
-    @Rule
-    public MyRule myRule = new MyRule();
 
     @After
     public void close() throws Exception {

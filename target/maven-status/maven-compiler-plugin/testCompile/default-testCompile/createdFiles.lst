@@ -25,6 +25,7 @@ com\vipwriters\WebDriverSettingsChrome.class
 Regression\Available.class
 com\vipwriters\PageFactore.class
 com\Screenshot.class
+com\MyRule.class
 com\PageClient\Registered.class
 com\PageWriter\AvailableOrders.class
 com\PageWriter\Transactions.class

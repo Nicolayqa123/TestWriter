@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.vipwriters.LoginTest" time="51.572" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.vipwriters.LoginTest" time="44.656" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.vipwriters.LoginTest" name="Loginuserasd123" time="51.572">
+  <testcase classname="com.vipwriters.LoginTest" name="Loginuserasd123" time="44.656">
     <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -108,15 +108,24 @@
 ---failed()---
 ---after()---
 </system-out>
-    <system-err>1542891652450	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.RwMbYHrcFzLs&quot;
-1542891658671	Marionette	INFO	Listening on port 50114
-1542891659048	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 22, 2018 3:00:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>1542895302907	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.TlRlYAdyKhRV&quot;
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[17680, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: Could not get a DXGI adapter
+1542895312473	Marionette	INFO	Listening on port 56636
+1542895312866	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 22, 2018 4:01:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1542891660843	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.aD3c35bq9KVf&quot;
-1542891666708	Marionette	INFO	Listening on port 50151
-1542891666857	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 22, 2018 3:01:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1542895314459	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.4Qg7IVLYplkr&quot;
+1542895319238	Marionette	INFO	Listening on port 56683
+1542895319550	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 22, 2018 4:01:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
@@ -132,6 +141,12 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 console.error: BroadcastService: 
   receivedBroadcastMessage: handler for
   remote-settings/monitor_changes
@@ -140,17 +155,14 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-1542891697365	Marionette	INFO	Stopped listening on port 50151
-[Child 17288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 18352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 18352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542895342161	Marionette	INFO	Stopped listening on port 56683
+[Parent 16192, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 19752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channe
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 </system-err>

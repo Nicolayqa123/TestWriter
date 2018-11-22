@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.vipwriters.TraineeTest" time="14.554" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="com.vipwriters.TraineeTest" time="13.767" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.vipwriters.TraineeTest" name="search" time="14.554">
+  <testcase classname="com.vipwriters.TraineeTest" name="search" time="13.767">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.vipwriters.TraineeTest.search(TraineeTest.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -106,21 +106,22 @@
 ---failed()---
 ---after()---
 </system-out>
-    <system-err>1542891701817	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.JvamCdiAcEyY&quot;
-1542891706633	Marionette	INFO	Listening on port 50286
-1542891706720	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 22, 2018 3:01:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>1542895345108	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.c0UCJoJI9P9T&quot;
+1542895349334	Marionette	INFO	Listening on port 56785
+1542895349472	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 22, 2018 4:02:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1542891707718	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.tjsfbzCPeHmv&quot;
-1542891712903	Marionette	INFO	Listening on port 50315
-1542891713087	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 22, 2018 3:01:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1542895350541	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.DYacfh77ExMs&quot;
+1542895354752	Marionette	INFO	Listening on port 56812
+1542895355039	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 22, 2018 4:02:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1542891714502	Marionette	INFO	Stopped listening on port 50315
-[G
+1542895356533	Marionette	INFO	Stopped listening on port 56812
+
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-PU 16908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ip
+[GPU 17700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 </system-err>

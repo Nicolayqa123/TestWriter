@@ -1,7 +1,7 @@
 package com.vipwriters;
 
 
-import com.MyRule;
+import com.MyRunner;
 import com.PageWriter.Lending;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
@@ -11,6 +11,7 @@ import org.junit.Test;
 import org.junit.rules.TestName;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 
 
@@ -21,6 +22,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 //@RunWith(SeleniumRunner.class)
+@RunWith(MyRunner.class)
 
 
 
@@ -42,15 +44,12 @@ public class LoginTest extends WebDriverSettings{
  */
 
 
-    @Rule
-    public TestName name = new TestName();
 
-    @Rule
-    public MyRule myRule = new MyRule();
 
     @Step
     public void stringUrlWriter () {
             driver.get("https://writer.urgentpapers.org/");
+           return;
         }
     @Step
     public void stringWlog () {
@@ -94,10 +93,11 @@ public class LoginTest extends WebDriverSettings{
 
 
 
-      //  @Test
-        @Step
+        @Test
+      //  @Step
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
+            TimeUnit.SECONDS.sleep(10);
             Lending.loginForm(driver).click();
             Lending.userName(driver).click();
             Lending.userName(driver).sendKeys(mail);

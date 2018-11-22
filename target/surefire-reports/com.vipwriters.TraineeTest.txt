@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.TraineeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.56 sec <<< FAILURE!
-search(com.vipwriters.TraineeTest)  Time elapsed: 14.554 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.768 sec <<< FAILURE!
+search(com.vipwriters.TraineeTest)  Time elapsed: 13.767 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.vipwriters.TraineeTest.search(TraineeTest.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
