@@ -6,7 +6,6 @@ com\PageClient\Lending.class
 Regression\LogIn.class
 Regression\MailUS.class
 com\PageClient\DetailedOrder.class
-com\vipwriters\TestWatcher1.class
 com\PageWriter\ConfirmationNeeded.class
 com\PageWriter\DetailedOrder.class
 com\vipwriters\AppliedUploadFiles.class
@@ -25,7 +24,6 @@ com\SeleniumRunner.class
 com\vipwriters\WebDriverSettingsChrome.class
 Regression\Available.class
 com\vipwriters\PageFactore.class
-com\vipwriters\TestWatcher1$1.class
 com\Screenshot.class
 com\PageClient\Registered.class
 com\PageWriter\AvailableOrders.class

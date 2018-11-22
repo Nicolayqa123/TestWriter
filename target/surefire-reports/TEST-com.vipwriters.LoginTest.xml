@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.vipwriters.LoginTest" time="48.33" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.vipwriters.LoginTest" time="51.572" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files (x86)\Maven\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,11 +64,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.vipwriters.LoginTest" name="Loginuserasd123" time="48.33">
+  <testcase classname="com.vipwriters.LoginTest" name="Loginuserasd123" time="51.572">
     <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.vipwriters.LoginTest.Loginuserasd123(LoginTest.java:66)
+	at com.vipwriters.LoginTest.Loginuserasd123(LoginTest.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,6 +79,9 @@
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
@@ -101,10 +104,19 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-err>1542379046793	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.iDbCsWIdsCHA&quot;
-1542379054640	Marionette	INFO	Listening on port 58380
-1542379055138	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 16, 2018 4:37:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-out>---before()---
+---failed()---
+---after()---
+</system-out>
+    <system-err>1542891652450	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.RwMbYHrcFzLs&quot;
+1542891658671	Marionette	INFO	Listening on port 50114
+1542891659048	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 22, 2018 3:00:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1542891660843	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.aD3c35bq9KVf&quot;
+1542891666708	Marionette	INFO	Listening on port 50151
+1542891666857	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 22, 2018 3:01:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
@@ -112,22 +124,32 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, li
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-1542379088469	Marionette	INFO	Stopped listening on port 58380
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
+1542891697365	Marionette	INFO	Stopped listening on port 50151
+[Child 17288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
