@@ -110,9 +110,9 @@ public class WebDriverSettings {
         System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
         VideoRecord.startRecording();
 
@@ -126,12 +126,15 @@ public class WebDriverSettings {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
+        String path = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\" + screenshot.getName() + ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
 
         VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
+        saveAllureScreenshot();
+        screenshot.getName();
+
         driver.quit();
 
 

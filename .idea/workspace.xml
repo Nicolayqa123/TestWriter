@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/MyRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_9_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/MyRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.TraineeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.TraineeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,7 +51,7 @@
     <session id="267552548">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -72,6 +59,7 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.37" value="1" />
@@ -82,19 +70,27 @@
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.62" value="2" />
+          <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
           <entry key="gitattributes" value="1" />
-          <entry key="java" value="55" />
+          <entry key="java" value="57" />
+          <entry key="js" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="png" value="7" />
@@ -105,7 +101,8 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="Image" value="7" />
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="57" />
+          <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="4" />
         </counts>
@@ -113,13 +110,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="2811" />
+          <entry key="java" value="3313" />
           <entry key="xml" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2811" />
+          <entry key="JAVA" value="3313" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="229" />
         </counts>
@@ -131,38 +128,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
+            <state relative-caret-position="264">
+              <caret line="112" column="51" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#26871#27196#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/jquery-3.3.1.min (1).js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-564">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -170,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="595">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -179,7 +170,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="8364">
               <caret line="562" selection-start-line="562" selection-end-line="562" />
             </state>
           </provider>
@@ -198,7 +189,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -206,8 +197,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="629">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1895#1896#0" expanded="true" />
@@ -220,16 +211,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="374">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="204">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -290,7 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableDownloadFilesTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/SeleniumRunListener.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/TestWatcher1.java" />
@@ -337,10 +327,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/MyRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/MyRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" />
       </list>
     </option>
   </component>
@@ -398,6 +389,11 @@
             <path>
               <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,17 +435,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542901746828" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/monte-repack-1.0.1.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543928210413" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VipWriter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -457,22 +453,25 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programms\GitHub\node_modules" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.vipwriters" />
-      <recent name="com" />
-      <recent name="com.support" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programms\GitHub\TestWriter\TestWriter\src\test\resources" />
+      <recent name="C:\Programms\GitHub\TestWriter\TestWriter\src\test\java\com" />
+      <recent name="C:\Programms\GitHub\TestWriter\TestWriter\src\test\java" />
       <recent name="C:\Programms\GitHub\VipWriter\target\maven-status" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vipwriters" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Programms\GitHub\node_modules" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vipwriters" />
+      <recent name="com" />
+      <recent name="com.support" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -487,23 +486,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest">
-    <configuration name="TraineeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.TraineeTest" />
-      <module name="Vip_Writerss" />
+  <component name="RunManager" selected="JUnit.LoginClientTest.Login1">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginClientTest.Login1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vipwriters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginClientTest" />
+      <option name="METHOD_NAME" value="Login1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -615,18 +617,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LoginTest" />
-      <item itemvalue="Application.TraineeTest" />
       <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
       <item itemvalue="JUnit.SaveFiles" />
       <item itemvalue="JUnit.LoginTest.Loginuser" />
+      <item itemvalue="JUnit.LoginClientTest.Login1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginClientTest.Login1" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.Loginuser" />
         <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
         <item itemvalue="JUnit.SaveFiles" />
-        <item itemvalue="Application.TraineeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -644,35 +646,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_Loginuserasd123 - 2018.11.22 at 12h 57m 50s.xml">
-      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.11.29 at 15h 31m 26s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuserasd123 - 2018.11.22 at 16h 11m 35s.xml">
-      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.11.29 at 15h 39m 59s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.11.22 at 17h 00m 11s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 10h 44m 56s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuserasd123 - 2018.11.22 at 17h 06m 28s.xml">
-      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 11h 30m 00s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 08m 07s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 11h 43m 24s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 10m 48s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 11h 45m 49s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 22m 21s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 11h 55m 17s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 45m 44s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 12h 15m 47s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 46m 12s.xml">
-      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 14h 34m 15s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.11.22 at 17h 49m 41s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 14h 38m 59s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -688,7 +690,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.23154363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.18926175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -717,6 +719,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -725,8 +730,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ContactUSTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/support/Verification.java" />
@@ -852,39 +855,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2669">
           <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#996#1980#0" expanded="true" />
-            <element signature="e#793#804#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,45 +874,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRule.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRule.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="562" selection-start-line="562" selection-end-line="562" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="1445">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
+        <state relative-caret-position="2057">
           <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jquery-3.3.1.min (1).js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8364">
+          <caret line="562" selection-start-line="562" selection-end-line="562" />
         </state>
       </provider>
     </entry>
@@ -944,28 +917,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#26871#27196#0" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="629">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1895#1896#0" expanded="true" />
@@ -974,22 +936,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="204">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="112" column="51" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
