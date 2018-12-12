@@ -10,13 +10,12 @@ import io.qameta.allure.Attachment;
 
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
-import org.junit.*;
-import org.junit.rules.TestName;
-import org.junit.rules.TestWatcher;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 
 import java.awt.*;
@@ -31,7 +30,6 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import static com.google.common.io.Files.toByteArray;
-import static org.junit.Assert.assertEquals;
 
 
 public class WebDriverSettings {
@@ -100,7 +98,7 @@ public class WebDriverSettings {
     };
 */
 
-    @Before
+    @BeforeClass
     public void setup() throws Exception {
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
@@ -121,7 +119,7 @@ public class WebDriverSettings {
 
 
 
-    @After
+    @AfterClass
     public void close() throws Exception {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).

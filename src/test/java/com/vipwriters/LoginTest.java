@@ -7,12 +7,13 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.junit.Rule;
-import org.junit.Test;
+
 import org.junit.rules.TestName;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
+import org.testng.annotations.Test;
 
 
 import java.io.IOException;
@@ -22,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 //@RunWith(SeleniumRunner.class)
-@RunWith(MyRunner.class)
+//@RunWith(MyRunner.class)
 
 
 
@@ -46,11 +47,7 @@ public class LoginTest extends WebDriverSettings{
 
 
 
-    @Step
-    public void stringUrlWriter () {
-            driver.get("https://writer.urgentpapers.org/");
-           return;
-        }
+
     @Step
     public void stringWlog () {
         driver.findElementById("sign-in-button").click();
@@ -72,11 +69,7 @@ public class LoginTest extends WebDriverSettings{
     @Test
     public void Loginuserasd123() throws Exception {
 
-    stringUrlWriter();
-    stringWlog();
-    stringUsename();
-    stringpass();
-    stringloginbutton();
+    WritersLogin();
 
         TimeUnit.SECONDS.sleep(7);
         assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
