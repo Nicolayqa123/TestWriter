@@ -1,7 +1,7 @@
 package com.vipwriters;
 
 import com.PageWriter.MailUs;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 
 import java.util.concurrent.TimeUnit;

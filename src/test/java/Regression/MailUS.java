@@ -1,7 +1,7 @@
 package Regression;
 
 import com.vipwriters.WebDriverSettings;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 

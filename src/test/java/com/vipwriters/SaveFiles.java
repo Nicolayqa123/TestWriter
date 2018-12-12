@@ -1,6 +1,6 @@
 package com.vipwriters;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.JavascriptExecutor;
 
 import java.awt.*;

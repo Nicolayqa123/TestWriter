@@ -3,7 +3,7 @@ package com.vipwriters;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
 import org.junit.Assert;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

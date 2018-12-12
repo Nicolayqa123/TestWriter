@@ -5,7 +5,7 @@ import com.SeleniumRunner;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.jetbrains.annotations.NotNull;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 

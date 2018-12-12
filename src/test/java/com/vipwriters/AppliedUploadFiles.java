@@ -3,7 +3,7 @@ package com.vipwriters;
 import com.PageWriter.AppliedOrders;
 import com.PageWriter.DetailedOrder;
 import org.apache.commons.io.FileUtils;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
