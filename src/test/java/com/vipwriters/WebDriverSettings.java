@@ -49,7 +49,7 @@ public class WebDriverSettings {
     // String mail = "nicolayqa@gmail.com";
     // String pass = "nicolayqa";
 
-    public String mail = "gennadii2@test.com";
+    public String mail = "nicolayqa@gmail.com";
     public String pass = "123456";
     public String urlwriter = "https://writer.urgentpapers.org";
 
