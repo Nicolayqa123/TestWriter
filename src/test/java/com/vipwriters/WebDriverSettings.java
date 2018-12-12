@@ -15,7 +15,9 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 
 import java.awt.*;
@@ -98,7 +100,7 @@ public class WebDriverSettings {
     };
 */
 
-    @BeforeClass
+    @BeforeMethod
     public void setup() throws Exception {
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
@@ -119,7 +121,7 @@ public class WebDriverSettings {
 
 
 
-    @AfterClass
+    @AfterMethod
     public void close() throws Exception {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).

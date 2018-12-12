@@ -1,6 +1,7 @@
 package com.vipwriters;
 
 
+import com.ListenerTest;
 import com.MyRunner;
 import com.PageWriter.Lending;
 import io.qameta.allure.Allure;
@@ -13,6 +14,7 @@ import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
@@ -24,6 +26,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 //@RunWith(SeleniumRunner.class)
 //@RunWith(MyRunner.class)
+@Listeners(ListenerTest.class)
 
 
 
