@@ -23,7 +23,7 @@ public class LoginClientTest extends WebDriverSettings {
         driver.get("https://client.urgentpapers.org/");
 
       //  driver.findElement(By.id("********154391*******")).click();
-        driver.findElementByCssSelector("*[id*='tawkchat-chat-bubble-close']").click();
+      //  driver.findElementByCssSelector("*[id*='tawkchat-chat-bubble-close']").click();
      //   driver.switchTo().frame(driver.findElementByCssSelector("*[id*='tawkchat-chat-bubble-close']"));
       //  driver.findElement(By.id("tawkchat-chat-bubble-close")).click();
       //  driver.findElement(By.id("tawkchat-chat-bubble-close")).findElement(By.id("********1543915******")).click();
