@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.vipwriters.TraineeTest">
+        <methods>
+          <include name="search"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vipwriters.TraineeTest -->
+      <class name="com.vipwriters.LoginTest">
+        <methods>
+          <include name="Loginuserasd123"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="Loginuser"/>
+        </methods>
+      </class> <!-- com.vipwriters.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

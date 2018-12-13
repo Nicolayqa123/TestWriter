@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -213,8 +210,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="277">
+              <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1295#1296#0" expanded="true" />
@@ -363,7 +360,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1445" />
     <option name="height" value="760" />
@@ -443,6 +440,12 @@
               <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -456,7 +459,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544712353478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544713468868" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VipWriter" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -667,9 +670,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_Loginuserasd123 - 2018.12.11 at 17h 56m 47s.xml">
-      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest_Loginuserasd123 - 2018.12.11 at 17h 57m 37s.xml">
       <configuration name="LoginTest.Loginuserasd123" configurationId="TestNG" />
     </history-entry>
@@ -697,6 +697,9 @@
     <history-entry file="LoginTest_Loginuser - 2018.12.13 at 16h 42m 50s.xml">
       <configuration name="LoginTest.Loginuser" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.12.13 at 16h 46m 30s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,10 +711,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25771812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25771812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -720,13 +723,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
@@ -994,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="277">
+          <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1295#1296#0" expanded="true" />
