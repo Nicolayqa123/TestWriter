@@ -6,6 +6,7 @@
 =======
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" afterDir="false" />
 =======
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_8_1.xml" afterDir="false" />
@@ -26,6 +27,18 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" afterDir="false" />
 >>>>>>> parent of 99618e5... tett
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.TestWatcher1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TestWatcher1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterDir="false" />
+>>>>>>> parent of d788b8e... @Step
     </list>
 >>>>>>> parent of 743a9e9... GoodTest
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
@@ -147,6 +160,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="dummy" value="4" />
 <<<<<<< HEAD
           <entry key="java" value="3492" />
@@ -154,10 +168,15 @@
           <entry key="java" value="2811" />
 >>>>>>> parent of 99618e5... tett
           <entry key="xml" value="229" />
+=======
+          <entry key="java" value="1608" />
+          <entry key="xml" value="176" />
+>>>>>>> parent of d788b8e... @Step
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="JAVA" value="3492" />
 =======
@@ -165,6 +184,10 @@
 >>>>>>> parent of 99618e5... tett
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="229" />
+=======
+          <entry key="JAVA" value="1608" />
+          <entry key="XML" value="176" />
+>>>>>>> parent of d788b8e... @Step
         </counts>
       </usages-collector>
     </session>
@@ -207,6 +230,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="527">
               <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
@@ -214,6 +238,12 @@
                 <element signature="e#1317#1318#0" expanded="true" />
                 <element signature="e#1381#1382#0" expanded="true" />
 >>>>>>> parent of 99618e5... tett
+=======
+            <state relative-caret-position="920">
+              <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> parent of d788b8e... @Step
               </folding>
             </state>
           </provider>
@@ -242,6 +272,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="306">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
@@ -251,6 +282,10 @@
             <state relative-caret-position="254">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
 >>>>>>> parent of 99618e5... tett
+=======
+            <state relative-caret-position="153">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="58" />
+>>>>>>> parent of d788b8e... @Step
             </state>
           </provider>
         </entry>
@@ -440,6 +475,7 @@
 <<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
 >>>>>>> parent of 99618e5... tett
         <option value="$PROJECT_DIR$/src/test/java/com/MyRunner.java" />
@@ -453,6 +489,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" />
 =======
 >>>>>>> parent of 99618e5... tett
+=======
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+>>>>>>> parent of d788b8e... @Step
       </list>
     </option>
   </component>
@@ -574,6 +614,7 @@
     <property name="Repository.Attach.Sources" value="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544713468868" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612418674" />
@@ -581,6 +622,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VipWriter" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542901746828" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542287074214" />
+>>>>>>> parent of d788b8e... @Step
     <property name="last_opened_file_path" value="$PROJECT_DIR$/monte-repack-1.0.1.jar!/" />
 >>>>>>> parent of 99618e5... tett
     <property name="project.structure.last.edited" value="Modules" />
@@ -1136,7 +1180,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFiles.java">
+>>>>>>> parent of d788b8e... @Step
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
@@ -1247,6 +1302,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
@@ -1294,6 +1350,13 @@
             <element signature="e#921#922#0" expanded="true" />
             <element signature="e#1149#1150#0" expanded="true" />
             <element signature="e#1182#1183#0" expanded="true" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> parent of d788b8e... @Step
           </folding>
         </state>
       </provider>

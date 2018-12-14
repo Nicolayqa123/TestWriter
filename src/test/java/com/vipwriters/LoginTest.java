@@ -4,7 +4,6 @@ package com.vipwriters;
 import com.ListenerTest;
 import com.MyRunner;
 import com.PageWriter.Lending;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.junit.Rule;
@@ -46,6 +45,7 @@ public class LoginTest extends WebDriverSettings{
          }
      };
  */
+<<<<<<< HEAD
 
 
 
@@ -91,6 +91,10 @@ public class LoginTest extends WebDriverSettings{
 
         @Test
       //  @Step
+=======
+        @Test
+        @Step
+>>>>>>> parent of d788b8e... @Step
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
             TimeUnit.SECONDS.sleep(10);
@@ -103,11 +107,11 @@ public class LoginTest extends WebDriverSettings{
             assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
             checkScreen();
             getBytes("test");
-            Allure.addAttachment("Результат", "application/json");
+
 
         }
 
-    String text = "Вложение";
+
     String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
 
 
