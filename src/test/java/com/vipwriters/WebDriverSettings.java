@@ -17,7 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 
-
+import javax.xml.transform.Result;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
@@ -99,7 +99,6 @@ public class WebDriverSettings {
     };
 */
     @Before
-
     public void setup() throws Exception {
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
@@ -132,12 +131,25 @@ public class WebDriverSettings {
 
      //   VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
+       if (driver instanceof WebDriver) {
+           System.out.println("Screen" + getClass());
+           saveScreenshotPNG(driver);
+       }
+        saveTextLog(getClass() + "Log");
+
         driver.quit();
 
     }
 
+@Attachment (value = "Page", type = "image/png")
+        public byte[] saveScreenshotPNG (WebDriver driver) {
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+}
 
-
+@Attachment (value = "{0}", type = "text/plan")
+        public static String saveTextLog (String message) {
+        return message;
+}
 
 
 

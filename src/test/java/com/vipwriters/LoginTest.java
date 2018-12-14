@@ -2,9 +2,7 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
-import io.qameta.allure.Allure;
-import io.qameta.allure.Attachment;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 
 import org.junit.Test;
 import org.openqa.selenium.*;
@@ -63,6 +61,8 @@ public class LoginTest extends WebDriverSettings{
 
 
     @Test
+    @Story("TestLog")
+    @Description("Test Descripti")
     public void Loginuserasd123testTest() throws Exception {
 
     WritersLogin();

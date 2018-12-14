@@ -2,89 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_monte_monte_screen_recorder_0_7_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_pojosontheweb_monte_repack_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jai_com_springsource_javax_media_jai_codec_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jai_com_springsource_javax_media_jai_core_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jmf_2_1_1e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_qatools_commons_properties_2_0_RC5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_model_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/Available.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/Available.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/MailUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/MailUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/asdsadasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/asdsadasd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/MyRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsIE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsIE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/JUnitExecutionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ListenerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/MyRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AppliedOrders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AvailableOrders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/ConfirmationNeeded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/ContacteUs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Lending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MailUs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MyOrders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/SignUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Transactions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Screenshot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/VideoRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageFactore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/SaveFilesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TraineeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettingsChrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettingsIE.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,13 +15,13 @@
     <session id="267552548">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="78" />
+          <entry key="java" value="296" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="296" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -125,11 +44,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2159">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="277">
+              <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4506#4507#0" expanded="true" />
+                <element signature="e#4532#4533#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="294">
+              <caret line="18" column="82" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1471#1472#0" expanded="true" />
@@ -211,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="141">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -285,11 +209,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Regression/MailUS.java" />
         <option value="$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Regression/Available.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
       </list>
     </option>
   </component>
@@ -359,7 +283,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544788031742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544789756505" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -578,8 +502,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.20268457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.20268457" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.2342282" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -594,7 +519,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.31586403" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32577905" />
@@ -744,29 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2159">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -797,12 +703,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="294">
+          <caret line="18" column="82" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4506#4507#0" expanded="true" />
+            <element signature="e#4532#4533#0" expanded="true" />
           </folding>
         </state>
       </provider>
