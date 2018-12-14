@@ -8,10 +8,8 @@ import com.automation.remarks.video.recorder.VideoRecorder;
 import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
-<<<<<<< HEAD
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
-=======
 import junit.framework.TestFailure;
 import org.apache.commons.io.FileUtils;
 import org.apache.maven.plugin.surefire.report.DefaultReporterFactory;
@@ -20,12 +18,10 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.internal.runners.statements.Fail;
 import org.junit.runner.notification.Failure;
->>>>>>> parent of d90f413... testScreen
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -137,54 +133,15 @@ public class WebDriverSettings {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-<<<<<<< HEAD
         String path = "\\target\\surefire-reports\\" + screenshot.getName() + ".png";
-=======
-        String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
->>>>>>> parent of 99618e5... tett
+  //      String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
         FileUtils.copyFile(screenshot, new File(path));
 
         VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
         driver.quit();
-        class AllureUtils {
 
-<<<<<<< HEAD
-
-        class AllureUtils {
-
-            @Attachment(value = "Screenshot", type = "image/png")
-            byte[] attachScreenshot() {
-                try {
-                    return toByteArray(screenshot);
-                } catch (IOException e) {
-                    return new byte[0];
-                }
-            }
-=======
-        @Attachment(value = "Screenshot", type = "image/png")
-        byte[] attachScreenshot() {
-            try {
-                return toByteArray(screenshot);
-            } catch (IOException e) {
-                return new byte[0];
-            }
-        }
->>>>>>> parent of d90f413... testScreen
-
-            @Attachment(value = "video record", type = "video/mp4")
-            byte[] attachVideo() {
-                try {
-                    return toByteArray(VideoRecorder.getLastRecording());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                    return new byte[0];
-                }
-            }
-
-
-        }
     }
 
 
@@ -246,7 +203,6 @@ public class WebDriverSettings {
     }
 
 
-<<<<<<< HEAD
     @Step("test screen")
     public static void checkScreen() throws IOException {
         getBytes("picture.jpg");
@@ -263,8 +219,6 @@ public class WebDriverSettings {
 
 
 
-=======
->>>>>>> parent of d90f413... testScreen
 
 
     public void WritersLogin() throws Exception {
