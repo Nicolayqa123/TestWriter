@@ -7,6 +7,7 @@
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" afterDir="false" />
+<<<<<<< HEAD
 =======
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_8_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java" afterDir="false" />
@@ -26,6 +27,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" afterDir="false" />
 >>>>>>> parent of 99618e5... tett
+=======
+>>>>>>> parent of 743a9e9... GoodTest
     </list>
 >>>>>>> parent of 743a9e9... GoodTest
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
@@ -149,20 +152,28 @@
         <counts>
           <entry key="dummy" value="4" />
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="java" value="3492" />
 =======
           <entry key="java" value="2811" />
 >>>>>>> parent of 99618e5... tett
+=======
+          <entry key="java" value="3492" />
+>>>>>>> parent of 743a9e9... GoodTest
           <entry key="xml" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="JAVA" value="3492" />
 =======
           <entry key="JAVA" value="2811" />
 >>>>>>> parent of 99618e5... tett
+=======
+          <entry key="JAVA" value="3492" />
+>>>>>>> parent of 743a9e9... GoodTest
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="229" />
         </counts>
@@ -179,10 +190,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
 <<<<<<< HEAD
+<<<<<<< HEAD
               <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
 =======
               <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
 >>>>>>> parent of 99618e5... tett
+=======
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+>>>>>>> parent of 743a9e9... GoodTest
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#26871#27196#0" />
@@ -191,6 +206,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ListenerTest.java">
@@ -214,6 +230,19 @@
                 <element signature="e#1317#1318#0" expanded="true" />
                 <element signature="e#1381#1382#0" expanded="true" />
 >>>>>>> parent of 99618e5... tett
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ListenerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-205">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+>>>>>>> parent of 743a9e9... GoodTest
               </folding>
             </state>
           </provider>
@@ -221,6 +250,9 @@
       </file>
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 743a9e9... GoodTest
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
@@ -228,12 +260,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+<<<<<<< HEAD
 =======
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-564">
               <caret line="121" selection-start-line="121" selection-end-line="121" />
 >>>>>>> parent of 99618e5... tett
+=======
+>>>>>>> parent of 743a9e9... GoodTest
             </state>
           </provider>
         </entry>
@@ -242,6 +277,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 743a9e9... GoodTest
             <state relative-caret-position="306">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
@@ -258,7 +296,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="132">
+=======
+            <state relative-caret-position="8364">
+>>>>>>> parent of 743a9e9... GoodTest
               <caret line="562" selection-start-line="562" selection-end-line="562" />
             </state>
           </provider>
@@ -277,7 +319,11 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
+<<<<<<< HEAD
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+=======
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+>>>>>>> parent of 743a9e9... GoodTest
             </state>
           </provider>
         </entry>
@@ -285,8 +331,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="305">
               <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+=======
+            <state relative-caret-position="629">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+>>>>>>> parent of 743a9e9... GoodTest
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1895#1896#0" expanded="true" />
@@ -299,6 +350,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="277">
@@ -316,14 +368,25 @@
             <state relative-caret-position="322">
               <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
 >>>>>>> parent of 99618e5... tett
+=======
+            <state relative-caret-position="374">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+>>>>>>> parent of 743a9e9... GoodTest
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+>>>>>>> parent of 743a9e9... GoodTest
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -574,7 +637,11 @@
     <property name="Repository.Attach.Sources" value="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544713468868" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612418674" />
+>>>>>>> parent of 743a9e9... GoodTest
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612418674" />
 >>>>>>> parent of 743a9e9... GoodTest
@@ -621,6 +688,9 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 743a9e9... GoodTest
   <component name="RunManager" selected="TestNG.LoginTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -629,6 +699,7 @@
       </method>
     </configuration>
     <configuration name="LoginClientTest.Login1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
 =======
   <component name="RunManager" selected="JUnit.LoginTest">
     <configuration name="TraineeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -636,18 +707,29 @@
 >>>>>>> parent of 99618e5... tett
       <module name="Vip_Writerss" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <module name="Vip_Writerss" />
+>>>>>>> parent of 743a9e9... GoodTest
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vipwriters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginClientTest" />
+      <option name="METHOD_NAME" value="Login1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+>>>>>>> parent of 743a9e9... GoodTest
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -771,6 +853,9 @@
       <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
       <item itemvalue="JUnit.LoginTest.Loginuser" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 743a9e9... GoodTest
       <item itemvalue="JUnit.LoginClientTest.Login1" />
       <item itemvalue="TestNG.LoginTest.Loginuserasd123" />
       <item itemvalue="TestNG.LoginTest" />
@@ -782,6 +867,7 @@
         <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
         <item itemvalue="JUnit.LoginTest.Loginuser" />
         <item itemvalue="JUnit.LoginClientTest.Login1" />
+<<<<<<< HEAD
 =======
     </list>
     <recent_temporary>
@@ -792,6 +878,8 @@
         <item itemvalue="JUnit.SaveFiles" />
         <item itemvalue="Application.TraineeTest" />
 >>>>>>> parent of 99618e5... tett
+=======
+>>>>>>> parent of 743a9e9... GoodTest
       </list>
     </recent_temporary>
   </component>
@@ -811,7 +899,10 @@
   <component name="TestHistory">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 743a9e9... GoodTest
     <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 14h 38m 59s.xml">
       <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
@@ -843,6 +934,7 @@
     <history-entry file="LoginTest - 2018.12.12 at 12h 07m 09s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <history-entry file="LoginClientTest_Login1 - 2018.12.13 at 16h 39m 11s.xml">
       <configuration name="LoginClientTest.Login1" configurationId="TestNG" />
@@ -886,6 +978,8 @@
     </history-entry>
 =======
 >>>>>>> parent of 743a9e9... GoodTest
+=======
+>>>>>>> parent of 743a9e9... GoodTest
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,6 +996,7 @@
     <layout>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25771812" />
 =======
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.19463088" />
@@ -909,6 +1004,9 @@
 =======
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.23154363" />
 >>>>>>> parent of 99618e5... tett
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.19463088" />
+>>>>>>> parent of 743a9e9... GoodTest
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -918,7 +1016,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+>>>>>>> parent of 743a9e9... GoodTest
 =======
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
 >>>>>>> parent of 743a9e9... GoodTest
@@ -1154,6 +1256,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRule.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1166,6 +1269,8 @@
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
           </folding>
+=======
+>>>>>>> parent of 743a9e9... GoodTest
         </state>
       </provider>
     </entry>
@@ -1200,8 +1305,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="85">
           <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+=======
+        <state relative-caret-position="629">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+          </folding>
+>>>>>>> parent of 743a9e9... GoodTest
         </state>
       </provider>
     </entry>
@@ -1214,19 +1329,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#26871#27196#0" />
+=======
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> parent of 743a9e9... GoodTest
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+>>>>>>> parent of 743a9e9... GoodTest
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1895#1896#0" expanded="true" />
@@ -1238,14 +1367,20 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+        <state relative-caret-position="141">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+>>>>>>> parent of 743a9e9... GoodTest
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1267,6 +1402,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 743a9e9... GoodTest
         <state relative-caret-position="306">
           <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
           <folding>
@@ -1278,6 +1417,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ListenerTest.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="277">
           <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
 =======
@@ -1288,6 +1428,10 @@
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
 >>>>>>> parent of 99618e5... tett
+=======
+        <state relative-caret-position="-205">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+>>>>>>> parent of 743a9e9... GoodTest
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
