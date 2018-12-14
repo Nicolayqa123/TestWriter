@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.916 sec <<< FAILURE!
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 37.473 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 78.357 sec <<< FAILURE!
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 40.481 sec  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)
@@ -41,7 +41,7 @@ junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Ava
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 31.433 sec  <<< FAILURE!
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 37.869 sec  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)
