@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
+=======
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/MyRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/MyRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.TraineeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.TraineeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" afterDir="false" />
+>>>>>>> parent of 99618e5... tett
+    </list>
+>>>>>>> parent of 743a9e9... GoodTest
+    <ignored path="$PROJECT_DIR$/VipWriter/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1297463526">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="25" />
+          <entry key="java" value="114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="114" />
+          <entry key="PLAIN_TEXT" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="267552548">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+<<<<<<< HEAD
+          <entry key="project.closed" value="14" />
+=======
+          <entry key="project.closed" value="12" />
+>>>>>>> parent of 99618e5... tett
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.6" value="3" />
+<<<<<<< HEAD
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.62" value="2" />
+          <entry key="project.open.time.67" value="1" />
+=======
+          <entry key="project.open.time.62" value="1" />
+>>>>>>> parent of 99618e5... tett
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="2" />
+<<<<<<< HEAD
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="39" />
+=======
+          <entry key="project.opened" value="28" />
+>>>>>>> parent of 99618e5... tett
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="gitattributes" value="1" />
+<<<<<<< HEAD
+          <entry key="java" value="62" />
+          <entry key="js" value="1" />
+=======
+          <entry key="java" value="55" />
+>>>>>>> parent of 99618e5... tett
+          <entry key="log" value="1" />
+          <entry key="md" value="1" />
+          <entry key="png" value="7" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="Image" value="7" />
+<<<<<<< HEAD
+          <entry key="JAVA" value="62" />
+          <entry key="JavaScript" value="1" />
+=======
+          <entry key="JAVA" value="55" />
+>>>>>>> parent of 99618e5... tett
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+<<<<<<< HEAD
+          <entry key="java" value="3492" />
+=======
+          <entry key="java" value="2811" />
+>>>>>>> parent of 99618e5... tett
+          <entry key="xml" value="229" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+<<<<<<< HEAD
+          <entry key="JAVA" value="3492" />
+=======
+          <entry key="JAVA" value="2811" />
+>>>>>>> parent of 99618e5... tett
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="229" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GitHub" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+<<<<<<< HEAD
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+=======
+              <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
+>>>>>>> parent of 99618e5... tett
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#26871#27196#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ListenerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-205">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1317#1318#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+>>>>>>> parent of 99618e5... tett
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
+>>>>>>> parent of 99618e5... tett
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="306">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="254">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+>>>>>>> parent of 99618e5... tett
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="562" selection-start-line="562" selection-end-line="562" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="277">
+              <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="374">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+>>>>>>> parent of 743a9e9... GoodTest
+=======
+            <state relative-caret-position="322">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+>>>>>>> parent of 99618e5... tett
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testng</find>
+      <find>test</find>
+      <find>testтп</find>
+      <find>Testng</find>
+      <find>//*[@id=&quot;details&quot;]/div[1]/label[2]/select</find>
+      <find>//*[@id=&quot;collapseFive&quot;]/div/table/tbody/tr[6]/td[2]/pp-country-input/input</find>
+      <find>//*[@id=</find>
+      <find>//*[@id=&quot;swal2-title&quot;]</find>
+      <find>surefire</find>
+      <find>/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3</find>
+      <find>//*[@id=&quot;collapseFour&quot;]/div/div[1]/div[2]/button</find>
+      <find>@id=&quot;collapseFour&quot;]/div/div[1]/div[2]/button</find>
+      <find>ju</find>
+      <find>1.6</find>
+      <find>source</find>
+      <find>Selenium</find>
+      <find>firefox</find>
+      <find>gecko</find>
+      <find>mvn</find>
+      <find>failure</find>
+      <find>makeScreenShot</find>
+      <find>html/body/div[1]/div[1]/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[3]/div[2]/div/div[2]/div/div[1]/div/button</find>
+      <find>allure-maven-plugin</find>
+      <find>allure-maven</find>
+      <find>maven-surefire-plugin</find>
+      <find>aspectjweaver</find>
+      <find>io.qameta.allure</find>
+      <find>import org.junit.Test;</find>
+      <find>import org.testng.annotations.Test;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>import org.testng.annotations.Test;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Programms\GitHub\TestWriter\TestWriter\target\surefire-reports</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableDownloadFilesTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" />
+>>>>>>> parent of 99618e5... tett
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/SeleniumRunListener.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/TestWatcher1.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MailUSFormTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ReferralProgram/RefProg.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/RegisteredStep3Test.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/PreviousOrders/FilterTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/Filter.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/FilterTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscount.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/SendMessageInOrder.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/SendMessageInOrderTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ContactUSTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTutorialsTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGet.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGetTest.java" />
+        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFilesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/VideoRecorder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/VideoRecordr.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Screenshot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/VideoRecord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFiles.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/MyRule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+>>>>>>> parent of 99618e5... tett
+        <option value="$PROJECT_DIR$/src/test/java/com/MyRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ListenerTest.java" />
+=======
+>>>>>>> parent of 99618e5... tett
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Vip_Writerss" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Vip_Writerss" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="1445" />
+    <option name="height" value="760" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> parent of 99618e5... tett
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544713468868" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612418674" />
+>>>>>>> parent of 743a9e9... GoodTest
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VipWriter" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542901746828" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/monte-repack-1.0.1.jar!/" />
+>>>>>>> parent of 99618e5... tett
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vipwriters" />
+      <recent name="com" />
+      <recent name="com.support" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programms\GitHub\VipWriter\target\maven-status" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vipwriters" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programms\GitHub\node_modules" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginClientTest.Login1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="JUnit.LoginTest">
+    <configuration name="TraineeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.TraineeTest" />
+>>>>>>> parent of 99618e5... tett
+      <module name="Vip_Writerss" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.Loginuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="METHOD_NAME" value="Loginuser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.Loginuserasd123" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="METHOD_NAME" value="Loginuserasd123" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/VipWriter" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.Loginuserasd123" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="METHOD_NAME" value="Loginuserasd123" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+<<<<<<< HEAD
+=======
+      <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="Application.TraineeTest" />
+>>>>>>> parent of 99618e5... tett
+      <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
+      <item itemvalue="JUnit.LoginTest.Loginuser" />
+<<<<<<< HEAD
+      <item itemvalue="JUnit.LoginClientTest.Login1" />
+      <item itemvalue="TestNG.LoginTest.Loginuserasd123" />
+      <item itemvalue="TestNG.LoginTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.Loginuserasd123" />
+        <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
+        <item itemvalue="JUnit.LoginTest.Loginuser" />
+        <item itemvalue="JUnit.LoginClientTest.Login1" />
+=======
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.Loginuser" />
+        <item itemvalue="JUnit.LoginTest.Loginuserasd123" />
+        <item itemvalue="JUnit.SaveFiles" />
+        <item itemvalue="Application.TraineeTest" />
+>>>>>>> parent of 99618e5... tett
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
+      <created>1529913344982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529913344982</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <history-entry file="LoginClientTest_Login1 - 2018.12.04 at 14h 38m 59s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.12.11 at 17h 55m 51s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.12.11 at 17h 56m 47s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> parent of 743a9e9... GoodTest
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.12.11 at 17h 57m 37s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.12.11 at 17h 58m 40s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.12.11 at 18h 01m 29s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.12.12 at 11h 50m 11s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.12.12 at 12h 01m 24s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.12.12 at 12h 05m 20s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.12.12 at 12h 07m 09s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+<<<<<<< HEAD
+    <history-entry file="LoginClientTest_Login1 - 2018.12.13 at 16h 39m 11s.xml">
+      <configuration name="LoginClientTest.Login1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.12.13 at 16h 42m 50s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="TestNG" />
+=======
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.11.22 at 12h 57m 50s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.11.22 at 16h 11m 35s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.11.22 at 17h 00m 11s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuserasd123 - 2018.11.22 at 17h 06m 28s.xml">
+      <configuration name="LoginTest.Loginuserasd123" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 08m 07s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 10m 48s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 22m 21s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 45m 44s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.11.22 at 17h 46m 12s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.11.22 at 17h 49m 41s.xml">
+      <configuration name="LoginTest" configurationId="JUnit" />
+>>>>>>> parent of 99618e5... tett
+    </history-entry>
+    <history-entry file="LoginTest_Loginuser - 2018.12.13 at 16h 46m 30s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="TestNG" />
+    </history-entry>
+=======
+>>>>>>> parent of 743a9e9... GoodTest
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25771812" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.19463088" />
+>>>>>>> parent of 743a9e9... GoodTest
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.23154363" />
+>>>>>>> parent of 99618e5... tett
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5010526" side_tool="true" weight="0.34496644" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+>>>>>>> parent of 743a9e9... GoodTest
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ContactUSTest.java" />
+>>>>>>> parent of 99618e5... tett
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/support/Verification.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTutorialsTest.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGetTest.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/SendMessageInOrderTest.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/PreviousOrders/SendMessageInOrderTest.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/DetailedOrderView1Test.java" />
+    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/TestWatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot2860553949044588460.png.png" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/screenshot8439335546364115206.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot6866211424136857311.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot12630872695385984407.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot1978786274864699221.png.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshots/screenshot16333346149651881557.png" />
+    <entry file="file://$PROJECT_DIR$/phantomjsdriver.log" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reportsclass com.vipwriters.SaveFilesTest.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecorder.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageFactore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/TakesScreenshot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/VideoRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/AppliedUploadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1548">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/JUnit4Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/ClassRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/rules/TestWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#996#1980#0" expanded="true" />
+            <element signature="e#793#804#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 99618e5... tett
+    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/notification/RunListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1191">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRule.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jquery-3.3.1.min (1).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="562" selection-start-line="562" selection-end-line="562" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+>>>>>>> parent of 99618e5... tett
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#26871#27196#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/JUnitExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="527">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+>>>>>>> parent of 99618e5... tett
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/MyRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="306">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ListenerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="277">
+          <caret line="145" column="51" lean-forward="true" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+=======
+        <state relative-caret-position="-205">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+>>>>>>> parent of 743a9e9... GoodTest
+=======
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+>>>>>>> parent of 99618e5... tett
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Vip_Writerss</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
