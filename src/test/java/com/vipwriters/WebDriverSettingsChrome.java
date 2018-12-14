@@ -1,7 +1,6 @@
 package com.vipwriters;
 
-import org.junit.After;
-import org.junit.Before;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,7 +30,7 @@ public class WebDriverSettingsChrome {
 
 
 
-    @Before
+   // @Before
     public void setup()  {
 
           System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
@@ -45,7 +44,7 @@ public class WebDriverSettingsChrome {
         driver.manage().timeouts().setScriptTimeout(15, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
     }
-    @After
+    //@After
     public void close(){
         driver.quit();
 

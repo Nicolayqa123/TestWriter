@@ -2,8 +2,6 @@ package com.vipwriters;
 
 import com.PageWriter.AppliedOrders;
 import com.PageWriter.DetailedOrder;
-import org.apache.commons.io.FileUtils;
-import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -12,7 +10,6 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
 
 public class AppliedUploadFiles extends WebDriverSettings {
    // @Test
@@ -45,7 +42,7 @@ public class AppliedUploadFiles extends WebDriverSettings {
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
         String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
-        FileUtils.copyFile(screenshot, new File(path));
+      //  FileUtils.copyFile(screenshot, new File(path));
 
     }
 

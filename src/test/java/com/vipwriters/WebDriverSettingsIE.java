@@ -1,7 +1,6 @@
 package com.vipwriters;
 
-import org.junit.After;
-import org.junit.Before;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -28,7 +27,7 @@ public class WebDriverSettingsIE {
    public String mail = "gennadii2@test.com";
    public String pass = "Password1";
 
-    @Before
+   // @Before
     public void setup(){
 
           System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
@@ -40,7 +39,7 @@ public class WebDriverSettingsIE {
 
 
     }
-    @After
+  //  @After
     public void close(){
         driver.quit();
 

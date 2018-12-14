@@ -1,13 +1,14 @@
 package Regression;
 
 import com.vipwriters.WebDriverSettings;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class MailUS extends WebDriverSettings {
     private By mailUS = By.xpath("/html/body/div[2]/div/div/ul/li[8]");

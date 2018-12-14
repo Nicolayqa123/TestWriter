@@ -3,28 +3,19 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
-import com.VideoRecord;
-import com.automation.remarks.video.recorder.VideoRecorder;
 import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
 import io.qameta.allure.Step;
-import org.apache.commons.io.FileUtils;
-import junit.framework.TestFailure;
-import org.apache.commons.io.FileUtils;
-import org.apache.maven.plugin.surefire.report.DefaultReporterFactory;
+
+
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.internal.runners.statements.Fail;
-import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+
 
 
 import java.awt.*;
@@ -40,6 +31,7 @@ import java.util.concurrent.TimeUnit;
 
 import static com.google.common.io.Files.toByteArray;
 
+//@Listeners({ListenerTest.class})
 
 public class WebDriverSettings {
 
@@ -106,8 +98,8 @@ public class WebDriverSettings {
 
     };
 */
+    @Before
 
-    @BeforeMethod
     public void setup() throws Exception {
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
@@ -121,14 +113,14 @@ public class WebDriverSettings {
         driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
-        VideoRecord.startRecording();
+       // VideoRecord.startRecording();
 
 
     }
 
 
 
-    @AfterMethod
+    @After
     public void close() throws Exception {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
@@ -136,9 +128,9 @@ public class WebDriverSettings {
         String path = "\\target\\surefire-reports\\" + screenshot.getName() + ".png";
   //      String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
-        FileUtils.copyFile(screenshot, new File(path));
+      //  FileUtils.copyFile(screenshot, new File(path));
 
-        VideoRecord.stopRecording();
+     //   VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
         driver.quit();
 
@@ -189,7 +181,7 @@ public class WebDriverSettings {
     public void Screen() throws Exception {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("target\\surefire" + scrFile.getName() + ".png"));
+     //   FileUtils.copyFile(scrFile, new File("target\\surefire" + scrFile.getName() + ".png"));
     }
 
     @Attachment(value = "Page screenshot", type = "image/png")

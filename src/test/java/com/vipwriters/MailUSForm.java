@@ -1,12 +1,11 @@
 package com.vipwriters;
 
 import com.PageWriter.MailUs;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import org.openqa.selenium.By;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
 
 public class MailUSForm extends WebDriverSettings {
 

@@ -1,14 +1,15 @@
 package Regression;
 
 import com.vipwriters.WebDriverSettings;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class Available extends WebDriverSettings {
 

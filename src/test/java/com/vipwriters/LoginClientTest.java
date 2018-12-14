@@ -2,8 +2,7 @@ package com.vipwriters;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
-import org.junit.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -14,7 +13,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class LoginClientTest extends WebDriverSettings {
 

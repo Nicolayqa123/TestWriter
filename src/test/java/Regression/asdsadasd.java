@@ -1,7 +1,7 @@
 package Regression;
 
 import com.vipwriters.WebDriverSettings;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 

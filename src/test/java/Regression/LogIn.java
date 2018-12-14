@@ -5,7 +5,8 @@ import org.openqa.selenium.By;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
+
 
 public class LogIn extends WebDriverSettings {
 

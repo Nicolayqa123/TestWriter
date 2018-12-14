@@ -1,16 +1,39 @@
 package com.vipwriters;
 
 import com.PageWriter.Lending;
-import com.SeleniumRunner;
-import io.qameta.allure.Attachment;
-import io.qameta.allure.Step;
-import org.jetbrains.annotations.NotNull;
-import org.testng.annotations.Test;
-import org.junit.runner.RunWith;
+import io.qameta.allure.*;
+import org.junit.Test;
 import org.openqa.selenium.*;
 
+import static junit.framework.TestCase.assertTrue;
+
+
+@Epic("Login Tests Epic")
+@Feature("Invalid Login Features")
 public class TraineeTest extends WebDriverSettings {
 
+
+
+    @Test
+    @Story("User tries to login the system with invalid username and invalid password.")
+    @Description("Invalid Login Test with Invalid Username and Invalid Password.")
+    public void invalidLoginTest_InvalidUserNameInvalidPassword () throws Exception {
+        WritersLogin();
+    }
+
+    @Test
+    @Story("User tries to login the system with empty username and invalid password.")
+    @Description("Invalid Login Test with Empty Username and Invalid Password.")
+    public void invalidLoginTest_EmptyUserEmptyPassword () throws Exception {
+        LoginPap();
+    }
+
+    @Test
+    @Story("This is a Fail Story.")
+    @Description("This is a Fail Story Description.")
+    public void failTest () {
+        assertTrue(false);
+    }
 
 
 

@@ -1,21 +1,14 @@
 package com.vipwriters;
 
 
-import com.ListenerTest;
-import com.MyRunner;
 import com.PageWriter.Lending;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
-import org.junit.Rule;
 
-import org.junit.rules.TestName;
-import org.junit.rules.TestRule;
-import org.junit.rules.TestWatcher;
-import org.junit.runner.RunWith;
+import org.junit.Test;
 import org.openqa.selenium.*;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+
 
 
 import java.io.IOException;
@@ -23,7 +16,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.TestCase.assertEquals;
 //@RunWith(SeleniumRunner.class)
 //@RunWith(MyRunner.class)
 //@Listeners(ListenerTest.class)
@@ -70,7 +63,7 @@ public class LoginTest extends WebDriverSettings{
 
 
     @Test
-    public void Loginuserasd123() throws Exception {
+    public void Loginuserasd123testTest() throws Exception {
 
     WritersLogin();
 
