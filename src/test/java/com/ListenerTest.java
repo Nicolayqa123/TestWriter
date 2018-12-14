@@ -31,8 +31,8 @@ public class ListenerTest implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("The name of the testcase failure is :"+ iTestResult.getName());
-//        byte[] srcFile =  ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//        saveScreenshot(srcFile);
+        byte[] srcFile =  ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        saveScreenshot(srcFile);
     }
 
     @Override
