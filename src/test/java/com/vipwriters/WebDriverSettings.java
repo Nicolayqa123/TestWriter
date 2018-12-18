@@ -9,6 +9,7 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
 
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.*;
@@ -127,7 +128,7 @@ public class WebDriverSettings {
         String path = "\\target\\surefire-reports\\" + screenshot.getName() + ".png";
   //      String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
         String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
-      //  FileUtils.copyFile(screenshot, new File(path));
+        FileUtils.copyFile(screenshot, new File(path));
 
      //   VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
