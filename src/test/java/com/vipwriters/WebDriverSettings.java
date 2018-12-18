@@ -131,6 +131,7 @@ public class WebDriverSettings {
 
      //   VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
+        saveScreenshotPNG(driver);
        if (driver instanceof WebDriver) {
            System.out.println("Screen" + getClass());
            saveScreenshotPNG(driver);
