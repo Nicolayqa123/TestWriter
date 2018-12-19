@@ -1,16 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginClientTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 49.629 sec <<< FAILURE! - in com.vipwriters.LoginClientTest
-Login1(com.vipwriters.LoginClientTest)  Time elapsed: 49.625 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 56.171 sec <<< FAILURE! - in com.vipwriters.LoginClientTest
+Login1(com.vipwriters.LoginClientTest)  Time elapsed: 55.88 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: *[id*='tawkchat-chat-bubble-close']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18624, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dbb8e433-d869-45ce-8f2f-d07b16e6d912
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 20936, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e715f93-de6b-44d8-bc8b-1ccd4bf1fc01
 *** Element info: {Using=css selector, value=*[id*='tawkchat-chat-bubble-close']}
 	at com.vipwriters.LoginClientTest.Login1(LoginClientTest.java:26)
+
+Test mechanism  Time elapsed: 56.16 sec  <<< ERROR!
+java.lang.NullPointerException
 

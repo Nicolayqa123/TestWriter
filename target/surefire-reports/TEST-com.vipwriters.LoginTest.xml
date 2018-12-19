@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.LoginTest" time="71.578" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.LoginTest" time="82.276" tests="6" errors="4" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="C:\Program Files (x86)\Maven\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test site"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,16 +63,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Loginuser" classname="com.vipwriters.LoginTest" time="37.414">
+  <testcase name="Loginuser" classname="com.vipwriters.LoginTest" time="43.628">
     <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:97)
+	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:101)
 ]]></failure>
-    <system-out><![CDATA[Screenclass com.vipwriters.LoginTest
+    <system-out><![CDATA[Test finished: Login1(com.vipwriters.LoginClientTest)
+Test starts: Loginuser(com.vipwriters.LoginTest)
+Test starts: Loginuser(com.vipwriters.LoginTest)
+Screenclass com.vipwriters.LoginTest
 ]]></system-out>
-    <system-err><![CDATA[1544889725532	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.Idzmw6HrhfLT"
-1544889730594	Marionette	INFO	Listening on port 56299
-1544889731002	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 15, 2018 6:02:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1545212589281	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.lthz8Bz82NPA"
+1545212591383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545212591383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545212597252	Marionette	INFO	Listening on port 50023
+1545212597536	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 11:43:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
@@ -80,42 +85,60 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, li
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
-
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-1544889759514	Marionette	INFO	Stopped listening on port 56299
-[Child 15912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 15912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[GPU 11648,
+1545212630393	Marionette	INFO	Stopped listening on port 50023
+[Child 21888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/i
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
- Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-
+[GPU 22416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 ]]></system-err>
   </testcase>
-  <testcase name="Loginuserasd123testTest" classname="com.vipwriters.LoginTest" time="34.162">
-    <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:71)
-]]></failure>
-    <system-out><![CDATA[Screenclass com.vipwriters.LoginTest
+  <testcase name="Test mechanism" classname="Test mechanism" time="43.639">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[Test failed with: junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
+Test failed with: junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 ]]></system-out>
-    <system-err><![CDATA[1544889763204	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.ZdfSs7AnPc3j"
-1544889768042	Marionette	INFO	Listening on port 56407
-1544889768258	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 15, 2018 6:02:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="43.64">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="38.625">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[Test failed with: junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
+Test failed with: junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
+]]></system-out>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="38.625">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Loginuserasd123testTest" classname="com.vipwriters.LoginTest" time="38.612">
+    <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
+	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:72)
+]]></failure>
+    <system-out><![CDATA[Test finished: Loginuser(com.vipwriters.LoginTest)
+Test finished: Loginuser(com.vipwriters.LoginTest)
+Test starts: Loginuserasd123testTest(com.vipwriters.LoginTest)
+Test starts: Loginuserasd123testTest(com.vipwriters.LoginTest)
+Screenclass com.vipwriters.LoginTest
+]]></system-out>
+    <system-err><![CDATA[1545212633698	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.9nkSP26gbICt"
+1545212634994	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545212634995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545212639137	Marionette	INFO	Listening on port 50086
+1545212639268	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 11:43:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
@@ -129,22 +152,13 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, li
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
-
-1544889794284	Marionette	INFO	Stopped listening on port 56407
-[Parent 17240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 8460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 8460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-
+1545212668979	Marionette	INFO	Stopped listening on port 50086
+[Child 10548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 12964, Chrome_ChildThr
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 9948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ead] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

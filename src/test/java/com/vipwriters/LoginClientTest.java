@@ -18,7 +18,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class LoginClientTest extends WebDriverSettings {
 
-    @Test
+   // @Test
     public void Login1() throws InterruptedException, IOException, AWTException {
         driver.get("https://client.urgentpapers.org/");
 

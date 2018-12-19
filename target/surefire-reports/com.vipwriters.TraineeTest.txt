@@ -1,12 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.TraineeTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 84.631 sec <<< FAILURE! - in com.vipwriters.TraineeTest
-search(com.vipwriters.TraineeTest)  Time elapsed: 10.389 sec  <<< ERROR!
+Tests run: 12, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 78.249 sec <<< FAILURE! - in com.vipwriters.TraineeTest
+search(com.vipwriters.TraineeTest)  Time elapsed: 8.197 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.vipwriters.TraineeTest.search(TraineeTest.java:76)
 
-failTest(com.vipwriters.TraineeTest)  Time elapsed: 11.575 sec  <<< FAILURE!
+Test mechanism  Time elapsed: 8.21 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 8.21 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 8.21 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 8.21 sec  <<< ERROR!
+java.lang.NullPointerException
+
+failTest(com.vipwriters.TraineeTest)  Time elapsed: 9.237 sec  <<< FAILURE!
 junit.framework.AssertionFailedError
 	at com.vipwriters.TraineeTest.failTest(TraineeTest.java:35)
+
+Test mechanism  Time elapsed: 9.251 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 9.251 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 9.251 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 9.251 sec  <<< ERROR!
+java.lang.NullPointerException
 

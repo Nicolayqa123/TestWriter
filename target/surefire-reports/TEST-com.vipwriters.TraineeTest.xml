@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.TraineeTest" time="84.631" tests="4" errors="1" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.TraineeTest" time="78.249" tests="12" errors="9" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="C:\Program Files (x86)\Maven\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test site"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,58 +63,110 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="search" classname="com.vipwriters.TraineeTest" time="10.389">
+  <testcase name="search" classname="com.vipwriters.TraineeTest" time="8.197">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.vipwriters.TraineeTest.search(TraineeTest.java:76)
 </error>
-    <system-out><![CDATA[Screenclass com.vipwriters.TraineeTest
+    <system-out><![CDATA[Test finished: sf(com.vipwriters.SaveFilesTest)
+Test finished: sf(com.vipwriters.SaveFilesTest)
+Test finished: sf(com.vipwriters.SaveFilesTest)
+Test starts: search(com.vipwriters.TraineeTest)
+Test starts: search(com.vipwriters.TraineeTest)
+Test starts: search(com.vipwriters.TraineeTest)
+Test starts: search(com.vipwriters.TraineeTest)
+Screenclass com.vipwriters.TraineeTest
 ]]></system-out>
-    <system-err><![CDATA[1544889865830	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.LM12prXbOPK8"
-1544889870913	Marionette	INFO	Listening on port 56667
-1544889871319	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 15, 2018 6:04:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1545212743769	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.YplBnNHhtAVL"
+1545212745059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545212745060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545212749027	Marionette	INFO	Listening on port 50304
+1545212749220	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 11:45:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1544889872025	Marionette	INFO	Stopped listening on port 56667
-JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
-[Child 8904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 8904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545212749698	Marionette	INFO	Stopped listening on port 50304
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
-JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 15908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest_EmptyUserEmptyPassword" classname="com.vipwriters.TraineeTest" time="29.722"/>
-  <testcase name="failTest" classname="com.vipwriters.TraineeTest" time="11.575">
+  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[Test failed with: java.lang.NullPointerException
+Test failed with: java.lang.NullPointerException
+Test failed with: java.lang.NullPointerException
+Test failed with: java.lang.NullPointerException
+]]></system-out>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[Test failed with: junit.framework.AssertionFailedError
+Test failed with: junit.framework.AssertionFailedError
+Test failed with: junit.framework.AssertionFailedError
+Test failed with: junit.framework.AssertionFailedError
+]]></system-out>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="invalidLoginTest_EmptyUserEmptyPassword" classname="com.vipwriters.TraineeTest" time="32.13"/>
+  <testcase name="failTest" classname="com.vipwriters.TraineeTest" time="9.237">
     <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
 	at com.vipwriters.TraineeTest.failTest(TraineeTest.java:35)
 </failure>
-    <system-out><![CDATA[Screenclass com.vipwriters.TraineeTest
+    <system-out><![CDATA[Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
+Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
+Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
+Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
+Test starts: failTest(com.vipwriters.TraineeTest)
+Test starts: failTest(com.vipwriters.TraineeTest)
+Test starts: failTest(com.vipwriters.TraineeTest)
+Test starts: failTest(com.vipwriters.TraineeTest)
+Screenclass com.vipwriters.TraineeTest
 ]]></system-out>
-    <system-err><![CDATA[1544889905979	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.XJBLVj4bs4aA"
-1544889912654	Marionette	INFO	Listening on port 56799
-1544889912902	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 15, 2018 6:05:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1545212784589	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.C4Db1UX2htsC"
+1545212786282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545212786283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545212790564	Marionette	INFO	Listening on port 50410
+1545212790743	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 11:46:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1544889913574	Marionette	INFO	Stopped listening on port 56799
-JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+1545212791536	Marionette	INFO	Stopped listening on port 50410
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 9368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 407: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
-JavaScript error: resource://gre/modules/ProfileAge.jsm, line 197: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
-JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 407: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
-JavaScript error: resource://gre/modules/ProfileAge.jsm, line 197: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest_InvalidUserNameInvalidPassword" classname="com.vipwriters.TraineeTest" time="32.945"/>
+  <testcase name="invalidLoginTest_InvalidUserNameInvalidPassword" classname="com.vipwriters.TraineeTest" time="28.577"/>
 </testsuite>

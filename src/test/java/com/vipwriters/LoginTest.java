@@ -4,11 +4,12 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import io.qameta.allure.*;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 import org.openqa.selenium.*;
 
 
-
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -72,6 +73,9 @@ public class LoginTest extends WebDriverSettings{
         checkScreen();
         getBytes("test");
         Allure.addAttachment("Результат", "application/json");
+
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        //Write Screenshot to a file
     }
 
 

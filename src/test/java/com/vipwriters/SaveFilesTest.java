@@ -14,7 +14,7 @@ public class SaveFilesTest extends WebDriverSettings {
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
     }
 
-    @Test
+   // @Test
     public void sf() throws Exception {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
 

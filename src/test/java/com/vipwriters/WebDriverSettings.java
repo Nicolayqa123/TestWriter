@@ -3,6 +3,7 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
+import com.SeleniumRunner;
 import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
@@ -12,6 +13,7 @@ import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -33,7 +35,7 @@ import java.util.concurrent.TimeUnit;
 import static com.google.common.io.Files.toByteArray;
 
 //@Listeners({ListenerTest.class})
-
+@RunWith(SeleniumRunner.class)
 public class WebDriverSettings {
 
 
@@ -125,14 +127,14 @@ public class WebDriverSettings {
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "\\target\\surefire-reports\\" + screenshot.getName() + ".png";
-  //      String path = "C:\\Programms\\PNG\\" + getClass() + ".png";
-        String path1 = "C:\\Programms\\PNG\\" + getClass() + ".avi";
+        // String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
+        String path = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\"  +  screenshot.getName();
         FileUtils.copyFile(screenshot, new File(path));
 
      //   VideoRecord.stopRecording();
         AllureUtils.generateTestResultName();
         saveScreenshotPNG(driver);
+        saveScreenshot(saveAllureScreenshot());
        if (driver instanceof WebDriver) {
            System.out.println("Screen" + getClass());
            saveScreenshotPNG(driver);
@@ -147,6 +149,14 @@ public class WebDriverSettings {
         public byte[] saveScreenshotPNG (WebDriver driver) {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 }
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+      public byte[] saveScreenshot(byte[] screenShot) {
+          return screenShot;
+      }
+
+
+
 
 @Attachment (value = "{0}", type = "text/plan")
         public static String saveTextLog (String message) {

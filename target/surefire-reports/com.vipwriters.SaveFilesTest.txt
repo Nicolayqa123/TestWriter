@@ -1,16 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.SaveFilesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 68.366 sec <<< FAILURE! - in com.vipwriters.SaveFilesTest
-sf(com.vipwriters.SaveFilesTest)  Time elapsed: 68.365 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 71.595 sec <<< FAILURE! - in com.vipwriters.SaveFilesTest
+sf(com.vipwriters.SaveFilesTest)  Time elapsed: 71.098 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: //*[@id="mm-0"]/div[3]/div/div[1]/div[2]/ul[1]/li[3]/a/span
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 9632, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ed240c9a-90a8-4a88-83a2-c36484757043
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 8912, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c5fbdc84-a1c5-413e-88b9-7b956bf9a8d8
 *** Element info: {Using=xpath, value=//*[@id="mm-0"]/div[3]/div/div[1]/div[2]/ul[1]/li[3]/a/span}
 	at com.vipwriters.SaveFilesTest.sf(SaveFilesTest.java:27)
+
+Test mechanism  Time elapsed: 71.576 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 71.576 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 71.576 sec  <<< ERROR!
+java.lang.NullPointerException
 

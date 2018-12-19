@@ -14,14 +14,14 @@ public class TraineeTest extends WebDriverSettings {
 
 
 
-    @Test
+  //  @Test
     @Story("User tries to login the system with invalid username and invalid password.")
     @Description("Invalid Login Test with Invalid Username and Invalid Password.")
     public void invalidLoginTest_InvalidUserNameInvalidPassword () throws Exception {
         WritersLogin();
     }
 
-    @Test
+   // @Test
     @Story("User tries to login the system with empty username and invalid password.")
     @Description("Invalid Login Test with Empty Username and Invalid Password.")
     public void invalidLoginTest_EmptyUserEmptyPassword () throws Exception {

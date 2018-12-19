@@ -1,12 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 71.578 sec <<< FAILURE! - in com.vipwriters.LoginTest
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 37.414 sec  <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 4, Skipped: 0, Time elapsed: 82.276 sec <<< FAILURE! - in com.vipwriters.LoginTest
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 43.628 sec  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:97)
+	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:101)
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 34.162 sec  <<< FAILURE!
+Test mechanism  Time elapsed: 43.639 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 43.64 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 38.612 sec  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:71)
+	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:72)
+
+Test mechanism  Time elapsed: 38.625 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Test mechanism  Time elapsed: 38.625 sec  <<< ERROR!
+java.lang.NullPointerException
 
