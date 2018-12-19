@@ -57,10 +57,10 @@ public class SeleniumRunListener extends RunListener {
         File screenshot = ((TakesScreenshot)augmentedDriver).
                 getScreenshotAs(OutputType.FILE);*/
 
-        File screenshot = ((TakesScreenshot) driver).
+        /*File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
         String path = "\\target\\screenshots\\" + screenshot.getName();
-        FileUtils.copyFile(screenshot, new File(path));
+        FileUtils.copyFile(screenshot, new File(path));*/
 
     }
 

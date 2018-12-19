@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.TraineeTest" time="78.249" tests="12" errors="9" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.TraineeTest" time="19.135" tests="2" errors="1" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -63,103 +63,51 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="search" classname="com.vipwriters.TraineeTest" time="8.197">
+  <testcase name="search" classname="com.vipwriters.TraineeTest" time="9.442">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.vipwriters.TraineeTest.search(TraineeTest.java:76)
 </error>
-    <system-out><![CDATA[Test finished: sf(com.vipwriters.SaveFilesTest)
-Test finished: sf(com.vipwriters.SaveFilesTest)
-Test finished: sf(com.vipwriters.SaveFilesTest)
-Test starts: search(com.vipwriters.TraineeTest)
-Test starts: search(com.vipwriters.TraineeTest)
+    <system-out><![CDATA[Test failed with: java.lang.Exception: No runnable methods
+Test finished: initializationError(com.vipwriters.SaveFilesTest)
 Test starts: search(com.vipwriters.TraineeTest)
 Test starts: search(com.vipwriters.TraineeTest)
 Screenclass com.vipwriters.TraineeTest
 ]]></system-out>
-    <system-err><![CDATA[1545212743769	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.YplBnNHhtAVL"
-1545212745059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1545212745060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1545212749027	Marionette	INFO	Listening on port 50304
-1545212749220	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 19, 2018 11:45:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1545217470949	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.bT2DLd0Vkpok"
+1545217472454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545217472455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545217476590	Marionette	INFO	Listening on port 53052
+1545217476921	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 1:04:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1545212749698	Marionette	INFO	Stopped listening on port 50304
+1545217477788	Marionette	INFO	Stopped listening on port 53052
+[Parent 21852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-[GPU 9120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 ]]></system-err>
   </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-    <system-out><![CDATA[Test failed with: java.lang.NullPointerException
-Test failed with: java.lang.NullPointerException
-Test failed with: java.lang.NullPointerException
-Test failed with: java.lang.NullPointerException
-]]></system-out>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="8.21">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-    <system-out><![CDATA[Test failed with: junit.framework.AssertionFailedError
-Test failed with: junit.framework.AssertionFailedError
-Test failed with: junit.framework.AssertionFailedError
-Test failed with: junit.framework.AssertionFailedError
-]]></system-out>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Test mechanism" classname="Test mechanism" time="9.251">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="invalidLoginTest_EmptyUserEmptyPassword" classname="com.vipwriters.TraineeTest" time="32.13"/>
-  <testcase name="failTest" classname="com.vipwriters.TraineeTest" time="9.237">
+  <testcase name="failTest" classname="com.vipwriters.TraineeTest" time="9.671">
     <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
 	at com.vipwriters.TraineeTest.failTest(TraineeTest.java:35)
 </failure>
-    <system-out><![CDATA[Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
-Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
-Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
-Test finished: invalidLoginTest_EmptyUserEmptyPassword(com.vipwriters.TraineeTest)
-Test starts: failTest(com.vipwriters.TraineeTest)
-Test starts: failTest(com.vipwriters.TraineeTest)
+    <system-out><![CDATA[Test failed with: java.lang.NullPointerException
+Test failed with: java.lang.NullPointerException
+Test finished: search(com.vipwriters.TraineeTest)
+Test finished: search(com.vipwriters.TraineeTest)
 Test starts: failTest(com.vipwriters.TraineeTest)
 Test starts: failTest(com.vipwriters.TraineeTest)
 Screenclass com.vipwriters.TraineeTest
 ]]></system-out>
-    <system-err><![CDATA[1545212784589	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.C4Db1UX2htsC"
-1545212786282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1545212786283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1545212790564	Marionette	INFO	Listening on port 50410
-1545212790743	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 19, 2018 11:46:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1545217480611	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.H9QIcNEJWE5y"
+1545217481928	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545217481929	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545217486436	Marionette	INFO	Listening on port 53078
+1545217486590	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 1:04:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1545212791536	Marionette	INFO	Stopped listening on port 50410
-JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1545217487356	Marionette	INFO	Stopped listening on port 53078
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
@@ -168,5 +116,4 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection
 
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest_InvalidUserNameInvalidPassword" classname="com.vipwriters.TraineeTest" time="28.577"/>
 </testsuite>
