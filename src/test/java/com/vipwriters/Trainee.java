@@ -10,7 +10,7 @@ import static junit.framework.TestCase.assertTrue;
 
 @Epic("Login Tests Epic")
 @Feature("Invalid Login Features")
-public class TraineeTest extends WebDriverSettings {
+public class Trainee extends WebDriverSettings {
 
 
 
@@ -64,7 +64,7 @@ public class TraineeTest extends WebDriverSettings {
 
     private WebDriver driver;
 
-   /* public TraineeTest(WebDriver driver) {
+   /* public Trainee(WebDriver driver) {
         this.driver = driver;
     }*/
 

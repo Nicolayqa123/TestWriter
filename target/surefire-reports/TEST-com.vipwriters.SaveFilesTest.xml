@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.SaveFilesTest" time="0.02" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.SaveFilesTest" time="0.016" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -63,12 +63,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="com.vipwriters.SaveFilesTest" time="0.005">
+  <testcase name="initializationError" classname="com.vipwriters.SaveFilesTest" time="0.012">
     <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
 </error>
-    <system-out><![CDATA[Test failed with: junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-Test finished: Loginuserasd123testTest(com.vipwriters.LoginTest)
-Test starts: initializationError(com.vipwriters.SaveFilesTest)
+    <system-out><![CDATA[Test starts: initializationError(com.vipwriters.SaveFilesTest)
+]]></system-out>
+  </testcase>
+  <testcase name="com.vipwriters.SaveFilesTest" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="0.015">
+    <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
+</error>
+    <system-out><![CDATA[Test failed with: java.lang.Exception: No runnable methods
 ]]></system-out>
   </testcase>
 </testsuite>

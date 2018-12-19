@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.LoginTest" time="76.702" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vipwriters.LoginTest" time="42.838" tests="3" errors="2" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -63,19 +63,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Loginuser" classname="com.vipwriters.LoginTest" time="38.868">
+  <testcase name="Loginuser" classname="com.vipwriters.LoginTest" time="42.796">
     <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:101)
 ]]></failure>
     <system-out><![CDATA[Test starts: Loginuser(com.vipwriters.LoginTest)
 Screenclass com.vipwriters.LoginTest
 ]]></system-out>
-    <system-err><![CDATA[1545217391834	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.cpGLXhEGlyig"
-1545217393785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1545217393785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1545217398648	Marionette	INFO	Listening on port 52935
-1545217399250	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 19, 2018 1:03:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1545227555022	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.deg8sy27FNnf"
+1545227556282	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545227556283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1545227561004	Marionette	INFO	Listening on port 57770
+1545227561240	Marionette	WARN	TLS certificate errors will be ignored for this session
+Dec 19, 2018 3:52:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
@@ -83,21 +83,14 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, li
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
-
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-1545217428959	Marionette	INFO	Stopped listening on port 52935
+1545227593120	Marionette	INFO	Stopped listening on port 57770
+[Parent 20284, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
@@ -106,51 +99,17 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, li
 
 ]]></system-err>
   </testcase>
-  <testcase name="Loginuserasd123testTest" classname="com.vipwriters.LoginTest" time="37.8">
-    <failure message="expected:&lt;Available Orders[123]&gt; but was:&lt;Available Orders[]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:72)
-]]></failure>
+  <testcase name="com.vipwriters.LoginTest" classname="com.vipwriters.LoginTest" time="42.814">
+    <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
+</error>
     <system-out><![CDATA[Test failed with: junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 Test finished: Loginuser(com.vipwriters.LoginTest)
-Test starts: Loginuserasd123testTest(com.vipwriters.LoginTest)
-Screenclass com.vipwriters.LoginTest
 ]]></system-out>
-    <system-err><![CDATA[1545217433149	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.cmSXMGELlL02"
-1545217434486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1545217434487	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1545217438778	Marionette	INFO	Listening on port 52994
-1545217438965	Marionette	WARN	TLS certificate errors will be ignored for this session
-Dec 19, 2018 1:03:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 87: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-842527783, line 147: unreachable code after return statement
-console.error: BroadcastService: 
-  receivedBroadcastMessage: handler for
-  remote-settings/monitor_changes
-  threw error:
-  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
-  Stack:
-    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
-
-1545217467165	Marionette	INFO	Stopped listening on port 52994
-[Child 22304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 22304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-]]></system-err>
+  </testcase>
+  <testcase name="com.vipwriters.LoginTest" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="42.837">
+    <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
+</error>
+    <system-out><![CDATA[Test failed with: java.lang.StackOverflowError
+]]></system-out>
   </testcase>
 </testsuite>

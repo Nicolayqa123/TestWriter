@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginClientTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.SaveFilesTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.TraineeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginClientTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.SaveFilesTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.TraineeTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14013631647435057479.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17141750905232435694.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot268244180100397794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3166661177132907622.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3403761322241036736.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot4634932916118414735.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7504063940056234412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7702395484168503219.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17154806361921410508.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3795336565038556267.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7817302608437727148.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8171344982881612656.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TraineeTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,14 +34,14 @@
     <session id="267552548">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="524" />
-          <entry key="xml" value="97" />
+          <entry key="java" value="599" />
+          <entry key="xml" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="524" />
-          <entry key="XML" value="97" />
+          <entry key="JAVA" value="599" />
+          <entry key="XML" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
+            <state relative-caret-position="654">
+              <caret line="271" column="34" selection-start-line="271" selection-start-column="34" selection-end-line="271" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -84,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="352">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +99,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
@@ -108,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1377">
-              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+            <state relative-caret-position="289">
+              <caret line="149" column="75" selection-start-line="147" selection-start-column="1" selection-end-line="149" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4947#4948#0" expanded="true" />
@@ -182,7 +187,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-753">
+            <state relative-caret-position="-535">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -205,7 +210,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</find>
-      <find>io.qameta.allure.junit4.AllureJunit4</find>
       <find>org.aspectj</find>
       <find>org.slf4j</find>
       <find>allure.results.directory</find>
@@ -213,6 +217,7 @@
       <find>argLine</find>
       <find>io.qameta.allure</find>
       <find>maven-compiler-plugin</find>
+      <find>io.qameta.allure.junit4.AllureJunit4</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -239,11 +244,12 @@
         <option value="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginClientTest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
       </list>
     </option>
@@ -307,12 +313,6 @@
               <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -323,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545218643988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545227595693" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -362,7 +362,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraineeTest.invalidLoginTest_InvalidUserNameInvalidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Trainee.invalidLoginTest_InvalidUserNameInvalidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vip_Writerss" />
       <extension name="coverage">
         <pattern>
@@ -371,7 +371,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.TraineeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.Trainee" />
       <option name="METHOD_NAME" value="invalidLoginTest_InvalidUserNameInvalidPassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
@@ -539,7 +539,7 @@
     <list>
       <item itemvalue="Maven.Maven" />
       <item itemvalue="JUnit.LoginTest" />
-      <item itemvalue="JUnit.TraineeTest.invalidLoginTest_InvalidUserNameInvalidPassword" />
+      <item itemvalue="JUnit.Trainee.invalidLoginTest_InvalidUserNameInvalidPassword" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.LoginTest.Loginuserasd123test" />
       <item itemvalue="TestNG.LoginTest.Loginuserasd123testTest" />
@@ -548,7 +548,7 @@
       <list>
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.Loginuserasd123testTest" />
-        <item itemvalue="JUnit.TraineeTest.invalidLoginTest_InvalidUserNameInvalidPassword" />
+        <item itemvalue="JUnit.Trainee.invalidLoginTest_InvalidUserNameInvalidPassword" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="TestNG.LoginTest.Loginuserasd123test" />
       </list>
@@ -602,7 +602,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.16040269" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.16040269" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.2342282" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -617,7 +617,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50201344" side_tool="true" weight="0.30878186" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" visible="true" weight="0.30878186" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" visible="true" weight="0.30878186" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32577905" />
@@ -763,25 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4947#4948#0" expanded="true" />
-            <element signature="e#4984#4985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -812,17 +793,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="654">
+          <caret line="271" column="34" selection-start-line="271" selection-start-column="34" selection-end-line="271" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="149" column="75" selection-start-line="147" selection-start-column="1" selection-end-line="149" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4947#4948#0" expanded="true" />
+            <element signature="e#4984#4985#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TraineeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
@@ -832,10 +822,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/SaveFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="352">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

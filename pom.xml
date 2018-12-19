@@ -23,6 +23,8 @@
         <maven.compiler.target>1.6</maven.compiler.target>
         <aspectj.version>1.9.1</aspectj.version>
         <compiler.version>1.7</compiler.version>
+                <name>allure.results.directory</name>
+                <value>C:\Programms\GitHub\TestWriter\TestWriter\target\allure-results</value>
     </properties>
 
 
@@ -264,7 +266,8 @@
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
-                            <value>${project.build.directory}/surefire-reports</value>
+                            <value>C:\Programms\GitHub\TestWriter\TestWriter\target\allure-results</value>
+                            <!--<value>${project.build.directory}/surefire-reports</value>-->
                         </property>
                         <property>
                             <name>allure.link.issue.pattern</name>

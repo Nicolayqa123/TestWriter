@@ -1,5 +1,6 @@
 package com;
 
+import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.junit.runner.Description;
 import org.junit.runner.Result;
@@ -52,6 +53,7 @@ public class SeleniumRunListener extends RunListener {
     public void testFailure(Failure failure) throws Exception {
         System.out.println("Test failed with: "
                 + failure.getException());
+        saveScreenshotPNG(driver);
 
         /*WebDriver augmentedDriver = new Augmenter().augment(driver);
         File screenshot = ((TakesScreenshot)augmentedDriver).
@@ -77,4 +79,23 @@ public class SeleniumRunListener extends RunListener {
     }
 
 
+    @Attachment(value = "Page", type = "image/png")
+    public byte[] saveScreenshotPNG(WebDriver driver) {
+        if (saveScreenshotPNG(driver) == null) {
+            return null;
+
+        }
+
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+
+
+
+
+
+    }
+
+
+
 }
+
+
