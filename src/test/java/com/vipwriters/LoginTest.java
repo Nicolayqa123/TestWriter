@@ -7,10 +7,14 @@ import io.qameta.allure.*;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 import org.openqa.selenium.*;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
@@ -24,6 +28,15 @@ import static junit.framework.TestCase.assertEquals;
 
 public class LoginTest extends WebDriverSettings{
     public static WebElement element = null;
+
+    /*DesiredCapabilities capability = DesiredCapabilities.firefox();
+    WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
+
+    public LoginTest() throws MalformedURLException {
+    }*/
+
+
+
 
     /* @Rule
      public TestWatcher screenshotOnFailure = new TestWatcher() {
@@ -43,10 +56,10 @@ public class LoginTest extends WebDriverSettings{
 
 
 
-    @Step
-    public void stringWlog () {
+   // @Step
+    /*public void stringWlog () {
         driver.findElementById("sign-in-button").click();
-    }
+    }*/
     @Step
     public void stringUsename () {
         driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input")).sendKeys(mail);

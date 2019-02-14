@@ -1,3 +1,5 @@
+practic\Sound.class
+practic\GeneralizationsD.class
 com\PageSupport\Orders.class
 com\SeleniumRunListener.class
 Regression\asdsadasd.class
@@ -15,7 +17,9 @@ com\PageWriter\AppliedOrders.class
 com\vipwriters\MailUSForm.class
 com\PageWriter\MailUs.class
 com\vipwriters\Trainee.class
+practic\GalToLi.class
 com\PageWriter\MyOrders.class
+practic\LogicalOpTable.class
 com\vipwriters\SaveFilesTest.class
 com\vipwriters\LoginTest.class
 com\PageSupport\OrderStatus.class

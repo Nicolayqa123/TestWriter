@@ -81,17 +81,7 @@ public class SeleniumRunListener extends RunListener {
 
     @Attachment(value = "Page", type = "image/png")
     public byte[] saveScreenshotPNG(WebDriver driver) {
-        if (saveScreenshotPNG(driver) == null) {
-            return null;
-
-        }
-
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-
-
-
-
-
     }
 
 

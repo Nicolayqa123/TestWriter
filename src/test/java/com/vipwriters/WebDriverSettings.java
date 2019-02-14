@@ -17,6 +17,8 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 
@@ -27,6 +29,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Random;
@@ -56,6 +59,8 @@ public class WebDriverSettings {
     public String mail = "nicolayqa@gmail.com";
     public String pass = "123456";
     public String urlwriter = "https://writer.urgentpapers.org";
+
+
 
 
     /*@Rule
