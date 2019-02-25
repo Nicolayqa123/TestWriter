@@ -235,19 +235,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            <plugin>
-
-                <groupId>ru.yandex.qatools.allure</groupId>
-                <artifactId>allure-maven-plugin</artifactId>
-                <configuration>
-                    <resultsDirectory>Allure-reports</resultsDirectory>
-                    <reportDirectory>${project.basedir}/target/</reportDirectory>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
