@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 89.316 s <<< FAILURE! - in com.vipwriters.LoginTest
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 89.316 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 95.771 s <<< FAILURE! - in com.vipwriters.LoginTest
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 51.636 s  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:114)
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 80.693 s  <<< FAILURE!
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 44.032 s  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
 	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:85)
 

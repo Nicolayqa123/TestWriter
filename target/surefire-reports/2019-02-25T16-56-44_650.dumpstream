@@ -1,0 +1,240 @@
+# Created at 2019-02-25T16:56:44.657
+SLF4J: Class path contains multiple SLF4J bindings.
+
+# Created at 2019-02-25T16:56:44.680
+SLF4J: Found binding in [jar:file:/C:/Users/dmytr/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2019-02-25T16:56:44.698
+SLF4J: Found binding in [jar:file:/C:/Users/dmytr/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2019-02-25T16:56:44.722
+SLF4J: Found binding in [jar:file:/C:/Users/dmytr/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2019-02-25T16:56:44.894
+SLF4J: Found binding in [jar:file:/C:/Users/dmytr/.m2/repository/org/slf4j/slf4j-nop/1.7.13/slf4j-nop-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+# Created at 2019-02-25T16:56:44.942
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+# Created at 2019-02-25T16:56:44.976
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+
+# Created at 2019-02-25T16:56:46.003
+org.aspectj.apache.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 18
+
+# Created at 2019-02-25T16:56:46.027
+	at org.aspectj.apache.bcel.classfile.Constant.readConstant(Constant.java:135)
+
+# Created at 2019-02-25T16:56:46.053
+	at org.aspectj.apache.bcel.classfile.ConstantPool.<init>(ConstantPool.java:45)
+
+# Created at 2019-02-25T16:56:46.091
+	at org.aspectj.apache.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:186)
+
+# Created at 2019-02-25T16:56:46.225
+	at org.aspectj.apache.bcel.classfile.ClassParser.parse(ClassParser.java:131)
+
+# Created at 2019-02-25T16:56:46.330
+	at org.aspectj.apache.bcel.util.ClassLoaderRepository.loadClass(ClassLoaderRepository.java:292)
+
+# Created at 2019-02-25T16:56:46.453
+	at org.aspectj.weaver.bcel.BcelWorld.lookupJavaClass(BcelWorld.java:379)
+
+# Created at 2019-02-25T16:56:46.483
+	at org.aspectj.weaver.bcel.BcelWorld.resolveDelegate(BcelWorld.java:362)
+
+# Created at 2019-02-25T16:56:46.517
+	at org.aspectj.weaver.ltw.LTWWorld.resolveDelegate(LTWWorld.java:107)
+
+# Created at 2019-02-25T16:56:46.551
+	at org.aspectj.weaver.World.resolveToReferenceType(World.java:384)
+
+# Created at 2019-02-25T16:56:46.619
+	at org.aspectj.weaver.World.resolve(World.java:278)
+
+# Created at 2019-02-25T16:56:46.690
+	at org.aspectj.weaver.bcel.BcelWeaver.addLibraryAspect(BcelWeaver.java:158)
+
+# Created at 2019-02-25T16:56:46.730
+	at org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.registerAspects(ClassLoaderWeavingAdaptor.java:432)
+
+# Created at 2019-02-25T16:56:46.821
+	at org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.registerDefinitions(ClassLoaderWeavingAdaptor.java:267)
+
+# Created at 2019-02-25T16:56:46.866
+	at org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.initialize(ClassLoaderWeavingAdaptor.java:159)
+
+# Created at 2019-02-25T16:56:46.929
+	at org.aspectj.weaver.loadtime.Aj$ExplicitlyInitializedClassLoaderWeavingAdaptor.initialize(Aj.java:271)
+
+# Created at 2019-02-25T16:56:46.959
+	at org.aspectj.weaver.loadtime.Aj$ExplicitlyInitializedClassLoaderWeavingAdaptor.getWeavingAdaptor(Aj.java:276)
+
+# Created at 2019-02-25T16:56:46.982
+	at org.aspectj.weaver.loadtime.Aj$WeaverContainer.getWeaver(Aj.java:254)
+
+# Created at 2019-02-25T16:56:47.005
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:90)
+
+# Created at 2019-02-25T16:56:47.034
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:52)
+
+# Created at 2019-02-25T16:56:47.103
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:246)
+
+# Created at 2019-02-25T16:56:47.167
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+
+# Created at 2019-02-25T16:56:47.210
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:550)
+
+# Created at 2019-02-25T16:56:47.249
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+
+# Created at 2019-02-25T16:56:47.276
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+
+# Created at 2019-02-25T16:56:47.325
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+
+# Created at 2019-02-25T16:56:47.357
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+
+# Created at 2019-02-25T16:56:47.420
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+
+# Created at 2019-02-25T16:56:47.449
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+
+# Created at 2019-02-25T16:56:47.512
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+
+# Created at 2019-02-25T16:56:47.530
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+
+# Created at 2019-02-25T16:56:47.552
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+
+# Created at 2019-02-25T16:56:47.675
+	at java.base/java.lang.Class.forName0(Native Method)
+
+# Created at 2019-02-25T16:56:47.694
+	at java.base/java.lang.Class.forName(Class.java:375)
+
+# Created at 2019-02-25T16:56:47.711
+	at java.base/sun.launcher.LauncherHelper.loadMainClass(LauncherHelper.java:654)
+
+# Created at 2019-02-25T16:56:47.729
+	at java.base/sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:551)
+
+# Created at 2019-02-25T16:56:47.800
+[AppClassLoader@4f8e5cde] warning register definition failed -- (ClassFormatException) File: 'io.qameta.allure.aspects.StepsAspects': Invalid byte tag in constant pool: 18
+
+# Created at 2019-02-25T16:56:47.839
+File: 'io.qameta.allure.aspects.StepsAspects': Invalid byte tag in constant pool: 18
+
+# Created at 2019-02-25T16:56:47.859
+org.aspectj.apache.bcel.classfile.ClassFormatException: File: 'io.qameta.allure.aspects.StepsAspects': Invalid byte tag in constant pool: 18
+
+# Created at 2019-02-25T16:56:47.923
+	at org.aspectj.apache.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:192)
+
+# Created at 2019-02-25T16:56:47.950
+	at org.aspectj.apache.bcel.classfile.ClassParser.parse(ClassParser.java:131)
+
+# Created at 2019-02-25T16:56:48.054
+	at org.aspectj.apache.bcel.util.ClassLoaderRepository.loadClass(ClassLoaderRepository.java:292)
+
+# Created at 2019-02-25T16:56:48.154
+	at org.aspectj.weaver.bcel.BcelWorld.lookupJavaClass(BcelWorld.java:379)
+
+# Created at 2019-02-25T16:56:48.227
+	at org.aspectj.weaver.bcel.BcelWorld.resolveDelegate(BcelWorld.java:362)
+
+# Created at 2019-02-25T16:56:48.247
+	at org.aspectj.weaver.ltw.LTWWorld.resolveDelegate(LTWWorld.java:107)
+
+# Created at 2019-02-25T16:56:48.308
+	at org.aspectj.weaver.World.resolveToReferenceType(World.java:384)
+
+# Created at 2019-02-25T16:56:48.333
+	at org.aspectj.weaver.World.resolve(World.java:278)
+
+# Created at 2019-02-25T16:56:48.353
+	at org.aspectj.weaver.bcel.BcelWeaver.addLibraryAspect(BcelWeaver.java:158)
+
+# Created at 2019-02-25T16:56:48.372
+	at org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.registerAspects(ClassLoaderWeavingAdaptor.java:432)
+
+# Created at 2019-02-25T16:56:48.428
+	at org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.registerDefinitions(ClassLoaderWeavingAdaptor.java:267)
+
+# Created at 2019-02-25T16:56:48.529
+	at org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.initialize(ClassLoaderWeavingAdaptor.java:159)
+
+# Created at 2019-02-25T16:56:48.546
+	at org.aspectj.weaver.loadtime.Aj$ExplicitlyInitializedClassLoaderWeavingAdaptor.initialize(Aj.java:271)
+
+# Created at 2019-02-25T16:56:48.617
+	at org.aspectj.weaver.loadtime.Aj$ExplicitlyInitializedClassLoaderWeavingAdaptor.getWeavingAdaptor(Aj.java:276)
+
+# Created at 2019-02-25T16:56:48.648
+	at org.aspectj.weaver.loadtime.Aj$WeaverContainer.getWeaver(Aj.java:254)
+
+# Created at 2019-02-25T16:56:48.668
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:90)
+
+# Created at 2019-02-25T16:56:48.701
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:52)
+
+# Created at 2019-02-25T16:56:48.734
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:246)
+
+# Created at 2019-02-25T16:56:48.765
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+
+# Created at 2019-02-25T16:56:48.798
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:550)
+
+# Created at 2019-02-25T16:56:48.836
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+
+# Created at 2019-02-25T16:56:48.872
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+
+# Created at 2019-02-25T16:56:48.909
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+
+# Created at 2019-02-25T16:56:48.944
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+
+# Created at 2019-02-25T16:56:48.984
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+
+# Created at 2019-02-25T16:56:49.019
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+
+# Created at 2019-02-25T16:56:49.053
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+
+# Created at 2019-02-25T16:56:49.089
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+
+# Created at 2019-02-25T16:56:49.221
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+
+# Created at 2019-02-25T16:56:49.280
+	at java.base/java.lang.Class.forName0(Native Method)
+
+# Created at 2019-02-25T16:56:49.314
+	at java.base/java.lang.Class.forName(Class.java:375)
+
+# Created at 2019-02-25T16:56:49.352
+	at java.base/sun.launcher.LauncherHelper.loadMainClass(LauncherHelper.java:654)
+
+# Created at 2019-02-25T16:56:49.388
+	at java.base/sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:551)
+
+# Created at 2019-02-25T16:56:49.425
+
+

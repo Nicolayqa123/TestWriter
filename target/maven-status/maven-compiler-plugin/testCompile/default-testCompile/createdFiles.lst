@@ -12,7 +12,6 @@ com\PageWriter\DetailedOrder.class
 com\vipwriters\AppliedUploadFiles.class
 com\PageWriter\ContacteUs.class
 com\PageWriter\Lending.class
-com\vipwriters\LoginClientTest.class
 com\PageWriter\AppliedOrders.class
 com\vipwriters\MailUSForm.class
 com\PageWriter\MailUs.class
