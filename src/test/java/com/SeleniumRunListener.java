@@ -53,7 +53,7 @@ public class SeleniumRunListener extends RunListener {
     public void testFailure(Failure failure) throws Exception {
         System.out.println("Test failed with: "
                 + failure.getException());
-        saveScreenshotPNG(driver);
+      //  saveScreenshotPNG(driver);
 
         /*WebDriver augmentedDriver = new Augmenter().augment(driver);
         File screenshot = ((TakesScreenshot)augmentedDriver).

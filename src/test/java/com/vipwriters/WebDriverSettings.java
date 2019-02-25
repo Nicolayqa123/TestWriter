@@ -129,6 +129,7 @@ public class WebDriverSettings {
 
     @After
     public void close() throws Exception {
+/*
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
@@ -145,6 +146,7 @@ public class WebDriverSettings {
            saveScreenshotPNG(driver);
        }
         saveTextLog(getClass() + "Log");
+*/
 
         driver.quit();
 
