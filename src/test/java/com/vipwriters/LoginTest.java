@@ -83,12 +83,12 @@ public class LoginTest extends WebDriverSettings{
 
         TimeUnit.SECONDS.sleep(7);
         assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-        checkScreen();
+       /* checkScreen();
         getBytes("test");
         Allure.addAttachment("Результат", "application/json");
 
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        //Write Screenshot to a file
+        //Write Screenshot to a file*/
     }
 
 
@@ -112,9 +112,9 @@ public class LoginTest extends WebDriverSettings{
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-            checkScreen();
+           /* checkScreen();
             getBytes("test");
-
+*/
 
         }
 
