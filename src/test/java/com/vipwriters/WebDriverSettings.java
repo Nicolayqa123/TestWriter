@@ -42,6 +42,10 @@ import static com.google.common.io.Files.toByteArray;
 public class WebDriverSettings {
 
 
+
+
+
+
     public FirefoxDriver driver;
 
     //  public ChromeDriver driver;
@@ -148,9 +152,19 @@ public class WebDriverSettings {
         saveTextLog(getClass() + "Log");
 */
 
+
+
+
+
+
         driver.quit();
 
     }
+
+
+
+
+
 
 @Attachment (value = "Page", type = "image/png")
         public byte[] saveScreenshotPNG (WebDriver driver) {
