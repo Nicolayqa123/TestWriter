@@ -26,7 +26,7 @@ import static junit.framework.TestCase.assertEquals;
 
 
 
-public class LoginTest extends WebDriverSettings{
+    public class LoginTest extends WebDriverSettings{
     public static WebElement element = null;
 
     /*DesiredCapabilities capability = DesiredCapabilities.firefox();
@@ -101,7 +101,6 @@ public class LoginTest extends WebDriverSettings{
 
 
         @Test
-        @Step
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
             TimeUnit.SECONDS.sleep(10);

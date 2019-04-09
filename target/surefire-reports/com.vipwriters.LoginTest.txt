@@ -1,12 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 95.771 s <<< FAILURE! - in com.vipwriters.LoginTest
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 51.636 s  <<< FAILURE!
-junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:114)
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.428 s <<< FAILURE! - in com.vipwriters.LoginTest
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 44.032 s  <<< FAILURE!
-junit.framework.ComparisonFailure: expected:<Available Orders[123]> but was:<Available Orders[]>
-	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:85)
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0.163 s  <<< ERROR!
+java.lang.NullPointerException
+
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 0.118 s  <<< ERROR!
+java.lang.NullPointerException
 

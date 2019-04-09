@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.MyOrdersUploadFileTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.158 s <<< FAILURE! - in com.vipwriters.MyOrdersUploadFileTest
+dropfiles1(com.vipwriters.MyOrdersUploadFileTest)  Time elapsed: 0.041 s  <<< ERROR!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+dropfiles1(com.vipwriters.MyOrdersUploadFileTest)  Time elapsed: 0.127 s  <<< ERROR!
+java.lang.NullPointerException
+

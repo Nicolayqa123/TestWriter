@@ -16,7 +16,11 @@ import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -38,15 +42,14 @@ import java.util.concurrent.TimeUnit;
 import static com.google.common.io.Files.toByteArray;
 
 //@Listeners({ListenerTest.class})
-@RunWith(SeleniumRunner.class)
+//@RunWith(SeleniumRunner.class)
 public class WebDriverSettings {
 
 
 
 
 
-
-    public FirefoxDriver driver;
+    public RemoteWebDriver driver;
 
     //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
@@ -82,7 +85,7 @@ public class WebDriverSettings {
             System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
             driver = new FirefoxDriver();
             System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-            //  driver = new ChromeDriver();
+              driver = new ChromeDriver();
             System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -110,8 +113,45 @@ public class WebDriverSettings {
 
     };
 */
+
+/*
+
+    public WebDriverSettings() {
+        Capabilities capabilities = DesiredCapabilities.firefox();
+        driver = new FirefoxDriver(capabilities);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    }
+
+    static {
+        System.setProperty("webdriver.gecko.driver", findFile("geckodriver.exe"));
+    }
+
+    static private String findFile(String filename) {
+        String paths[] = {"", "bin/", "target/classes"};
+        for (String path : paths) {
+            if (new File(path + filename).exists())
+                return path + filename;
+        }
+        return "";
+    }
+
+    public class SeleniumExample {
+
+        private WebDriverSettings config;
+
+        public SeleniumExample() {
+            config = new WebDriverSettings();
+        }
+
+    }
+
+*/
+
+
     @Before
+
     public void setup() throws Exception {
+
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
         driver = new FirefoxDriver();
@@ -119,11 +159,48 @@ public class WebDriverSettings {
         //  driver = new ChromeDriver();
         System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
-
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
+
+
+
+
+
+
+
+
+        DesiredCapabilities capability = DesiredCapabilities.firefox();
+        capability.setBrowserName("firefox" );
+        capability.setPlatform(Platform.WIN10);
+        capability.setVersion("3.6");
+        URL hostURL = new URL("http://localhost:4444/wd/hub");
+        driver = new RemoteWebDriver(hostURL, capability);
+
+
+
+
+       // driver = new FirefoxDriver();
+
+       // System.setProperty("webdriver.geckodriver.driver", "src/test/resources/drivers/geckodriver.exe");
+
+       // System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
+       // driver = new FirefoxDriver();
+        /*System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        options.merge(capabilities);
+          driver = new ChromeDriver(options);*/
+      //  System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
+        // driver = new InternetExplorerDriver();
+
+     //   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+     //   driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+     //   driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+     //   driver.manage().window().setSize(new Dimension(1500, 810));
        // VideoRecord.startRecording();
 
 
