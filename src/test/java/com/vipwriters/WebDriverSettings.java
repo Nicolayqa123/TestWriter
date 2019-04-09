@@ -49,9 +49,9 @@ public class WebDriverSettings {
 
 
 
-    public RemoteWebDriver driver;
+   // public RemoteWebDriver driver;
 
-    //  public ChromeDriver driver;
+      public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
     //  public WebElement password;
@@ -156,7 +156,7 @@ public class WebDriverSettings {
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
        // driver = new FirefoxDriver();
         System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-        //  driver = new ChromeDriver();
+          driver = new ChromeDriver();
         System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -170,6 +170,7 @@ public class WebDriverSettings {
 
 
 
+/*
 
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName("firefox" );
@@ -177,6 +178,7 @@ public class WebDriverSettings {
         capability.setVersion("3.12.0");
         URL hostURL = new URL("http://localhost:4444/wd/hub");
         driver = new RemoteWebDriver(hostURL, capability);
+*/
 
 
 
