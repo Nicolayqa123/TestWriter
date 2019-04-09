@@ -154,7 +154,7 @@ public class WebDriverSettings {
 
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-        driver = new FirefoxDriver();
+       // driver = new FirefoxDriver();
         System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
         //  driver = new ChromeDriver();
         System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
@@ -174,7 +174,7 @@ public class WebDriverSettings {
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName("firefox" );
         capability.setPlatform(Platform.WIN10);
-        capability.setVersion("3.6");
+        capability.setVersion("3.12.0");
         URL hostURL = new URL("http://localhost:4444/wd/hub");
         driver = new RemoteWebDriver(hostURL, capability);
 
