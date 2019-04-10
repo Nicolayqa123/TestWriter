@@ -1,6 +1,7 @@
 package com.vipwriters;
 
 
+import com.PageClient.Registered;
 import com.PageWriter.Lending;
 import io.qameta.allure.*;
 
@@ -92,8 +93,29 @@ import static junit.framework.TestCase.assertEquals;
     }
 
 
+            @Test
+    public void testest() {
+        driver.get("https://client.urgentpapers.org");
+        System.out.println("Title is :" +driver.getTitle());
+        driver.quit();
+    }
 
-
+        @Test
+        public void testestVisib() throws InterruptedException {
+            driver.get("https://client.urgentpapers.org");
+            driver.findElementByXPath("/html/body/div[1]/div/div/div[1]/a[1]").click();
+            TimeUnit.SECONDS.sleep(7);
+            driver.findElementById("sign-up-first-name").sendKeys("TestPjs");
+            driver.findElementById("order-input-2").sendKeys("Test2Pjs");
+            driver.findElementById("sign-up-email").sendKeys("Test123123rest@ya.ru");
+            TimeUnit.SECONDS.sleep(7);
+            driver.findElementByXPath("//*[@id=\"order-input-4\"]").sendKeys("123456");
+            driver.findElementById("sign-up-phone").sendKeys("504565791");
+            TimeUnit.SECONDS.sleep(7);
+            driver.findElementById("sign-up-submit-button").click();
+         
+            driver.quit();
+        }
 
 
 

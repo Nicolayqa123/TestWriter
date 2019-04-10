@@ -20,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -47,11 +48,12 @@ public class WebDriverSettings {
 
 
 
+   // public  PhantomJSDriver driver;
 
-
+     public HtmlUnitDriver driver = new HtmlUnitDriver();
    // public RemoteWebDriver driver;
 
-      public ChromeDriver driver;
+    //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
     //  public WebElement password;
@@ -148,10 +150,22 @@ public class WebDriverSettings {
 */
 
 
+
+
     @Before
 
     public void setup() throws Exception {
 
+
+    HtmlUnitDriver driver = new HtmlUnitDriver();
+   // System.setProperty("phantomjs.binary.path", "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\src\\test\\java\\com\\vipwriters\\phantomjs.exe");
+   // driver = new PhantomJSDriver();
+
+
+
+
+
+/*
 
         System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
        // driver = new FirefoxDriver();
@@ -164,6 +178,7 @@ public class WebDriverSettings {
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1500, 810));
 
+*/
 
 
 
@@ -199,10 +214,10 @@ public class WebDriverSettings {
       //  System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
 
-     //   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-     //   driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-     //   driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-     //   driver.manage().window().setSize(new Dimension(1500, 810));
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().window().setSize(new Dimension(1500, 810));
        // VideoRecord.startRecording();
 
 
@@ -213,11 +228,12 @@ public class WebDriverSettings {
     @After
     public void close() throws Exception {
 /*
+
         String newAutoTest = "newAutoTest" + x;
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        // String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
-        String path = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\"  +  screenshot.getName();
+         String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
+       // String path = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\"  +  screenshot.getName();
         FileUtils.copyFile(screenshot, new File(path));
 
      //   VideoRecord.stopRecording();
@@ -229,6 +245,7 @@ public class WebDriverSettings {
            saveScreenshotPNG(driver);
        }
         saveTextLog(getClass() + "Log");
+
 */
 
 
