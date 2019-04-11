@@ -7,83 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/MonteScreenRecorder.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MovieMaker.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" />
-      <change beforePath="$PROJECT_DIR$/monte-repack-1.0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/monte-screen-recorder-0.7.7.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/ChangeLog" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/LICENSE.BSD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/arguments.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/child_process-examples.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/colorwheel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/countdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/detectsniff.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/echoToFile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/features.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/fibo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/hello.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/injectme.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/loadspeed.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/loadurlwithoutcss.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/modernizr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/module.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/netlog.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/netsniff.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/openurlwithproxy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/outputEncoding.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/page_events.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/pagecallback.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/phantomwebintro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/post.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/postjson.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/postserver.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/printenv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/printheaderfooter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/printmargins.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/rasterize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/render_multi_url.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/responsive-screenshot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/run-jasmine.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/run-jasmine2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/run-qunit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/scandir.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/server.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/serverkeepalive.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/simpleserver.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/sleepsort.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/stdin-stdout-stderr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/universe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/unrandomize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/useragent.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/version.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/waitfor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/examples/walk_through_frames.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-windows/third-party.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/screen-recorder-0.7.7.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrdersUploadFileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrdersUploadFileTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,23 +71,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="248" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="192" column="40" lean-forward="false" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="979">
-              <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+            <state relative-caret-position="2037">
+              <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -169,8 +94,8 @@
       <file leaf-file-name="Lending.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -209,7 +134,7 @@
       <file leaf-file-name="PageTERMSOFUSE.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
+            <state relative-caret-position="462">
               <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -221,7 +146,7 @@
       <file leaf-file-name="WebDriverSettingsChrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
+            <state relative-caret-position="567">
               <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
@@ -327,8 +252,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
       </list>
     </option>
   </component>
@@ -364,9 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -450,6 +373,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1558,14 +1483,12 @@
       <workItem from="1554468146525" duration="4344000" />
       <workItem from="1554719373594" duration="3557000" />
       <workItem from="1554798772009" duration="6331000" />
-      <workItem from="1554880704561" duration="8937000" />
+      <workItem from="1554880704561" duration="10770000" />
+      <workItem from="1554986042569" duration="1356000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_testestVisib - 2019.04.10 at 11h 45m 27s.xml">
-      <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginTest_testestVisib - 2019.04.10 at 11h 48m 14s.xml">
       <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
     </history-entry>
@@ -1593,9 +1516,12 @@
     <history-entry file="LoginTest_testestVisib - 2019.04.10 at 14h 13m 31s.xml">
       <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginTest_testestVisib - 2019.04.10 at 14h 29m 54s.xml">
+      <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99632000" />
+    <option name="totallyTimeSpent" value="102821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1611,35 +1537,35 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30878186" sideWeight="0.50201344" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295302" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342282" sideWeight="0.5031056" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3250283" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30878186" sideWeight="0.50201344" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295302" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3148358" sideWeight="0.49932885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3148358" sideWeight="0.49932885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5084938" sideWeight="0.49798658" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29484424" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29967776" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342282" sideWeight="0.5031056" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34496644" sideWeight="0.5010526" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3250283" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1657,13 +1583,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrdersUploadFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MailUSForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2499">
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1708,7 +1668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1754,9 +1713,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1809,7 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1885,7 +1841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,9 +1868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3507">
           <caret line="167" column="47" lean-forward="false" selection-start-line="161" selection-start-column="8" selection-end-line="167" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1944,7 +1897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2007,7 +1959,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/PageTERMSOFUSE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="462">
           <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2017,7 +1969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettingsChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
+        <state relative-caret-position="567">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
         </state>
@@ -2025,8 +1977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2047,20 +1999,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2037">
+          <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="192" column="40" lean-forward="false" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
           <folding />
         </state>
       </provider>

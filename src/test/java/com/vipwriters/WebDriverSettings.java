@@ -49,8 +49,8 @@ public class WebDriverSettings {
 
 
    // public  PhantomJSDriver driver;
-
-     public HtmlUnitDriver driver = new HtmlUnitDriver();
+      public  RemoteWebDriver driver;
+   //  public HtmlUnitDriver driver = new HtmlUnitDriver();
    // public RemoteWebDriver driver;
 
     //  public ChromeDriver driver;
@@ -157,7 +157,7 @@ public class WebDriverSettings {
     public void setup() throws Exception {
 
 
-    HtmlUnitDriver driver = new HtmlUnitDriver();
+    //HtmlUnitDriver driver = new HtmlUnitDriver();
    // System.setProperty("phantomjs.binary.path", "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\src\\test\\java\\com\\vipwriters\\phantomjs.exe");
    // driver = new PhantomJSDriver();
 
@@ -185,20 +185,20 @@ public class WebDriverSettings {
 
 
 
-/*
+
 
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName("firefox" );
         capability.setPlatform(Platform.WIN10);
         capability.setVersion("3.12.0");
-        URL hostURL = new URL("http://localhost:4444/wd/hub");
-        driver = new RemoteWebDriver(hostURL, capability);
-*/
+        WebDriver driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
 
 
 
 
-       // driver = new FirefoxDriver();
+
+
+        // driver = new FirefoxDriver();
 
        // System.setProperty("webdriver.geckodriver.driver", "src/test/resources/drivers/geckodriver.exe");
 

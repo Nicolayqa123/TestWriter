@@ -113,8 +113,8 @@ import static junit.framework.TestCase.assertEquals;
             driver.findElementById("sign-up-phone").sendKeys("504565791");
             TimeUnit.SECONDS.sleep(7);
             driver.findElementById("sign-up-submit-button").click();
-         
-            driver.quit();
+
+            
         }
 
 
