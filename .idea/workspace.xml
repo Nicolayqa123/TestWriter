@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrdersUploadFileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrdersUploadFileTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +71,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="190" column="41" lean-forward="false" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -276,7 +264,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -1495,7 +1483,7 @@
       <workItem from="1554880704561" duration="10770000" />
       <workItem from="1554986042569" duration="1356000" />
       <workItem from="1555050886708" duration="2093000" />
-      <workItem from="1555314292984" duration="1215000" />
+      <workItem from="1555314292984" duration="1890000" />
     </task>
     <servers />
   </component>
@@ -1532,7 +1520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106129000" />
+    <option name="totallyTimeSpent" value="106804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1544,7 +1532,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2014,8 +2002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="190" column="41" lean-forward="false" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
           <folding />
         </state>
       </provider>
