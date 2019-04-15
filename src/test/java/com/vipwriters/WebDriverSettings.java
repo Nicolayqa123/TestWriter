@@ -186,7 +186,7 @@ public class WebDriverSettings {
 
 
 
-
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         DesiredCapabilities capability = DesiredCapabilities.chrome();
         capability.setBrowserName("chrome");
         capability.setPlatform(Platform.WIN10);
