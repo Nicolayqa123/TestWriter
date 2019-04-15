@@ -8,9 +8,18 @@
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/AppliedUploadFiles.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSForm.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrdersUploadFileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrdersUploadFileTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +83,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="192" column="40" lean-forward="false" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+            <state relative-caret-position="441">
+              <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +93,8 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2037">
-              <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            <state relative-caret-position="1029">
+              <caret line="125" column="20" lean-forward="false" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -289,8 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,8 +381,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.testestVisib">
+  <component name="RunManager" selected="JUnit.LoginTest.Loginuser">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -445,6 +454,31 @@
       <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LoginTest.Loginuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Vip_Writerss" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.vipwriters" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.LoginTest" />
+      <option name="METHOD_NAME" value="Loginuser" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -520,31 +554,6 @@
       <option name="MAIN_CLASS_NAME" value="com.vipwriters.PageTERMSOFUSE" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PageTERMSOFUSE.Terms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Vip_Writerss" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.PageTERMSOFUSE" />
-      <option name="METHOD_NAME" value="Terms" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1417,17 +1426,17 @@
       <item index="1" class="java.lang.String" itemvalue="Maven.Maven" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest.testest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PageTERMSOFUSE.Terms" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PageTERMSOFUSE" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.LoginTest.testestVisib" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PageTERMSOFUSE" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LoginTest.testestVisib" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.LoginTest.Loginuser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginTest.testestVisib" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PageTERMSOFUSE" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest.testest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PageTERMSOFUSE.Terms" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginTest.Loginuser" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest.testestVisib" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PageTERMSOFUSE" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LoginTest.testest" />
       </list>
     </recent_temporary>
   </component>
@@ -1485,15 +1494,17 @@
       <workItem from="1554798772009" duration="6331000" />
       <workItem from="1554880704561" duration="10770000" />
       <workItem from="1554986042569" duration="1356000" />
+      <workItem from="1555050886708" duration="2093000" />
+      <workItem from="1555314292984" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_testestVisib - 2019.04.10 at 11h 48m 14s.xml">
-      <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
+    <history-entry file="LoginTest_Loginuser - 2019.04.12 at 10h 04m 57s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_testestVisib - 2019.04.10 at 11h 51m 27s.xml">
-      <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
+    <history-entry file="LoginTest_Loginuser - 2019.04.12 at 10h 07m 54s.xml">
+      <configuration name="LoginTest.Loginuser" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest_testestVisib - 2019.04.10 at 12h 06m 20s.xml">
       <configuration name="LoginTest.testestVisib" configurationId="JUnit" />
@@ -1521,7 +1532,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102821000" />
+    <option name="totallyTimeSpent" value="106129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1552,7 +1563,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5084938" sideWeight="0.49798658" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29967776" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3093448" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342282" sideWeight="0.5031056" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1658,9 +1669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1914,9 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2001,16 +2006,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+        <state relative-caret-position="1029">
+          <caret line="125" column="20" lean-forward="false" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="192" column="40" lean-forward="false" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+        <state relative-caret-position="441">
+          <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding />
         </state>
       </provider>

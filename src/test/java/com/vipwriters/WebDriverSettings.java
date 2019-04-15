@@ -190,8 +190,8 @@ public class WebDriverSettings {
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName("firefox" );
         capability.setPlatform(Platform.WIN10);
-        capability.setVersion("3.12.0");
-        WebDriver driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
+        capability.setVersion("48");
+        WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
 
 
 
@@ -253,7 +253,7 @@ public class WebDriverSettings {
 
 
 
-        driver.quit();
+//        driver.quit();
 
     }
 
