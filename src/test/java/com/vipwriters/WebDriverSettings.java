@@ -150,7 +150,7 @@ public class WebDriverSettings {
 */
 
 
-
+Platform WIN10;
 
     @Before
 
@@ -189,9 +189,10 @@ public class WebDriverSettings {
       //  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName("firefox");
-        capability.setPlatform(Platform.WIN10);
+        capability.setPlatform(Platform.WINDOWS);
         capability.setVersion("50");
-        WebDriver driver = new RemoteWebDriver(new URL("http://DESKTOP-6L7S93F:4445/grid/console"), capability);
+        WebDriver driver = new RemoteWebDriver(new URL("http://DESKTOP-6L7S93F:4445/wd/hub"), capability);
+        driver.manage().window().maximize();
 
 
 
@@ -214,10 +215,10 @@ public class WebDriverSettings {
       //  System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
         // driver = new InternetExplorerDriver();
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+       /* driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        driver.manage().window().setSize(new Dimension(1500, 810));
+        driver.manage().window().setSize(new Dimension(1500, 810));*/
        // VideoRecord.startRecording();
 
 
