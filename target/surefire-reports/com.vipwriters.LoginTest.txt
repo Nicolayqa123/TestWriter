@@ -1,16 +1,68 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.428 s <<< FAILURE! - in com.vipwriters.LoginTest
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0.014 s  <<< ERROR!
-java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 14.989 s <<< FAILURE! - in com.vipwriters.LoginTest
+testest(com.vipwriters.LoginTest)  Time elapsed: 9.912 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@737621
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Command duration or timeout: 583 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@737621
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0.163 s  <<< ERROR!
-java.lang.NullPointerException
+testestVisib(com.vipwriters.LoginTest)  Time elapsed: 0.566 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@1845560
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Command duration or timeout: 21 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@1845560
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 0.007 s  <<< ERROR!
-java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0.044 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@1ef848f
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Command duration or timeout: 18 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@1ef848f
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 0.118 s  <<< ERROR!
-java.lang.NullPointerException
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 0.509 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@89e524
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Command duration or timeout: 26 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create session from org.openqa.selenium.remote.NewSessionPayload@89e524
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 

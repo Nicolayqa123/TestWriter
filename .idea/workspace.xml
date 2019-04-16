@@ -9,6 +9,12 @@
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrdersUploadFileTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrdersUploadFileTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrdersUploadFileTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrdersUploadFileTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +78,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+            <state relative-caret-position="609">
+              <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,7 +88,7 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
+            <state relative-caret-position="2226">
               <caret line="125" column="20" lean-forward="false" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
               <folding />
             </state>
@@ -265,7 +271,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -287,6 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -370,8 +378,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1484,7 +1490,8 @@
       <workItem from="1554880704561" duration="10770000" />
       <workItem from="1554986042569" duration="1356000" />
       <workItem from="1555050886708" duration="2093000" />
-      <workItem from="1555314292984" duration="3114000" />
+      <workItem from="1555314292984" duration="7093000" />
+      <workItem from="1555396473518" duration="721000" />
     </task>
     <servers />
   </component>
@@ -1521,7 +1528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108028000" />
+    <option name="totallyTimeSpent" value="112728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1533,7 +1540,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1552,7 +1559,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5084938" sideWeight="0.49798658" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3093448" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31364125" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342282" sideWeight="0.5031056" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1995,7 +2002,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
+        <state relative-caret-position="2226">
           <caret line="125" column="20" lean-forward="false" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
           <folding />
         </state>
@@ -2003,8 +2010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="609">
+          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding />
         </state>
       </provider>
