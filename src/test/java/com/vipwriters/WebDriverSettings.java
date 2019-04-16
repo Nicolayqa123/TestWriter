@@ -191,7 +191,7 @@ public class WebDriverSettings {
         capability.setBrowserName("firefox");
         capability.setPlatform(Platform.WIN10);
         capability.setVersion("50");
-        WebDriver driver = new RemoteWebDriver(new URL("http://DESKTOP-6L7S93F:4445/wd/hub"), capability);
+        WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/grid/console"), capability);
 
 
 
