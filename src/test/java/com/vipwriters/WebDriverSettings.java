@@ -4,6 +4,7 @@ import com.PageWriter.Lending;
 import com.PageWriter.SignUp;
 
 import com.SeleniumRunner;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.AllureUtils;
 import io.qameta.allure.Attachment;
 
@@ -181,11 +182,9 @@ Platform WIN10;
 */
 
 
-
-
-
-
-        System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
+        WebDriverManager.firefoxdriver().setup();
+        String PATH = WebDriverManager.firefoxdriver().getBinaryPath();
+        System.setProperty("webdriver.gecko.driver", PATH);
       //  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setBrowserName("firefox");
