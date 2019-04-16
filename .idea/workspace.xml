@@ -69,8 +69,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state relative-caret-position="588">
+              <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1411,7 +1411,7 @@
       <workItem from="1554986042569" duration="1356000" />
       <workItem from="1555050886708" duration="2093000" />
       <workItem from="1555314292984" duration="7093000" />
-      <workItem from="1555396473518" duration="3140000" />
+      <workItem from="1555396473518" duration="3396000" />
     </task>
     <servers />
   </component>
@@ -1448,7 +1448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115147000" />
+    <option name="totallyTimeSpent" value="115403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1930,8 +1930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding />
         </state>
       </provider>
