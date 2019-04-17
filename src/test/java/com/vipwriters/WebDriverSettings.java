@@ -20,6 +20,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
@@ -184,12 +185,20 @@ Platform WIN10;
 
         WebDriverManager.firefoxdriver().setup();
         String PATH = WebDriverManager.firefoxdriver().getBinaryPath();
-        System.setProperty("webdriver.gecko.driver", PATH);
+        System.out.println(PATH);
+        System.setProperty("webdriver.gecko.driver", "C://Users/dmytr/.m2/repository/webdriver/geckodriver/win64/0.24.0/geckodriver.exe");
       //  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         DesiredCapabilities capability = DesiredCapabilities.firefox();
+        capability.setCapability(FirefoxDriver.BINARY, PATH);
         capability.setBrowserName("firefox");
         capability.setPlatform(Platform.WINDOWS);
         capability.setVersion("50");
+        System.setProperty("webdriver.gecko.driver", System.getProperty("\\.m2\\repository\\webdriver\\geckodriver\\win64\\0.24.0\\")+"\\geckodriver.exe");
+
+        final FirefoxOptions options = new FirefoxOptions();
+        System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+        options.addPreference("browser.popups.showPopupBlocker", false);
+        options.addPreference("security.sandbox.content.level", 5);
         WebDriver driver = new RemoteWebDriver(new URL("http://DESKTOP-6L7S93F:4445/wd/hub"), capability);
         driver.manage().window().maximize();
 
