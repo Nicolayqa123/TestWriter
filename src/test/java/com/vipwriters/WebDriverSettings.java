@@ -188,7 +188,10 @@ Platform WIN10;
         String PATH = WebDriverManager.firefoxdriver().getBinaryPath();
         System.out.println(PATH);
        // System.setProperty("webdriver.gecko.driver", GeckoDriverService.GECKO_DRIVER_EXE_PROPERTY);
-        System.setProperty("webdriver.gecko.driver", "C:\\WINDOWS\\system32\\config\\systemprofile\\.m2\\repository\\webdriver\\geckodriver\\win64\\0.24.0\\geckodriver.exe");
+
+        GeckoDriverService.createDefaultService();
+
+        System.setProperty("webdriver.gecko.driver", "C://WINDOWS/system32/config/systemprofile/.m2/repository/webdriver/geckodriver/win64/0.24.0/geckodriver.exe");
       //  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         capability.setCapability(FirefoxDriver.BINARY, PATH);
