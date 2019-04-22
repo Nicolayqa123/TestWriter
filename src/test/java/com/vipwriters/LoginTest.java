@@ -29,6 +29,7 @@ import static junit.framework.TestCase.assertEquals;
 
     public class LoginTest extends WebDriverSettings{
     public static WebElement element = null;
+    public RemoteWebDriver driver;
 
     /*DesiredCapabilities capability = DesiredCapabilities.firefox();
     WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
@@ -93,16 +94,18 @@ import static junit.framework.TestCase.assertEquals;
     }
 
 
-            @Test
-    public void testest() {
-        driver.get("https://client.urgentpapers.org");
+    @Test
+    public void testest() throws NullPointerException, InterruptedException {
+
+        TimeUnit.SECONDS.sleep(5);
+        WriterUrl();
         System.out.println("Title is :" +driver.getTitle());
         driver.quit();
     }
 
         @Test
         public void testestVisib() throws InterruptedException {
-            driver.get("https://client.urgentpapers.org");
+            WriterUrl();
             driver.findElementByXPath("/html/body/div[1]/div/div/div[1]/a[1]").click();
             TimeUnit.SECONDS.sleep(7);
             driver.findElementById("sign-up-first-name").sendKeys("TestPjs");
@@ -124,7 +127,7 @@ import static junit.framework.TestCase.assertEquals;
 
         @Test
         public void Loginuser() throws Exception {
-            driver.get("https://writer.urgentpapers.org/");
+            WriterUrl();
             TimeUnit.SECONDS.sleep(10);
             Lending.loginForm(driver).click();
             Lending.userName(driver).click();

@@ -36,3 +36,4 @@ com\PageWriter\Transactions.class
 Regression\CheckTitle.class
 com\vipwriters\WebDriverSettingsIE.class
 com\vipwriters\WebDriverSettings.class
+com\vipwriters\PageTERMSOFUSE.class

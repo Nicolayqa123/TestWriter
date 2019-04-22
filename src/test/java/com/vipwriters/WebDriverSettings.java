@@ -184,28 +184,35 @@ Platform WIN10;
 */
 
 
-        WebDriverManager.firefoxdriver().setup();
-        String PATH = WebDriverManager.firefoxdriver().getBinaryPath();
-        System.out.println(PATH);
+        //WebDriverManager.firefoxdriver().setup();
+       // String PATH = WebDriverManager.firefoxdriver().getBinaryPath();
+       // System.out.println(PATH);
        // System.setProperty("webdriver.gecko.driver", GeckoDriverService.GECKO_DRIVER_EXE_PROPERTY);
 
-        GeckoDriverService.createDefaultService();
+       // GeckoDriverService.createDefaultService();
 
-        System.setProperty("webdriver.gecko.driver", "/var");
+      //  System.setProperty("webdriver.gecko.driver", "/var");
       //  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+       // DesiredCapabilities capability = new DesiredCapabilities();
         DesiredCapabilities capability = DesiredCapabilities.firefox();
-        capability.setCapability(FirefoxDriver.BINARY, PATH);
+       // capability.setCapability(FirefoxDriver.BINARY, "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
         capability.setBrowserName("firefox");
         capability.setPlatform(Platform.WINDOWS);
-        capability.setVersion("50");
-        System.setProperty("webdriver.gecko.driver", System.getProperty("\\.m2\\repository\\webdriver\\geckodriver\\win64\\0.24.0\\")+"\\geckodriver.exe");
+       // capability.setVersion("65");
+      //  capability.setCapability("maxInstances", 5);
+      //  capability.setCapability("marionette", true);
+        System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
 
-        final FirefoxOptions options = new FirefoxOptions();
-        System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-        options.addPreference("browser.popups.showPopupBlocker", false);
-        options.addPreference("security.sandbox.content.level", 5);
-        WebDriver driver = new RemoteWebDriver(new URL("http://DESKTOP-6L7S93F:4445/wd/hub"), capability);
+        //System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+     //   System.setProperty("webdriver.gecko.driver", System.getProperty("C://Programms/GitHub/TestWriter/TestWriter/src/test/resources/drivers/geckodriver.exe");
+
+     //   final FirefoxOptions options = new FirefoxOptions();
+     //   System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+     //   options.addPreference("browser.popups.showPopupBlocker", false);
+     //  options.addPreference("security.sandbox.content.level", 5);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
         driver.manage().window().maximize();
+
 
 
 
@@ -267,7 +274,7 @@ Platform WIN10;
 
 
 
-//        driver.quit();
+     //   driver.quit();
 
     }
 
@@ -366,7 +373,9 @@ Platform WIN10;
 
 
 
-
+    public void WriterUrl() {
+        driver.get("https://writer.urgentpapers.org");
+    }
 
     public void WritersLogin() throws Exception {
         driver.get("https://writer.urgentpapers.org/");
