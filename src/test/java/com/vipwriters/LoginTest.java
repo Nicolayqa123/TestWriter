@@ -58,22 +58,7 @@ import static junit.framework.TestCase.assertEquals;
 
 
 
-   // @Step
-    /*public void stringWlog () {
-        driver.findElementById("sign-in-button").click();
-    }*/
-    @Step
-    public void stringUsename () {
-        driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input")).sendKeys(mail);
-    }
-    @Step
-    public void stringpass () {
-        driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input")).sendKeys(pass);
-    }
-    @Step
-    public void stringloginbutton () {
-        driver.findElement(By.xpath("/html/body/div[1]/div/form/div/div[4]/input")).click();
-    }
+
 
 
     @Test
@@ -84,7 +69,7 @@ import static junit.framework.TestCase.assertEquals;
     WritersLogin();
 
         TimeUnit.SECONDS.sleep(7);
-        assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
+        assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
        /* checkScreen();
         getBytes("test");
         Allure.addAttachment("Результат", "application/json");

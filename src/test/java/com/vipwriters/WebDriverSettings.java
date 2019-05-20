@@ -14,6 +14,9 @@ import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
@@ -153,130 +156,47 @@ public class WebDriverSettings {
 */
 
 
-Platform WIN10;
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
 
-    @Before
+        @Override
+        protected void starting(Description description) {
+            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+            driver = new FirefoxDriver();
 
-    public void setup() throws Exception {
+            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+            driver.manage().window().setSize(new Dimension(1600, 1000));
 
+        }
 
-    //HtmlUnitDriver driver = new HtmlUnitDriver();
-   // System.setProperty("phantomjs.binary.path", "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\src\\test\\java\\com\\vipwriters\\phantomjs.exe");
-   // driver = new PhantomJSDriver();
+        @Override
+        protected void finished(Description description) {
+            makeScreenshotOnFailure();
+            driver.quit();
+        }
 
+        @Override
+        protected void failed(Throwable e, Description description) {
+            String newAutoTest = "TestFailure";
+            File screenshot = ((TakesScreenshot) driver).
+                    getScreenshotAs(OutputType.FILE);
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+            try {
+                FileUtils.copyFile(screenshot, new File(path));
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            makeScreenshotOnFailure();
+        }
 
+        @Attachment("Screenshot on failure")
+        public byte[] makeScreenshotOnFailure() {
+            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        }
 
-
-
-/*
-
-        System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-       // driver = new FirefoxDriver();
-        System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-          driver = new ChromeDriver();
-        System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-        // driver = new InternetExplorerDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        driver.manage().window().setSize(new Dimension(1500, 810));
-
-*/
-
-
-        //WebDriverManager.firefoxdriver().setup();
-       // String PATH = WebDriverManager.firefoxdriver().getBinaryPath();
-       // System.out.println(PATH);
-       // System.setProperty("webdriver.gecko.driver", GeckoDriverService.GECKO_DRIVER_EXE_PROPERTY);
-
-       // GeckoDriverService.createDefaultService();
-
-      //  System.setProperty("webdriver.gecko.driver", "/var");
-      //  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-       // DesiredCapabilities capability = new DesiredCapabilities();
-        DesiredCapabilities capability = DesiredCapabilities.firefox();
-       // capability.setCapability(FirefoxDriver.BINARY, "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
-        capability.setBrowserName("firefox");
-        capability.setPlatform(Platform.WINDOWS);
-       // capability.setVersion("65");
-      //  capability.setCapability("maxInstances", 5);
-      //  capability.setCapability("marionette", true);
-        System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
-
-        //System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-     //   System.setProperty("webdriver.gecko.driver", System.getProperty("C://Programms/GitHub/TestWriter/TestWriter/src/test/resources/drivers/geckodriver.exe");
-
-     //   final FirefoxOptions options = new FirefoxOptions();
-     //   System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-     //   options.addPreference("browser.popups.showPopupBlocker", false);
-     //  options.addPreference("security.sandbox.content.level", 5);
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
-        driver.manage().window().maximize();
-
-
-
-
-
-
-
-        // driver = new FirefoxDriver();
-
-       // System.setProperty("webdriver.geckodriver.driver", "src/test/resources/drivers/geckodriver.exe");
-
-       // System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
-       // driver = new FirefoxDriver();
-        /*System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-        options.merge(capabilities);
-          driver = new ChromeDriver(options);*/
-      //  System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-        // driver = new InternetExplorerDriver();
-
-       /* driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        driver.manage().window().setSize(new Dimension(1500, 810));*/
-       // VideoRecord.startRecording();
-
-
-    }
-
-
-
-    @After
-    public void close() throws Exception {
-/*
-
-        String newAutoTest = "newAutoTest" + x;
-        File screenshot = ((TakesScreenshot) driver).
-                getScreenshotAs(OutputType.FILE);
-         String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
-       // String path = "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\target\\surefire-reports\\"  +  screenshot.getName();
-        FileUtils.copyFile(screenshot, new File(path));
-
-     //   VideoRecord.stopRecording();
-        AllureUtils.generateTestResultName();
-        saveScreenshotPNG(driver);
-        saveScreenshot(saveAllureScreenshot());
-       if (driver instanceof WebDriver) {
-           System.out.println("Screen" + getClass());
-           saveScreenshotPNG(driver);
-       }
-        saveTextLog(getClass() + "Log");
-
-*/
-
-
-
-
-
-
-     //   driver.quit();
-
-    }
+    };
 
 
 

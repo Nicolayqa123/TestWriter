@@ -1,20 +1,68 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 115.506 s <<< FAILURE! - in com.vipwriters.LoginTest
-testest(com.vipwriters.LoginTest)  Time elapsed: 33.963 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.LoginTest.testest(LoginTest.java:102)
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 11.437 s <<< FAILURE! - in com.vipwriters.LoginTest
+testest(com.vipwriters.LoginTest)  Time elapsed: 8.979 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 973 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 
-testestVisib(com.vipwriters.LoginTest)  Time elapsed: 16.49 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.LoginTest.testestVisib(LoginTest.java:109)
+testestVisib(com.vipwriters.LoginTest)  Time elapsed: 0.288 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 246 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 
-Loginuser(com.vipwriters.LoginTest)  Time elapsed: 26.721 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.LoginTest.Loginuser(LoginTest.java:132)
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0.256 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 176 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 
-Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 37.256 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.LoginTest.Loginuserasd123testTest(LoginTest.java:87)
+Loginuserasd123testTest(com.vipwriters.LoginTest)  Time elapsed: 0.192 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 188 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 

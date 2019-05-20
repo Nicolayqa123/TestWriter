@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.util.concurrent.TimeUnit;
 
-public class MyOrdersUploadFileTest extends WebDriverSettings {
+public class MyOrdersUploadFile extends WebDriverSettings {
 
     public static void setClipboardData(String string) {
         StringSelection stringSelection = new StringSelection(string);

@@ -1,16 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.MyOrdersUploadFileTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 36.004 s <<< FAILURE! - in com.vipwriters.MyOrdersUploadFileTest
-dropfiles1(com.vipwriters.MyOrdersUploadFileTest)  Time elapsed: 35.993 s  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[@id="root"]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[3]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.vipwriters.MyOrdersUploadFileTest
+dropfiles1(com.vipwriters.MyOrdersUploadFileTest)  Time elapsed: 0.004 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 176 milliseconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '8ff1fdc137b4', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1079-aws', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 19964, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2712f036-eea5-44ac-843e-f76...}
-Session ID: 2712f036-eea5-44ac-843e-f76adb79ea6f
-*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[3]}
-	at com.vipwriters.MyOrdersUploadFileTest.dropfiles1(MyOrdersUploadFileTest.java:30)
+Driver info: driver.version: unknown
 
