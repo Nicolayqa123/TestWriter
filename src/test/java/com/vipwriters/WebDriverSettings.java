@@ -161,7 +161,7 @@ public class WebDriverSettings {
 
         @Override
         protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "C:\\Programms\\GitHub\\TestWriter\\TestWriter\\src\\test\\resources\\drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
 
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);

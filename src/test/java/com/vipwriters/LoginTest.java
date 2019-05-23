@@ -6,6 +6,7 @@ import com.PageWriter.Lending;
 import io.qameta.allure.*;
 
 import org.apache.commons.io.FileUtils;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -61,106 +62,26 @@ import static junit.framework.TestCase.assertEquals;
 
 
 
-    @Test
-    @Story("TestLog")
-    @Description("Test Descripti")
-    public void Loginuserasd123testTest() throws Exception {
-
-    WritersLogin();
-
-        TimeUnit.SECONDS.sleep(7);
-        assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-       /* checkScreen();
-        getBytes("test");
-        Allure.addAttachment("Результат", "application/json");
-
-        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        //Write Screenshot to a file*/
-    }
-
-
-    @Test
-    public void testest() throws NullPointerException, InterruptedException {
-
-        TimeUnit.SECONDS.sleep(5);
-        WriterUrl();
-        System.out.println("Title is :" +driver.getTitle());
-        driver.quit();
-    }
-
-        @Test
-        public void testestVisib() throws InterruptedException {
-            WriterUrl();
-            driver.findElementByXPath("/html/body/div[1]/div/div/div[1]/a[1]").click();
-            TimeUnit.SECONDS.sleep(7);
-            driver.findElementById("sign-up-first-name").sendKeys("TestPjs");
-            driver.findElementById("order-input-2").sendKeys("Test2Pjs");
-            driver.findElementById("sign-up-email").sendKeys("Test123123rest@ya.ru");
-            TimeUnit.SECONDS.sleep(7);
-            driver.findElementByXPath("//*[@id=\"order-input-4\"]").sendKeys("123456");
-            driver.findElementById("sign-up-phone").sendKeys("504565791");
-            TimeUnit.SECONDS.sleep(7);
-            driver.findElementById("sign-up-submit-button").click();
-
-            
-        }
-
-
-
 
 
 
         @Test
+        @Description("Тест логина")
         public void Loginuser() throws Exception {
-            WriterUrl();
-            TimeUnit.SECONDS.sleep(10);
-            Lending.loginForm(driver).click();
+            driver.get("https://writer.urgentpapers.org/");
+            TimeUnit.SECONDS.sleep(5);
+
+            driver.findElementByXPath("//*[@id=\"sign-in-button\"]").click();
+            TimeUnit.SECONDS.sleep(5);
             Lending.userName(driver).click();
             Lending.userName(driver).sendKeys(mail);
             Lending.password(driver).sendKeys(pass);
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
-            assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-           /* checkScreen();
-            getBytes("test");
-*/
+            //   driver.findElementById("writers-available-orders-amount").click();
+            Assert.assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
 
         }
-
-
-    String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
-
-
-    @Attachment
-    public static byte[] getBytes(String resourceName) throws IOException {
-        return Files.readAllBytes(Paths.get("C:\\Programms\\PNG\\", resourceName));
-
-    }
-
-
-    @Step("test screen")
-    public static void checkScreen() throws IOException {
-        getBytes("picture.jpg");
-        getBytes("text.txt");
-        return;
-    }
-
-
-
-
-
-
-
-
-
-
-
-    @Attachment("My cool attachment")
-    private byte[] createAttachment() {
-        String content = "attachmentContent";
-        return content.getBytes();
-    }
-
 
         public void UnLoginNoValid() throws InterruptedException {
 
@@ -177,7 +98,7 @@ import static junit.framework.TestCase.assertEquals;
             password.sendKeys("asdasdasd");
             loginButton.click();
             TimeUnit.SECONDS.sleep(1);
-            assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
+            Assert.assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
         }
 
 
@@ -194,8 +115,19 @@ import static junit.framework.TestCase.assertEquals;
             TimeUnit.SECONDS.sleep(2);
             loginButton.click();
             TimeUnit.SECONDS.sleep(1);
-            assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
+            Assert.assertEquals("Please enter a correct username and password.", driver.findElement(By.cssSelector(".label")).getText());
 
+        }
+
+        @Test
+        public void LoginPaptest1() throws Exception {
+            driver.get("https://client.urgentpapers.org/");
+
+            driver.findElement(loginClient).click();
+            driver.findElement(loginClientUserName).sendKeys("nicolaychiuri@gmail.com");
+            driver.findElement(loginClientPassword).sendKeys("nicolay");
+            driver.findElement(loginClientSubmit).click();
+            TimeUnit.SECONDS.sleep(20);
         }
 
 
