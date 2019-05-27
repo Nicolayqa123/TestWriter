@@ -4,6 +4,8 @@ package com.vipwriters;
 import com.PageClient.Registered;
 import com.PageWriter.Lending;
 import io.qameta.allure.*;
+import io.qameta.allure.Description;
+
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
@@ -29,8 +31,6 @@ import static junit.framework.TestCase.assertEquals;
 
 
     public class LoginTest extends WebDriverSettings{
-    public static WebElement element = null;
-    public RemoteWebDriver driver;
 
     /*DesiredCapabilities capability = DesiredCapabilities.firefox();
     WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
@@ -64,9 +64,8 @@ import static junit.framework.TestCase.assertEquals;
 
 
 
-
+        @Description("Test Login")
         @Test
-        @Description("Тест логина")
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
             TimeUnit.SECONDS.sleep(5);

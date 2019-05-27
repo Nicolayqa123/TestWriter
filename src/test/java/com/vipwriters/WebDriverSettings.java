@@ -167,13 +167,12 @@ public class WebDriverSettings {
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1600, 1000));
+            driver.manage().window().setSize(new Dimension(1440, 720));
 
         }
 
         @Override
         protected void finished(Description description) {
-            makeScreenshotOnFailure();
             driver.quit();
         }
 
@@ -188,13 +187,9 @@ public class WebDriverSettings {
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
-            makeScreenshotOnFailure();
         }
 
-        @Attachment("Screenshot on failure")
-        public byte[] makeScreenshotOnFailure() {
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-        }
+
 
     };
 
